@@ -1,4 +1,5 @@
 ---
-title: Nouveau titre final
+title: Maud Haering
+subtitle: Soprano
+description: Courte biographie
 ---
-Maud Haering
