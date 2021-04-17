@@ -32,6 +32,7 @@
     "@types/node": "^14.14.37",
     "@types/react": "^17.0.3",
     "autoprefixer": "^10.2.5",
+    "frontmatter-markdown-loader": "^3.6.2",
     "jest": "^26.6.3",
     "postcss": "^8.2.10",
     "tailwindcss": "^2.1.1",
