@@ -139,3 +139,20 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+
+  - name: "pages"
+    label: "Pages"
+    extension: "mdx"
+    format: "frontmatter"
+    files:
+      - name: "home"
+        label: "Home"
+        file: "home.mdx"
+        description: "General site settings"
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string"
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
