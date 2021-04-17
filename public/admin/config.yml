@@ -49,7 +49,7 @@ collections:
     files:
       - name: "home"
         label: "Home"
-        file: "home.md"
+        file: "content/pages/home.md"
         description: "General site settings"
         fields:
           - label: "Title"
