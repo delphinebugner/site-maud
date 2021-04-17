@@ -1,5 +1,5 @@
 ---
-title: Titre du futur site !
+title: Titre du futur site - Version 2 !
 ---
 Nouveau contenu du futur site de Maud
 
