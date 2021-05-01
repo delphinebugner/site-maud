@@ -151,7 +151,7 @@ collections:
         widget: "markdown"
   - name: "articles_fr"
     label: "Articles en français"
-    folder: "content/articles_fn/"
+    folder: "content/articles_fr/"
     extension: "md"
     format: "frontmatter"
     create: true
