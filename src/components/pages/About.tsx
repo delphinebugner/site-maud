@@ -13,7 +13,6 @@ interface AboutAttributes {
 }
 export const About: NextPage<Props> = ({ content }) => {
   const { attributes, html } = content;
-  console.log(html);
   return (
     <Layout>
       <div className="flex flex-col items-center justify-center h-full">
