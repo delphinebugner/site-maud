@@ -1,9 +1,11 @@
 import { NextPage } from "next";
 import parse from "html-react-parser";
-import Layout from "../Layout";
+import { Layout } from "../Layout";
+import { Language } from "./utils";
 
-interface Props {
+export interface Props {
   content: { attributes: AboutAttributes; html: string };
+  language: Language;
 }
 interface AboutAttributes {
   title: string;
@@ -11,11 +13,10 @@ interface AboutAttributes {
   description: string;
   image: string;
 }
-export const About: NextPage<Props> = ({ content }) => {
+export const About: NextPage<Props> = ({ content, language }) => {
   const { attributes, html } = content;
-  console.log(html);
   return (
-    <Layout>
+    <Layout language={language}>
       <div className="flex flex-col items-center justify-center h-full">
         <span className="font-bold text-6xl text-blue-600">
           {attributes.title}

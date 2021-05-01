@@ -1,10 +1,13 @@
 import Head from "next/head";
-import Navigation from "./Navigation";
+import React from "react";
+import { Navigation } from "./Navigation";
+import { Language } from "./pages/utils";
 
 type Props = {
   children: React.ReactNode;
+  language: Language;
 };
-export default function Layout({ children }: Props) {
+export const Layout: React.FC<Props> = ({ children, language }) => {
   return (
     <div className="h-full p-4 lg:p-10 flex flex-col">
       <Head>
@@ -15,9 +18,9 @@ export default function Layout({ children }: Props) {
         <meta name="theme-color" content="#fff" />
       </Head>
       <nav>
-        <Navigation />
+        <Navigation language={language} />
       </nav>
       <main className="flex-1">{children}</main>
     </div>
   );
-}
+};

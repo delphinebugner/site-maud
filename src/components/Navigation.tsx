@@ -1,9 +1,14 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import Burger from "./Burger";
-import { useState } from "react";
+import React, { useState } from "react";
+import { EN, Language } from "./pages/utils";
 
-export default function Navigation() {
+interface Props {
+  language: Language;
+}
+
+export const Navigation: React.FC<Props> = ({ language }) => {
   const router = useRouter();
   const [active, setActive] = useState(false);
   return (
@@ -13,24 +18,15 @@ export default function Navigation() {
         <ul>
           <li>
             <Link href="/">
-              <a className={router.pathname === "/" ? "active" : null}>home</a>
+              <a className={router.pathname === "/" ? "active" : null}>
+                {language === EN ? "Home" : "Accueil"}
+              </a>
             </Link>
           </li>
           <li>
             <Link href="/about">
               <a className={router.pathname === "/about" ? "active" : null}>
-                about
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/posts">
-              <a
-                className={
-                  router.pathname.startsWith("/posts") ? "active" : null
-                }
-              >
-                blog
+                {language === EN ? "About" : "A propos"}
               </a>
             </Link>
           </li>
@@ -96,4 +92,4 @@ export default function Navigation() {
       </div>
     </>
   );
-}
+};
