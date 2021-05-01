@@ -2,7 +2,8 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import Burger from "./Burger";
 import React, { useState } from "react";
-import { EN, Language } from "./pages/utils";
+import { EN, FR, Language } from "./pages/utils";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 interface Props {
   language: Language;
@@ -11,24 +12,28 @@ interface Props {
 export const Navigation: React.FC<Props> = ({ language }) => {
   const router = useRouter();
   const [active, setActive] = useState(false);
+  const languagePrefix = language === FR ? "/" + FR : "";
   return (
     <>
       <Burger active={active} onClick={() => setActive(!active)} />
       <div className={"container " + (active ? "active" : "")}>
         <ul>
           <li>
-            <Link href="/">
+            <Link href={`${languagePrefix}/`}>
               <a className={router.pathname === "/" ? "active" : null}>
                 {language === EN ? "Home" : "Accueil"}
               </a>
             </Link>
           </li>
           <li>
-            <Link href="/about">
+            <Link href={`${languagePrefix}/about`}>
               <a className={router.pathname === "/about" ? "active" : null}>
                 {language === EN ? "About" : "A propos"}
               </a>
             </Link>
+          </li>
+          <li>
+            <LanguageSwitcher language={language} />
           </li>
         </ul>
         <style jsx>
