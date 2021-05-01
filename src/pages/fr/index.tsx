@@ -1,11 +1,11 @@
 import { GetStaticProps } from "next";
-import { Home } from "../components/pages/Home";
+import { Home } from "../../components/pages/Home";
 
-const DEFAULT_LANGUAGE = "en";
+const CURRENT_LANGUAGE = "fr";
 
 export const getStaticProps: GetStaticProps = async () => {
   const content = await import(
-    `../../content/pages/${DEFAULT_LANGUAGE}/home.md`
+    `../../../content/pages/${CURRENT_LANGUAGE}/home.md`
   );
   return { props: { content: content.default } };
 };
