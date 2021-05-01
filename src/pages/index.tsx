@@ -5,7 +5,7 @@ const DEFAULT_LANGUAGE = "en";
 
 export const getStaticProps: GetStaticProps = async () => {
   const content = await import(
-    `../../content/pages/${DEFAULT_LANGUAGE}/home.md`
+    `../../content/pages/home_${DEFAULT_LANGUAGE}.md`
   );
   return { props: { content: content.default } };
 };
