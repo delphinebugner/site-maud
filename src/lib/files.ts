@@ -8,6 +8,7 @@ const contentRoot = path.join(process.cwd(), "content/");
 
 let articlesCache: ArticleAttributes[] | undefined;
 
+// This function can only be executed on the server side
 export const getArticlesAttributes = (
   directory: string
 ): ArticleAttributes[] => {
