@@ -4,7 +4,7 @@ import Burger from "./Burger";
 import React, { useState } from "react";
 import { EN, getUrlPrefix, Language } from "../lib/language";
 import { LanguageSwitcher } from "./LanguageSwitcher";
-import { ABOUT, ARTICLES, HOME } from "../lib/routes";
+import { ABOUT, ARTICLES, EVENTS, HOME } from "../lib/routes";
 
 interface Props {
   language: Language;
@@ -37,9 +37,16 @@ export const Navigation: React.FC<Props> = ({
             </Link>
           </li>
           <li>
+            <Link href={`${getUrlPrefix(language)}${EVENTS}`}>
+              <a className={router.pathname === EVENTS ? "active" : null}>
+                {"Concerts"}
+              </a>
+            </Link>
+          </li>
+          <li>
             <Link href={`${getUrlPrefix(language)}${ARTICLES}`}>
               <a className={router.pathname === ARTICLES ? "active" : null}>
-                Articles
+                {"Articles"}
               </a>
             </Link>
           </li>

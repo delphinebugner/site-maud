@@ -60,6 +60,5 @@ body_en: >-
   Not one to follow conventions, Maria João Pires now performs only for projects close to her heart—as is the case for this concert paying homage to the great violinist Ginette Neveu, who tragically died in 1949 at the age of 30.
 
 
-  More informations : <https://philharmoniedeparis.fr/en/activity/concert/23058-maria-joao-pires-fumiaki-miura?itemId=116839>
-name: Brahms, Debussy, Beethoven
+  More informations : <https://philharmoniedeparis.fr/en/activity/concert/23058-maria-joao-pires-fumiaki-miura>
 ---
