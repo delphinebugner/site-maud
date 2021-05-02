@@ -3,11 +3,13 @@ import {
   ArticleList,
   Props as ArticleListProps,
 } from "../../../components/pages/ArticleList";
-import { getArticlesAttributes } from "../../../lib/files";
+import { fetchArticles } from "../../../lib/Article/api";
 import { FR } from "../../../lib/language";
 
+const language = FR;
+
 export const getStaticProps: GetStaticProps<ArticleListProps> = async () => {
-  const articles = getArticlesAttributes("articles_fr");
-  return { props: { language: FR, articles } };
+  const articles = fetchArticles(language);
+  return { props: { language, articles } };
 };
 export default ArticleList;
