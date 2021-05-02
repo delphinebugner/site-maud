@@ -1,7 +1,8 @@
+import fs from "fs";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { Article, Props as ArticleProps } from "../../components/pages/Article";
 import { getArticlesAttributes } from "../../lib/files";
-import { EN } from "../../lib/language";
+import { EN, FR } from "../../lib/language";
 import { ARTICLES } from "../../lib/routes";
 
 export const getStaticProps: GetStaticProps<ArticleProps> = async ({
@@ -9,10 +10,14 @@ export const getStaticProps: GetStaticProps<ArticleProps> = async ({
 }) => {
   const slug = params.article as string;
   const content = await import(`../../../content/articles_${EN}/${slug}.md`);
+  const isTranslationAvailable = fs.existsSync(
+    `../../../content/articles_${FR}/${slug}.md`
+  );
   return {
     props: {
       content: content.default,
       language: EN,
+      isTranslationAvailable,
     },
   };
 };

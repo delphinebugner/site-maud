@@ -9,6 +9,7 @@ import { Separator } from "../Separator";
 export interface Props {
   content: Content<ArticleAttributes>;
   language: Language;
+  isTranslationAvailable: boolean;
 }
 
 export interface ArticleAttributes {
@@ -18,10 +19,14 @@ export interface ArticleAttributes {
   slug: string;
 }
 
-export const Article: NextPage<Props> = ({ content, language }) => {
+export const Article: NextPage<Props> = ({
+  content,
+  language,
+  isTranslationAvailable,
+}) => {
   const { attributes, html } = content;
   return (
-    <Layout language={language}>
+    <Layout language={language} isTranslationAvailable={isTranslationAvailable}>
       <div className="flex flex-col h-full px-48">
         <span className="font-bold text-6xl text-blue-600">
           {attributes.title}
