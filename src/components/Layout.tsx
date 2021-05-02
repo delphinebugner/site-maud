@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import { Navigation } from "./Navigation";
-import { Language } from "./pages/utils";
+import { Language } from "../lib/language";
 
 type Props = {
   children: React.ReactNode;

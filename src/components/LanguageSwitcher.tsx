@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
-import { EN, FR, Language } from "./pages/utils";
+import { EN, FR, Language } from "../lib/language";
 
 interface Props {
   language: Language;

@@ -1,6 +1,6 @@
 import { NextPage } from "next";
 import { Layout } from "../Layout";
-import { Language } from "./utils";
+import { Language } from "../../lib/language";
 
 export interface Props {
   content: { attributes: HomeAttributes };
