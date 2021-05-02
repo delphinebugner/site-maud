@@ -1,13 +1,13 @@
 tags:
-  - slug: document
+  - id: document
     name: document
-  - slug: mock
+  - id: mock
     name: mock
-  - slug: style
+  - id: style
     name: style
-  - slug: license
+  - id: license
     name: license
-  - slug: mdx
+  - id: mdx
     name: mdx
-  - slug: markdown
+  - id: markdown
     name: markdown

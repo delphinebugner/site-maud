@@ -6,8 +6,13 @@ import { Language } from "../lib/language";
 type Props = {
   children: React.ReactNode;
   language: Language;
+  isTranslationAvailable?: boolean;
 };
-export const Layout: React.FC<Props> = ({ children, language }) => {
+export const Layout: React.FC<Props> = ({
+  children,
+  language,
+  isTranslationAvailable = true,
+}) => {
   return (
     <div className="h-full p-4 lg:p-10 flex flex-col">
       <Head>
@@ -18,7 +23,10 @@ export const Layout: React.FC<Props> = ({ children, language }) => {
         <meta name="theme-color" content="#fff" />
       </Head>
       <nav>
-        <Navigation language={language} />
+        <Navigation
+          language={language}
+          isTranslationAvailable={isTranslationAvailable}
+        />
       </nav>
       <main className="flex-1">{children}</main>
     </div>

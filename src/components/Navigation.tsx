@@ -8,9 +8,13 @@ import { ABOUT, ARTICLES, HOME } from "../lib/routes";
 
 interface Props {
   language: Language;
+  isTranslationAvailable: boolean;
 }
 
-export const Navigation: React.FC<Props> = ({ language }) => {
+export const Navigation: React.FC<Props> = ({
+  language,
+  isTranslationAvailable,
+}) => {
   const router = useRouter();
   const [active, setActive] = useState(false);
   return (
@@ -39,9 +43,11 @@ export const Navigation: React.FC<Props> = ({ language }) => {
               </a>
             </Link>
           </li>
-          <li>
-            <LanguageSwitcher language={language} />
-          </li>
+          {isTranslationAvailable && (
+            <li>
+              <LanguageSwitcher language={language} />
+            </li>
+          )}
         </ul>
         <style jsx>
           {`

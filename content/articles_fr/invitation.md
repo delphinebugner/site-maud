@@ -1,9 +1,10 @@
 ---
-slug: invitation
+id: invitation
 title: L'invitation au voyage
 subtitle: Baudelaire
 date: 2021-05-02
 ---
+
 # L’Invitation au Voyage
 
 Charles Baudelaire

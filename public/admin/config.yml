@@ -127,12 +127,12 @@ collections:
     extension: "md"
     format: "frontmatter"
     create: true
-    slug: "{{slug}}"
-    identifier_field: slug
+    id: "{{id}}"
+    identifier_field: id
     summary: "{{title}}"
     fields:
-      - label: "Slug"
-        name: "slug"
+      - label: "Id"
+        name: "id"
         widget: "string"
       - label: "Title"
         name: "title"
@@ -155,12 +155,12 @@ collections:
     extension: "md"
     format: "frontmatter"
     create: true
-    slug: "{{slug}}"
-    identifier_field: slug
+    id: "{{id}}"
+    identifier_field: id
     summary: "{{title}}"
     fields:
-      - label: "Slug"
-        name: "slug"
+      - label: "Id"
+        name: "id"
         widget: "string"
       - label: "Title"
         name: "title"
