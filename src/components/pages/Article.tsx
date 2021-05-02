@@ -20,7 +20,6 @@ export interface ArticleAttributes {
 
 export const Article: NextPage<Props> = ({ content, language }) => {
   const { attributes, html } = content;
-  console.log(attributes.date, typeof attributes.date);
   return (
     <Layout language={language}>
       <div className="flex flex-col h-full px-48">
