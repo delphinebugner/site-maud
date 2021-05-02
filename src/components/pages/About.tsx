@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 import parse from "html-react-parser";
 import { Layout } from "../Layout";
-import { Language } from "./utils";
+import { Language } from "../../lib/language";
 
 export interface Props {
   content: { attributes: AboutAttributes; html: string };
