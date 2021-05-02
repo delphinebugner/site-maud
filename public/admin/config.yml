@@ -209,7 +209,7 @@ collections:
         required: false
         name: "hour"
         widget: "datetime"
-        format: "HH-mm"
+        format: "HH:mm"
         dateFormat: false
         timeFormat: "HH:mm"
       - label: "Texte français"
