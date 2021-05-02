@@ -2,10 +2,10 @@ import Link from "next/link";
 import { NextPage } from "next";
 import { Layout } from "../Layout";
 import { getUrlPrefix, Language } from "../../lib/language";
-import { ArticleAttributes } from "./Article";
+import { Article } from "../../lib/Article/interface";
 
 export interface Props {
-  articles: ArticleAttributes[];
+  articles: Article[];
   language: Language;
 }
 export const ArticleList: NextPage<Props> = ({ articles, language }) => {

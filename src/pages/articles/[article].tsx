@@ -1,35 +1,42 @@
 import fs from "fs";
 import { GetStaticPaths, GetStaticProps } from "next";
-import { Article, Props as ArticleProps } from "../../components/pages/Article";
-import { getArticlesAttributes } from "../../lib/files";
+import path from "path";
+import {
+  ArticlePage,
+  Props as ArticleProps,
+} from "../../components/pages/Article";
+import {
+  fetchArticle,
+  fetchArticlesPaths,
+  getArticlesContentRoot,
+} from "../../lib/Article/api";
 import { EN, FR } from "../../lib/language";
-import { ARTICLES } from "../../lib/routes";
+
+const language = EN;
 
 export const getStaticProps: GetStaticProps<ArticleProps> = async ({
   params,
 }) => {
-  const id = params.article as string;
-  const content = await import(`../../../content/articles_${EN}/${id}.md`);
-  const isTranslationAvailable = fs.existsSync(
-    `../../../content/articles_${FR}/${id}.md`
-  );
+  const articleId = params.article as string;
+  const article = fetchArticle(language, articleId);
+  const isTranslationAvailable = fs
+    .readdirSync(getArticlesContentRoot(FR))
+    .some((fileName) => fileName === `${articleId}.md`);
   return {
     props: {
-      content: content.default,
-      language: EN,
+      article,
+      language,
       isTranslationAvailable,
     },
   };
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = getArticlesAttributes("articles_en").map(
-    (article) => `${ARTICLES}/${article.id}`
-  );
+  const paths = fetchArticlesPaths(language);
   return {
     paths,
     fallback: false,
   };
 };
 
-export default Article;
+export default ArticlePage;
