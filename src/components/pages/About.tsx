@@ -2,9 +2,10 @@ import { NextPage } from "next";
 import parse from "html-react-parser";
 import { Layout } from "../Layout";
 import { Language } from "../../lib/language";
+import { Content } from "../../lib/types";
 
 export interface Props {
-  content: { attributes: AboutAttributes; html: string };
+  content: Content<AboutAttributes>;
   language: Language;
 }
 interface AboutAttributes {
