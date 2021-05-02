@@ -1,8 +1,10 @@
 ---
 id: 2021-06-25-brahms-debussy
-name: Brahms, Debussy, Beethoven
+name_fr: Autour des sonates pour piano et violon
+name_en: Around sonatas for violin and piano
 place: Grande salle Pierre Boulez - Philharmonie
 date: 2021-06-25
+hour: 19:30
 body_fr: >-
   ## Programme
 
@@ -59,4 +61,5 @@ body_en: >-
 
 
   More informations : <https://philharmoniedeparis.fr/en/activity/concert/23058-maria-joao-pires-fumiaki-miura?itemId=116839>
+name: Brahms, Debussy, Beethoven
 ---
