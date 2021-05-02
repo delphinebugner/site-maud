@@ -15,7 +15,7 @@ export const ArticleList: NextPage<Props> = ({ articles, language }) => {
         {articles.map((article, i) => (
           <Link
             key={i}
-            href={`${getUrlPrefix(language)}/articles/${article.slug}`}
+            href={`${getUrlPrefix(language)}/articles/${article.id}`}
           >
             <a className="flex flex-col cursor-pointer hover:opacity-80 transition-all duration-500">
               <p className="text-xl">{article.title}</p>

@@ -16,7 +16,7 @@ export interface ArticleAttributes {
   title: string;
   subtitle?: string;
   date: string;
-  slug: string;
+  id: string;
 }
 
 export const Article: NextPage<Props> = ({

@@ -8,10 +8,10 @@ import { ARTICLES } from "../../lib/routes";
 export const getStaticProps: GetStaticProps<ArticleProps> = async ({
   params,
 }) => {
-  const slug = params.article as string;
-  const content = await import(`../../../content/articles_${EN}/${slug}.md`);
+  const id = params.article as string;
+  const content = await import(`../../../content/articles_${EN}/${id}.md`);
   const isTranslationAvailable = fs.existsSync(
-    `../../../content/articles_${FR}/${slug}.md`
+    `../../../content/articles_${FR}/${id}.md`
   );
   return {
     props: {
@@ -24,7 +24,7 @@ export const getStaticProps: GetStaticProps<ArticleProps> = async ({
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = getArticlesAttributes("articles_en").map(
-    (article) => `${ARTICLES}/${article.slug}`
+    (article) => `${ARTICLES}/${article.id}`
   );
   return {
     paths,

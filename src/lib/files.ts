@@ -31,11 +31,11 @@ export const getArticlesAttributes = (
       });
       const articleAttributes = matterResult.data as ArticleAttributes; // markdown is stored in matterResult.content ; data contains only attributes
 
-      // Validate slug string
-      const slug = fileName.replace(/\.md$/, "");
-      if (articleAttributes.slug !== slug) {
+      // Validate id string
+      const id = fileName.replace(/\.md$/, "");
+      if (articleAttributes.id !== id) {
         throw new Error(
-          "slug field not match with the path of its content source"
+          "id field not match with the path of its content source"
         );
       }
 
