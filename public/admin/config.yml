@@ -185,7 +185,7 @@ collections:
     create: true
     id: "{{id}}"
     identifier_field: id
-    summary: "{{title}}"
+    summary: "{{name_fr}}"
     fields:
       - label: "Id"
         name: "id"
