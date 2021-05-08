@@ -1,6 +1,6 @@
 ---
 id: ignis-musicalis-dornach
-name_fr: Concert avec l'ensemble Ignis Musicalis
+name_fr: La françoise, Concert avec l'ensemble Ignis Musicalis
 name_en: Concert with the Ignis Musicalis ensemble
 place: Dornach (Suisse)
 date: 2021-06-20
