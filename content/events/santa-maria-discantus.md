@@ -12,7 +12,7 @@ body_fr: >-
 
   Avec l'ensemble Discantus, dirigé par Brigitte Lesne. \
 
-  Plus d'informations ici : https://cmm-paris.fr/fr/calendrier/alla-francesca-discantus-alta/af-passes/486-concert?date=2021-09-03-00-00
+  Plus d'informations [ici](https://cmm-paris.fr/fr/calendrier/alla-francesca-discantus-alta/af-passes/486-concert?date=2021-09-03-00-00).
 body_en: >-
   Programme of songs to the Virgin in 13th century Spain; pieces from the Codex
   Las Huelgas and the Cantigas de Santa Maria. 
@@ -20,5 +20,5 @@ body_en: >-
 
   With the Discantus ensemble, directed by Brigitte Lesne.
 
-  More information here: https://cmm-paris.fr/fr/calendrier/alla-francesca-discantus-alta/af-passes/486-concert?date=2021-09-03-00-00
+  More information [here](https://cmm-paris.fr/fr/calendrier/alla-francesca-discantus-alta/af-passes/486-concert?date=2021-09-03-00-00).
 ---
