@@ -13,7 +13,7 @@ body_fr: >-
 
   Avec l'ensemble Discantus, dirigé par Brigitte Lesne. 
 
-  Plus d'informations ici : https://cmm-paris.fr/fr/calendrier/alla-francesca-discantus-alta/af-passes/480-concert?date=2021-07-11-00-00
+  Plus d'informations [ici](https://cmm-paris.fr/fr/calendrier/alla-francesca-discantus-alta/af-passes/480-concert?date=2021-07-11-00-00).
 body_en: >-
   A programme of medieval music from the Livret Vermeil de Montserrat, the Codex
   Calixtinus, the Cantigas of Alfonso X The Wise and the songs of pilgrims on
@@ -21,5 +21,5 @@ body_en: >-
 
   With the Discantus ensemble, directed by Brigitte Lesne. 
 
-  More information here: https://cmm-paris.fr/fr/calendrier/alla-francesca-discantus-alta/af-passes/480-concert?date=2021-07-11-00-00
+  More information [here](https://cmm-paris.fr/fr/calendrier/alla-francesca-discantus-alta/af-passes/480-concert?date=2021-07-11-00-00).
 ---
