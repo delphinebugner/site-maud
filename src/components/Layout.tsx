@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React from "react";
-import { Navigation } from "./Navigation";
+import { Header } from "./Header/Header.component";
 import { Language } from "../lib/language";
 
 type Props = {
@@ -14,7 +14,7 @@ export const Layout: React.FC<Props> = ({
   isTranslationAvailable = true,
 }) => {
   return (
-    <div className="h-full p-4 lg:p-10 flex flex-col">
+    <div className="h-full relative">
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,13 +22,11 @@ export const Layout: React.FC<Props> = ({
         <link rel="apple-touch-icon" href="/icon.png" />
         <meta name="theme-color" content="#fff" />
       </Head>
-      <nav>
-        <Navigation
-          language={language}
-          isTranslationAvailable={isTranslationAvailable}
-        />
-      </nav>
-      <main className="flex-1">{children}</main>
+      <Header
+        language={language}
+        isTranslationAvailable={isTranslationAvailable}
+      />
+      <div className="flex-1">{children}</div>
     </div>
   );
 };
