@@ -10,8 +10,8 @@ interface Props {
 export const HeaderTitle: FunctionComponent<Props> = ({ language }) => {
   return (
     <Link href={`${getUrlPrefix(language)}${HOME}`}>
-      <a className="font-extrabold text-blue-500 lg:text-2xl hover:text-blue-700 whitespace-nowrap">
-        Maud Haering
+      <a className="font-bold text-primary text-2xl hover:text-primary-dark whitespace-nowrap font-serif mt-1 lg:text-4xl lg:mt-2">
+        MaudHaering
       </a>
     </Link>
   );
