@@ -24,12 +24,13 @@ export const Home: NextPage<Props> = ({ content, language }) => {
     <Layout language={language}>
       <div className="flex flex-col h-full w-full">
         <HomeCover {...attributes} />
-        <HomeSection>
+        <div className="flex flex-col items-center py-10">
           <img
             src="/images/044c.jpg"
-            className="h-full w-96 object-cover object-center ml-10"
+            className="h-60 w-60 lg:h-96 lg:w-96 object-cover object-center lg:ml-10 overflow-hidden rounded-lg"
           />
           <div className="flex flex-col items-center flex-1">
+            <Spacer h={2} />
             <span>{attributes.description}</span>
             <Spacer h={2} />
             <HomeButton
@@ -39,9 +40,9 @@ export const Home: NextPage<Props> = ({ content, language }) => {
               color="primary"
             />
           </div>
-        </HomeSection>
+        </div>
         <HomeSection className="bg-primary">
-          <div className="ml-10 flex flex-col items-center">
+          <div className="lg:ml-10 flex flex-col items-center">
             <HomeSectionTitle
               className="text-white"
               text={language === EN ? "Next concerts" : "Prochains concerts"}
@@ -56,7 +57,7 @@ export const Home: NextPage<Props> = ({ content, language }) => {
           </div>
         </HomeSection>
         <HomeSection className="justify-end">
-          <div className="ml-10 flex flex-col items-center">
+          <div className="lg:ml-10 flex flex-col items-center">
             <HomeSectionTitle text={"Articles"} className="text-primary" />
             <HomeButton
               text={language === EN ? "Read all" : "Tout voir"}

@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       height: {
         homeCoverLg: "80vh",
-        homeCoverSm: "400px",
+        homeCoverSm: "300px",
         homeSectionLg: "70vh",
         homeSectionSm: "400px",
         footerLg: "200px",
