@@ -14,7 +14,7 @@ export const Layout: React.FC<Props> = ({
   isTranslationAvailable = true,
 }) => {
   return (
-    <div className="h-full relative">
+    <div className="relative">
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -26,7 +26,15 @@ export const Layout: React.FC<Props> = ({
         language={language}
         isTranslationAvailable={isTranslationAvailable}
       />
-      <div className="flex-1">{children}</div>
+      <div>{children}</div>
+      <div className="h-footerLg bg-gray-800 flex items-center justify-center">
+        <a
+          href="mailto:maud.haering@gmail.com"
+          className="text-white hover:opacity-80 transition-all duration-700"
+        >
+          Contact
+        </a>
+      </div>
     </div>
   );
 };

@@ -16,7 +16,7 @@ export const Header: React.FC<Props> = ({
   const [isBurgerActive, setBurgerActive] = useState(false);
   return (
     <>
-      <div className="h-12 lg:h-14 shadow-md flex space-between items-center px-3 lg:px-7 sticky top-0 bg-white z-20">
+      <div className="h-12 lg:h-14 shadow-md flex space-between items-center px-3 lg:px-7 sticky w-full top-0 bg-white z-20">
         <HeaderTitle language={language} />
         <Burger
           active={isBurgerActive}

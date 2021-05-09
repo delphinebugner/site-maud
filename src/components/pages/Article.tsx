@@ -2,7 +2,7 @@ import { NextPage } from "next";
 import { Layout } from "../Layout";
 import { Language } from "../../lib/language";
 import { DateComponent } from "../Date";
-import { Separator } from "../Separator";
+import { Spacer } from "../Spacer";
 import { Article } from "../../lib/Article/interface";
 import ReactMarkdown from "react-markdown";
 
@@ -22,9 +22,9 @@ export const ArticlePage: NextPage<Props> = ({
     <Layout language={language} isTranslationAvailable={isTranslationAvailable}>
       <div className="flex flex-col h-full px-48">
         <span className="font-bold text-6xl text-blue-600">{title}</span>
-        <Separator h={2} />
+        <Spacer h={2} />
         <p className="text-2xl">{subtitle}</p>
-        <Separator h={4} />
+        <Spacer h={4} />
         <DateComponent date={date} language={language} />
         <ReactMarkdown className="prose">{body}</ReactMarkdown>
       </div>
