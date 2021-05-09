@@ -11,7 +11,7 @@ export const HomeSection: FunctionComponent<HomeSectionProps> = ({
 }) => {
   return (
     <div
-      className={`h-homeCoverLg flex items-center justify-between py-10 ${
+      className={`h-homeCoverSm lg:h-homeCoverLg flex flex-col lg:flex-row items-center justify-center lg:justify-between py-10 ${
         className ?? ""
       }`}
     >
