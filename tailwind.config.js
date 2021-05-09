@@ -5,7 +5,22 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        homeSectionLg: "80vh",
+        homeSectionSm: "400px",
+      },
+      colors: {
+        primary: {
+          light: "#C7D2FE",
+          DEFAULT: "#818CF8",
+          dark: "#4F46E5",
+        },
+      },
+      fontFamily: {
+        serif: ["Alex Brush", "ui-serif", "Georgia"],
+      },
+    },
   },
   variants: {
     extend: {},
