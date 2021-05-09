@@ -7,8 +7,11 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        homeSectionLg: "80vh",
+        homeCoverLg: "80vh",
+        homeCoverSm: "400px",
+        homeSectionLg: "70vh",
         homeSectionSm: "400px",
+        footerLg: "200px",
       },
       colors: {
         primary: {

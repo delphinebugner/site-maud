@@ -15,9 +15,7 @@ export const HomeCover: FunctionComponent<HomeCoverProps> = ({
 }) => {
   return (
     <div
-      className={`${
-        className ?? ""
-      }relative h-homeSectionSm lg:h-homeSectionLg`}
+      className={`${className ?? ""}relative h-homeCoverSm lg:h-homeCoverLg`}
     >
       <div
         style={{ backgroundImage: `url(${image})` }}
@@ -27,7 +25,7 @@ export const HomeCover: FunctionComponent<HomeCoverProps> = ({
         <span className="text-5xl lg:text-9xl text-primary font-serif">
           {title}
         </span>
-        <p className="lg:text-2xl text-white font-light">{subtitle}</p>
+        <p className="lg:text-xl text-white">{subtitle}</p>
       </div>
     </div>
   );
