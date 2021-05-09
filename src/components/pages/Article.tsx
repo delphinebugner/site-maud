@@ -1,5 +1,4 @@
 import { NextPage } from "next";
-import parse from "html-react-parser";
 import { Layout } from "../Layout";
 import { Language } from "../../lib/language";
 import { DateComponent } from "../Date";

@@ -15,10 +15,10 @@ export default function Burger({ active, onClick }: Props) {
             width: 38px;
             height: 38px;
             cursor: pointer;
-            top: 1rem;
-            left: 1.25rem;
+            top: 0;
+            right: 0;
+            margin: 6px;
             z-index: 2;
-            background-color: rgba(255, 255, 255, 0.7);
           }
           .meat {
             position: absolute;
