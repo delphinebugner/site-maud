@@ -30,11 +30,13 @@ export const Header: React.FC<Props> = ({
       </div>
       {isBurgerActive && (
         <div className="top-0 left-0 h-full w-full absolute flex lg:hidden z-30">
-          <NavigationLinks
-            language={language}
-            className="flex flex-col bg-white w-3/4 text-lg shadow-md space-y-3 py-6"
-            isTranslationAvailable
-          />
+          <div className="bg-white w-3/4 shadow-md relative">
+            <NavigationLinks
+              language={language}
+              className="flex flex-col text-lg space-y-3 sticky top-6"
+              isTranslationAvailable
+            />
+          </div>
           <div className="w-1/4 bg-black opacity-20" />
           <Burger
             active={isBurgerActive}
