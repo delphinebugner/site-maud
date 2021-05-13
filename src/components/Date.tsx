@@ -13,14 +13,9 @@ export const DateComponent: React.FC<Props> = ({ date, language }) => {
   const realFormat = language === EN ? "LLLL d, yyyy" : "d LLLL yyyy";
   return (
     <time dateTime={formatISO(realDate)}>
-      <span>{format(realDate, realFormat, { locale })}</span>
-      <style jsx>
-        {`
-          span {
-            color: #9b9b9b;
-          }
-        `}
-      </style>
+      <span className="text-sand">
+        {format(realDate, realFormat, { locale })}
+      </span>
     </time>
   );
 };

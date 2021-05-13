@@ -9,7 +9,7 @@ export interface RawEvent {
   body_en: string;
 }
 
-export interface Event {
+export interface MyEvent {
   id: string;
   name: string;
   place: string;

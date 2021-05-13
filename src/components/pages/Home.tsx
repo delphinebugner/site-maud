@@ -7,9 +7,12 @@ import { HomeSectionTitle } from "../Home/HomeSectionTitle.component";
 import { HomeButton } from "../Home/HomeButton.component";
 import { ABOUT, ARTICLES, EVENTS } from "../../lib/routes";
 import { Spacer } from "../Spacer";
+import { ConcertCard } from "../Home/ConcertCard.component";
+import { MyEvent } from "../../lib/Event/interface";
 
 export interface Props {
   content: { attributes: HomeAttributes };
+  events: MyEvent[];
   language: Language;
 }
 interface HomeAttributes {
@@ -18,13 +21,13 @@ interface HomeAttributes {
   description: string;
   image: string;
 }
-export const Home: NextPage<Props> = ({ content, language }) => {
+export const Home: NextPage<Props> = ({ content, language, events }) => {
   const { attributes } = content;
   return (
     <Layout language={language}>
       <div className="flex flex-col h-full w-full">
         <HomeCover {...attributes} />
-        <div className="flex flex-col items-center py-10">
+        <div className="flex flex-col items-center py-10 bg-primary">
           <img
             src="/images/044c.jpg"
             className="h-60 w-60 lg:h-96 lg:w-96 object-cover object-center lg:ml-10 overflow-hidden rounded-lg"
@@ -41,10 +44,10 @@ export const Home: NextPage<Props> = ({ content, language }) => {
             />
           </div>
         </div>
-        <HomeSection className="bg-primary">
-          <div className="lg:ml-10 flex flex-col items-center">
+        <HomeSection className="bg-white">
+          <div className="lg:ml-10 flex flex-col items-start">
             <HomeSectionTitle
-              className="text-white"
+              className="text-primary"
               text={language === EN ? "Next concerts" : "Prochains concerts"}
             />
             <Spacer h={4} />
@@ -52,18 +55,32 @@ export const Home: NextPage<Props> = ({ content, language }) => {
               text={language === EN ? "See all" : "Tout voir"}
               language={language}
               path={EVENTS}
-              color="white"
+              color="primary"
+              className="hidden lg:block"
             />
           </div>
+          <div className="flex flex-col lg:flex-row items-center">
+            {events.slice(0, 3).map((concert, i) => (
+              <ConcertCard {...concert} key={i} language={language} />
+            ))}
+          </div>
+          <HomeButton
+            text={language === EN ? "See all" : "Tout voir"}
+            language={language}
+            path={EVENTS}
+            color="primary"
+            className="lg:hidden block mt-4"
+          />
         </HomeSection>
-        <HomeSection className="justify-end">
-          <div className="lg:ml-10 flex flex-col items-center">
-            <HomeSectionTitle text={"Articles"} className="text-primary" />
+        <HomeSection className="justify-end bg-primary">
+          <div className="lg:ml-10 flex flex-col items-start">
+            <HomeSectionTitle text={"Articles"} className="text-white" />
+            <Spacer h={4} />
             <HomeButton
               text={language === EN ? "Read all" : "Tout voir"}
               language={language}
               path={ARTICLES}
-              color="primary"
+              color="white"
             />
           </div>
         </HomeSection>

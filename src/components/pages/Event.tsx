@@ -4,10 +4,10 @@ import { Layout } from "../Layout";
 import { Language } from "../../lib/language";
 import { DateComponent } from "../Date";
 import { Spacer } from "../Spacer";
-import { Event } from "../../lib/Event/interface";
+import { MyEvent } from "../../lib/Event/interface";
 
 export interface Props {
-  event: Event;
+  event: MyEvent;
   language: Language;
 }
 
