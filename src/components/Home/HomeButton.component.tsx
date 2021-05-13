@@ -20,9 +20,11 @@ export const HomeButton: FunctionComponent<HomeButtonProps> = ({
   return (
     <Link href={`${getUrlPrefix(language)}${path}`}>
       <a
-        className={`${className} border py-2 px-4 border-solid border-${color}-light rounded-lg 
-        cursor-pointer hover:border-${color} transition-all duration-500
-        text-${color}`}
+        className={`${
+          className ?? ""
+        } border-${color} text-${color} border-solid border py-2 px-4 rounded-full
+        cursor-pointer hover:shadow hover:opacity-80 transition-all
+        text-white`}
       >
         {text}
       </a>

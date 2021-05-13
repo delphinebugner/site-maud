@@ -2,17 +2,17 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import yaml from "js-yaml";
-import { Event, RawEvent } from "./interface";
+import { MyEvent, RawEvent } from "./interface";
 import { adaptRawEvent } from "./adapter";
 import { getUrlPrefix, Language } from "../language";
 import { EVENTS } from "../routes";
 
 const contentRoot = path.join(process.cwd(), "content/events");
 
-const eventsCache: Partial<Record<Language, Event[]>> = {};
+const eventsCache: Partial<Record<Language, MyEvent[]>> = {};
 
 // This function can only be executed on the server side
-export const fetchEvents = (language: Language): Event[] => {
+export const fetchEvents = (language: Language): MyEvent[] => {
   if (eventsCache[language]) {
     return eventsCache[language];
   }
@@ -39,7 +39,7 @@ export const fetchEvents = (language: Language): Event[] => {
       return adaptRawEvent(rawEvent, language);
     });
   const sortedEvents = events.sort((eventA, eventB) => {
-    if (eventA.date < eventB.date) {
+    if (eventA.date > eventB.date) {
       return 1;
     } else {
       return -1;
@@ -57,4 +57,5 @@ export const fetchEventsPaths = (language: Language): string[] =>
 export const fetchEvent = (
   language: Language,
   eventId: string
-): Event | undefined => fetchEvents(language).find(({ id }) => id === eventId);
+): MyEvent | undefined =>
+  fetchEvents(language).find(({ id }) => id === eventId);

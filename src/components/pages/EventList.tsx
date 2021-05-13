@@ -2,11 +2,11 @@ import Link from "next/link";
 import { NextPage } from "next";
 import { Layout } from "../Layout";
 import { getUrlPrefix, Language } from "../../lib/language";
-import { Event } from "../../lib/Event/interface";
+import { MyEvent } from "../../lib/Event/interface";
 import { EVENTS } from "../../lib/routes";
 
 export interface Props {
-  events: Event[];
+  events: MyEvent[];
   language: Language;
 }
 export const EventListPage: NextPage<Props> = ({ events, language }) => {

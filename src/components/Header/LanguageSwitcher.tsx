@@ -13,7 +13,7 @@ export const LanguageSwitcher: React.FC<Props> = ({ language }) => {
     language === EN ? "/fr" + asPath : asPath.replace("/fr", "");
   return (
     <Link href={urlToPageInOtherLanguage}>
-      <a className="transition-color text-gray-400 active:text-gray-600 hover:text-gray-600 duration-300 ml-7">
+      <a className="transition-color text-primary active:text-primary-dark hover:text-primary-dark duration-300 ml-7">
         {language === FR ? "English" : "Français"}
       </a>
     </Link>

@@ -11,7 +11,7 @@ export const HomeSection: FunctionComponent<HomeSectionProps> = ({
 }) => {
   return (
     <div
-      className={`h-homeCoverSm lg:h-homeCoverLg flex flex-col 
+      className={`lg:h-homeCoverLg flex flex-col overflow-x-auto max-h-full
       lg:flex-row items-center justify-center lg:justify-between py-10 ${
         className ?? ""
       }`}

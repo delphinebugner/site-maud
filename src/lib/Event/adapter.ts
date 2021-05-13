@@ -1,10 +1,10 @@
 import { EN, Language } from "../language";
-import { RawEvent, Event } from "./interface";
+import { RawEvent, MyEvent } from "./interface";
 
 export const adaptRawEvent = (
   rawEvent: RawEvent,
   language: Language
-): Event => ({
+): MyEvent => ({
   id: rawEvent.id,
   name: language === EN ? rawEvent.name_en : rawEvent.name_fr,
   place: rawEvent.place,
