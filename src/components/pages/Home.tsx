@@ -7,7 +7,7 @@ import { HomeSectionTitle } from "../Home/HomeSectionTitle.component";
 import { HomeButton } from "../Home/HomeButton.component";
 import { ABOUT, ARTICLES, EVENTS } from "../../lib/routes";
 import { Spacer } from "../Spacer";
-import { ConcertCard } from "../Home/ConcertCard.component";
+import { EventHomeCard } from "../Home/EventHomeCard.component";
 import { MyEvent } from "../../lib/Event/interface";
 
 export interface Props {
@@ -61,7 +61,7 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
           </div>
           <div className="flex flex-col lg:flex-row items-center">
             {events.slice(0, 3).map((concert, i) => (
-              <ConcertCard {...concert} key={i} language={language} />
+              <EventHomeCard {...concert} key={i} language={language} />
             ))}
           </div>
           <HomeButton

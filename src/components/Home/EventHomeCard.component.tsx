@@ -5,11 +5,11 @@ import { getUrlPrefix, Language } from "../../lib/language";
 import Link from "next/link";
 import { EVENTS } from "../../lib/routes";
 
-interface ConcertCardProps extends MyEvent {
+interface EventCardProps extends MyEvent {
   language: Language;
 }
 
-export const ConcertCard: FunctionComponent<ConcertCardProps> = ({
+export const EventHomeCard: FunctionComponent<EventCardProps> = ({
   name,
   place,
   date,
