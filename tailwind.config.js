@@ -21,11 +21,11 @@ module.exports = {
       },
       colors: {
         primary: {
-          light: "#C7D2FE",
+          superlight: "#C7D2FE",
+          light: "#A5B4FC",
           DEFAULT: "#818CF8",
-          500: "#6366F1",
-          600: "#4F46E5",
-          dark: "#4F46E5",
+          dark: "#6366F1",
+          superdark: "#4F46E5",
         },
         secondary: "#312E81",
         sand: "#9b9b9b",

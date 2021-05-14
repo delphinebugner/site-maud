@@ -1,30 +1,29 @@
-import Link from "next/link";
 import { NextPage } from "next";
-import { Layout } from "../Layout";
-import { getUrlPrefix, Language } from "../../lib/language";
+import { isEventPast } from "../../lib/dateUtils";
 import { MyEvent } from "../../lib/Event/interface";
-import { EVENTS } from "../../lib/routes";
+import { EN, Language } from "../../lib/language";
+import { EventCardSection } from "../Events/EventCardSection.component";
+import { Layout } from "../Layout";
 
 export interface Props {
   events: MyEvent[];
   language: Language;
 }
 export const EventListPage: NextPage<Props> = ({ events, language }) => {
+  const pastEvents = events.filter(isEventPast);
+  const futureEvents = events.filter((event) => !isEventPast(event));
   return (
     <Layout language={language}>
-      <div className="flex flex-col items-center justify-center h-full">
-        <div>
-          {events.map(({ name, place, date, id }, i) => (
-            <Link key={i} href={`${getUrlPrefix(language)}${EVENTS}/${id}`}>
-              <a className="flex flex-col cursor-pointer hover:opacity-80 transition-all duration-500">
-                <p className="text-xl">{name}</p>
-                <p>{place}</p>
-                <p className="italic">{date}</p>
-              </a>
-            </Link>
-          ))}
-        </div>
-      </div>
+      <EventCardSection
+        events={futureEvents}
+        language={language}
+        title={language === EN ? "Next concerts" : "Concerts à venir"}
+      />
+      <EventCardSection
+        events={pastEvents}
+        language={language}
+        title={language === EN ? "Past concerts" : "Concerts passés"}
+      />
     </Layout>
   );
 };

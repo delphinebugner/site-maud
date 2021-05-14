@@ -11,7 +11,7 @@ export const HeaderTitle: FunctionComponent<Props> = ({ language }) => {
   return (
     <Link href={`${getUrlPrefix(language)}${HOME}`}>
       <a
-        className="font-bold text-secondary text-2xl hover:text-primary transition-all duration-500
+        className="font-bold text-primary text-2xl hover:text-primary-light transition-all duration-500
        whitespace-nowrap font-serif mt-1 lg:text-4xl lg:mt-2"
       >
         MaudHaering
