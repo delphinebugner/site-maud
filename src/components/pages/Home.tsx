@@ -29,7 +29,7 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
       <div className="flex flex-col h-full w-full overflow-x-hidden">
         <HomeCover {...attributes} />
         <div
-          className="flex lg:flex-row flex-col 
+          className="flex lg:flex-row flex-col items-center
           p-4 lg:p-10 overflow-x-hidden"
         >
           <div className="flex flex-col justify-center items-center flex-1">
@@ -45,7 +45,6 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
           <RoundImage
             src="/images/044.jpg"
             sizeDesktop={600}
-            sizeMobile={72}
             className="mt-4 lg:-mr-40 lg:mt-8"
           />
         </div>
@@ -53,7 +52,6 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
           <RoundImage
             src="/images/133.jpg"
             sizeDesktop={500}
-            sizeMobile={60}
             className="relative -left-24 hidden lg:block"
           />
           <div className="lg:py-10 flex flex-col items-center justify-center flex-1 lg:-ml-20">
@@ -96,7 +94,6 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
           <RoundImage
             src="/images/255.jpg"
             sizeDesktop={700}
-            sizeMobile={72}
             className="lg:-mr-24"
             position="top"
           />

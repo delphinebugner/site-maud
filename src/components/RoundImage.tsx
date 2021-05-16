@@ -12,17 +12,31 @@ export const RoundImage: FunctionComponent<RoundImageProps> = ({
   className,
   src,
   sizeDesktop,
-  sizeMobile = sizeDesktop,
+  sizeMobile = 288,
   position = "center",
 }) => {
   return (
-    <img
-      src={src}
-      className={`${
-        className ?? ""
-      } h-${sizeMobile} w-${sizeMobile} lg:h-${sizeDesktop} lg:w-${sizeDesktop}
+    <>
+      <img
+        src={src}
+        className={`${className ?? ""}
         object-cover object-${position} overflow-hidden rounded-full
         flex-shrink-0`}
-    />
+      />
+      <style jsx>
+        {`
+          img {
+            height: ${sizeMobile}px;
+            width: ${sizeMobile}px;
+          }
+          @media (min-width: 1024px) {
+            img {
+              height: ${sizeDesktop}px;
+              width: ${sizeDesktop}px;
+            }
+          }
+        `}
+      </style>
+    </>
   );
 };
