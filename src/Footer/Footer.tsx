@@ -16,9 +16,9 @@ export const Footer: FunctionComponent<FooterProps> = ({ className }) => {
         <span className="underline">maud.haering@gmail.com</span>
       </div>
       <div className="text-xs mt-2 text-primary-dark">
-        <span className="font-bold">Website Design & Realisation: @</span>
+        <span className="font-bold">Website Design & Realisation : @</span>
         <a className="underline" href="https://github.com/phindell">
-          dbugner
+          phindell
         </a>
       </div>
     </div>
