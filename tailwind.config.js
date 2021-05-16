@@ -23,7 +23,6 @@ module.exports = {
         homeCoverSm: "300px",
         homeSectionLg: "70vh",
         homeSectionSm: "400px",
-        footerLg: "200px",
       },
       colors: {
         primary: {
@@ -35,6 +34,7 @@ module.exports = {
         },
         secondary: "#312E81",
         sand: "#9b9b9b",
+        gray: { DEFAULT: "#6B7280", dark: "#4B5563" },
       },
       fontFamily: {
         serif: ["Alex Brush", "ui-serif", "Georgia"],

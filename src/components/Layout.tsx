@@ -2,6 +2,7 @@ import Head from "next/head";
 import React from "react";
 import { Header } from "./Header/Header.component";
 import { Language } from "../lib/language";
+import { Footer } from "../Footer/Footer";
 
 type Props = {
   children: React.ReactNode;
@@ -27,14 +28,7 @@ export const Layout: React.FC<Props> = ({
         isTranslationAvailable={isTranslationAvailable}
       />
       <div>{children}</div>
-      <div className="h-footerLg bg-gray-800 flex items-center justify-center">
-        <a
-          href="mailto:maud.haering@gmail.com"
-          className="text-white hover:opacity-80 transition-all duration-700"
-        >
-          Contact
-        </a>
-      </div>
+      <Footer />
     </div>
   );
 };
