@@ -22,9 +22,9 @@ export const HomeButton: FunctionComponent<HomeButtonProps> = ({
       <a
         className={`${
           className ?? ""
-        } border-${color} text-${color} border-solid border py-2 px-4 rounded-full
+        } border-${color} text-${color} border-solid border pt-2 pb-1 px-8 rounded-full
         cursor-pointer hover:shadow hover:opacity-80 transition-all
-        text-white`}
+       font-serif text-3xl`}
       >
         {text}
       </a>

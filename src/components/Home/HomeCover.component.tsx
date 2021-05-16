@@ -25,7 +25,6 @@ export const HomeCover: FunctionComponent<HomeCoverProps> = ({
         <span className="text-5xl lg:text-9xl text-primary font-serif">
           {title}
         </span>
-        <p className="lg:text-xl text-white">{subtitle}</p>
       </div>
     </div>
   );
