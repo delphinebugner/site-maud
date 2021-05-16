@@ -4,7 +4,6 @@ import { MyEvent } from "../../lib/Event/interface";
 import { getUrlPrefix, Language } from "../../lib/language";
 import Link from "next/link";
 import { EVENTS } from "../../lib/routes";
-import { Spacer } from "../Spacer";
 
 interface EventCardProps extends MyEvent {
   language: Language;
@@ -14,6 +13,7 @@ export const EventCard: FunctionComponent<EventCardProps> = ({
   name,
   place,
   date,
+  hour,
   id,
 }) => {
   return (
@@ -27,7 +27,7 @@ export const EventCard: FunctionComponent<EventCardProps> = ({
       >
         <div
           className="flex flex-col justify-center items-center
-          font-serif text-3xl text-primary"
+          font-serif text-4xl text-primary mr-4"
         >
           <p>{formatDate(date, language, "d")}</p>
           <p className="-mt-2 lg:hidden">{`${formatDate(
@@ -35,14 +35,16 @@ export const EventCard: FunctionComponent<EventCardProps> = ({
             language,
             "MMM"
           )}.`}</p>
-          <p className="hidden lg:block -mt-4">
+          <p className="hidden lg:block -mt-3">
             {formatDate(date, language, "MMMM")}
           </p>
         </div>
-        <Spacer w={4} />
         <div className="flex flex-col justify-center flex-1">
           <p className="text-secondary lg:text-xl font-medium">{name}</p>
-          <p className="font-light">{place}</p>
+          <div className="flex items-baseline">
+            <p className="font-light">{place}</p>
+            {hour && <p className="font-light text-sand">{` - ${hour}`}</p>}
+          </div>
         </div>
       </a>
     </Link>

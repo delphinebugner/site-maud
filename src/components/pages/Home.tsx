@@ -2,13 +2,14 @@ import { NextPage } from "next";
 import { Layout } from "../Layout";
 import { EN, Language } from "../../lib/language";
 import { HomeCover } from "../Home/HomeCover.component";
-import { HomeSection } from "../Home/HomeSection.component";
 import { HomeSectionTitle } from "../Home/HomeSectionTitle.component";
 import { HomeButton } from "../Home/HomeButton.component";
 import { ABOUT, ARTICLES, EVENTS } from "../../lib/routes";
-import { Spacer } from "../Spacer";
 import { EventHomeCard } from "../Home/EventHomeCard.component";
 import { MyEvent } from "../../lib/Event/interface";
+import { RoundImage } from "../RoundImage";
+
+const NUMBER_OF_CONCERTS_DISPLAYED = 3;
 
 export interface Props {
   content: { attributes: HomeAttributes };
@@ -25,65 +26,81 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
   const { attributes } = content;
   return (
     <Layout language={language}>
-      <div className="flex flex-col h-full w-full">
+      <div className="flex flex-col h-full w-full overflow-x-hidden">
         <HomeCover {...attributes} />
-        <div className="flex flex-col items-center py-10 bg-primary">
-          <img
-            src="/images/044c.jpg"
-            className="h-60 w-60 lg:h-96 lg:w-96 object-cover object-center lg:ml-10 overflow-hidden rounded-lg"
-          />
-          <div className="flex flex-col items-center flex-1">
-            <Spacer h={2} />
-            <span>{attributes.description}</span>
-            <Spacer h={2} />
+        <div
+          className="flex lg:flex-row flex-col 
+          p-4 lg:p-10 overflow-x-hidden"
+        >
+          <div className="flex flex-col justify-center items-center flex-1">
+            <p className="font-serif text-6xl">{attributes.subtitle}</p>
+            <p className="m-4 lg:mx-24 lg:my-12">{attributes.description}</p>
             <HomeButton
               text={language === EN ? "Read more" : "En savoir plus..."}
               language={language}
               path={ABOUT}
-              color="primary"
+              color="black"
             />
           </div>
+          <RoundImage
+            src="/images/044.jpg"
+            sizeDesktop={600}
+            sizeMobile={72}
+            className="mt-4 lg:-mr-40 lg:mt-8"
+          />
         </div>
-        <HomeSection className="bg-white">
-          <div className="lg:ml-10 flex flex-col items-start">
+        <div className="flex overflow-x-hidden overflow-y-visible p-4 lg:p-0">
+          <RoundImage
+            src="/images/133.jpg"
+            sizeDesktop={500}
+            sizeMobile={60}
+            className="relative -left-24 hidden lg:block"
+          />
+          <div className="lg:py-10 flex flex-col items-center justify-center flex-1 lg:-ml-20">
             <HomeSectionTitle
               className="text-primary"
               text={language === EN ? "Next concerts" : "Prochains concerts"}
             />
-            <Spacer h={4} />
+            <div
+              className="flex flex-col lg:flex-row items-center justify-center lg:my-8 
+              flex-wrap "
+            >
+              {events
+                .slice(0, NUMBER_OF_CONCERTS_DISPLAYED)
+                .map((concert, i) => (
+                  <EventHomeCard {...concert} key={i} language={language} />
+                ))}
+            </div>
             <HomeButton
               text={language === EN ? "See all" : "Tout voir"}
               language={language}
               path={EVENTS}
               color="primary"
-              className="hidden lg:block"
+              className="mt-4"
             />
           </div>
-          <div className="flex flex-col lg:flex-row items-center">
-            {events.slice(0, 3).map((concert, i) => (
-              <EventHomeCard {...concert} key={i} language={language} />
-            ))}
-          </div>
-          <HomeButton
-            text={language === EN ? "See all" : "Tout voir"}
-            language={language}
-            path={EVENTS}
-            color="primary"
-            className="lg:hidden block mt-4"
-          />
-        </HomeSection>
-        <HomeSection className="justify-end bg-primary">
-          <div className="lg:ml-10 flex flex-col items-start">
-            <HomeSectionTitle text={"Articles"} className="text-white" />
-            <Spacer h={4} />
+        </div>
+        <div className="p-4 lg:p-10 flex items-center flex-col lg:flex-row">
+          <div className="flex flex-col justify-between items-center lg:items-start flex-1 my-8 lg:my-0">
+            <HomeSectionTitle
+              text={language === EN ? "Research work" : "Travaux de recherche"}
+              className="text-primary"
+            />
             <HomeButton
               text={language === EN ? "Read all" : "Tout voir"}
               language={language}
               path={ARTICLES}
-              color="white"
+              color="primary"
             />
           </div>
-        </HomeSection>
+          <RoundImage
+            src="/images/255.jpg"
+            sizeDesktop={700}
+            sizeMobile={72}
+            className="lg:-mr-24"
+            position="top"
+          />
+        </div>
       </div>
     </Layout>
   );
