@@ -20,7 +20,7 @@ export const RoundImage: FunctionComponent<RoundImageProps> = ({
       src={src}
       className={`${
         className ?? ""
-      } h-${sizeMobile} w-${sizeDesktop} lg:h-${sizeDesktop} lg:w-${sizeDesktop}
+      } h-${sizeMobile} w-${sizeMobile} lg:h-${sizeDesktop} lg:w-${sizeDesktop}
         object-cover object-${position} overflow-hidden rounded-full
         flex-shrink-0`}
     />
