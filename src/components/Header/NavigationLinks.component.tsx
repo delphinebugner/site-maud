@@ -28,8 +28,8 @@ export const NavigationLinks: FunctionComponent<NavigationLinksProps> = ({
         label={language === EN ? "About" : "A propos"}
         language={language}
       />
-      <NavigationLink path={ARTICLES} label={"Concerts"} language={language} />
-      <NavigationLink path={EVENTS} label={"Articles"} language={language} />
+      <NavigationLink path={EVENTS} label={"Concerts"} language={language} />
+      <NavigationLink path={ARTICLES} label={"Articles"} language={language} />
       {isTranslationAvailable && <LanguageSwitcher language={language} />}
     </div>
   );
