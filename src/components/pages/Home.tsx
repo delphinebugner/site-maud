@@ -28,10 +28,13 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
     <Layout language={language}>
       <div className="flex flex-col h-full w-full overflow-x-hidden">
         <HomeCover {...attributes} />
-        <div className="flex p-10 overflow-x-hidden">
+        <div
+          className="flex lg:flex-row flex-col 
+          p-4 lg:p-10 overflow-x-hidden"
+        >
           <div className="flex flex-col justify-center items-center flex-1">
             <p className="font-serif text-6xl">{attributes.subtitle}</p>
-            <p className="mx-24 my-12">{attributes.description}</p>
+            <p className="m-4 lg:mx-24 lg:my-12">{attributes.description}</p>
             <HomeButton
               text={language === EN ? "Read more" : "En savoir plus..."}
               language={language}
@@ -42,24 +45,24 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
           <RoundImage
             src="/images/044.jpg"
             sizeDesktop={600}
-            sizeMobile={60}
-            className="-mr-40 mt-8"
+            sizeMobile={72}
+            className="mt-4 lg:-mr-40 lg:mt-8"
           />
         </div>
-        <div className="flex overflow-x-hidden overflow-y-visible">
+        <div className="flex overflow-x-hidden overflow-y-visible p-4 lg:p-0">
           <RoundImage
             src="/images/133.jpg"
             sizeDesktop={500}
             sizeMobile={60}
-            className="relative -left-24"
+            className="relative -left-24 hidden lg:block"
           />
-          <div className="lg:py-10 flex flex-col items-center justify-center flex-1 -ml-20">
+          <div className="lg:py-10 flex flex-col items-center justify-center flex-1 lg:-ml-20">
             <HomeSectionTitle
               className="text-primary"
               text={language === EN ? "Next concerts" : "Prochains concerts"}
             />
             <div
-              className="flex flex-col lg:flex-row items-center justify-center my-8 
+              className="flex flex-col lg:flex-row items-center justify-center lg:my-8 
               flex-wrap "
             >
               {events
@@ -77,8 +80,8 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
             />
           </div>
         </div>
-        <div className="p-10 flex items-center">
-          <div className="flex flex-col justify-between items-start flex-1">
+        <div className="p-4 lg:p-10 flex items-center flex-col lg:flex-row">
+          <div className="flex flex-col justify-between items-center lg:items-start flex-1 my-8 lg:my-0">
             <HomeSectionTitle
               text={language === EN ? "Research work" : "Travaux de recherche"}
               className="text-primary"
@@ -93,8 +96,8 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
           <RoundImage
             src="/images/255.jpg"
             sizeDesktop={700}
-            sizeMobile={60}
-            className="-mr-24"
+            sizeMobile={72}
+            className="lg:-mr-24"
             position="top"
           />
         </div>
