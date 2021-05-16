@@ -20,7 +20,7 @@ export const RoundImage: FunctionComponent<RoundImageProps> = ({
       <img
         src={src}
         className={`${className ?? ""}
-        object-cover object-${position} overflow-hidden rounded-full
+        object-cover overflow-hidden rounded-full
         flex-shrink-0`}
       />
       <style jsx>
@@ -28,6 +28,7 @@ export const RoundImage: FunctionComponent<RoundImageProps> = ({
           img {
             height: ${sizeMobile}px;
             width: ${sizeMobile}px;
+            object-position: ${position};
           }
           @media (min-width: 1024px) {
             img {
