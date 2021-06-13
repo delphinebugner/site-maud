@@ -28,7 +28,7 @@ export const About: NextPage<Props> = ({ content, language }) => {
         >
           {language === EN ? "Biography" : "Biographie"}
         </span>
-        <div className="flex lg:flex-row flex-col p-4 lg:p-12 overflow-hidden">
+        <div className="flex lg:flex-row flex-col p-4 lg:p-12 overflow-hidden items-center">
           <div className="flex-1 flex flex-col items-center">
             <div className="prose">{parse(html)}</div>
             <a
