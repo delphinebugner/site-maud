@@ -29,7 +29,7 @@ export const Research: NextPage<ResearchProps> = ({ body, language }) => {
           <RoundImage
             src="/images/salzburg.jpg"
             sizeDesktop={500}
-            className="my-4 lg:my-0 lg:-mr-72"
+            className="my-4 lg:my-0 lg:-mr-44"
             position="top"
           />
         </div>
