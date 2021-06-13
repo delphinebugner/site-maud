@@ -79,13 +79,13 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
           </div>
         </div>
         <div className="p-4 lg:p-10 flex items-center flex-col lg:flex-row">
-          <div className="flex flex-col justify-between items-center lg:items-start flex-1 my-8 lg:my-0">
+          <div className="flex flex-col justify-between items-center lg:items-start flex-1 m-8">
             <HomeSectionTitle
               text={language === EN ? "Research work" : "Travaux de recherche"}
-              className="text-primary"
+              className="text-primary mb-4"
             />
             <HomeButton
-              text={language === EN ? "Read all" : "Tout voir"}
+              text={language === EN ? "Read" : "Lire"}
               language={language}
               path={ARTICLES}
               color="primary"
