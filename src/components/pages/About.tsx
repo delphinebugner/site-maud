@@ -19,9 +19,9 @@ export const About: NextPage<Props> = ({ content, language }) => {
     <Layout language={language}>
       <div className="flex flex-col">
         <span
-          className="text-4xl lg:text-8xl 
+          className="text-4xl lg:text-7xl 
           text-primary text-center font-serif 
-          mt-8"
+          mt-8 lg:mt-12"
         >
           {language === EN ? "Biography" : "Biographie"}
         </span>
@@ -37,7 +37,7 @@ export const About: NextPage<Props> = ({ content, language }) => {
             </a>
           </div>
           <RoundImage
-            src="/images/030.jpg"
+            src="/images/030c.jpg"
             sizeDesktop={750}
             className="my-4 lg:my-0 lg:-mr-72"
             position="top"
