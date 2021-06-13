@@ -9,7 +9,6 @@ interface Props {
 
 export const LanguageSwitcher: React.FC<Props> = ({ language }) => {
   const { asPath } = useRouter();
-  console.log(asPath);
   const urlToPageInOtherLanguage =
     language === EN ? "/fr" + asPath : asPath.replace("/fr", "");
   return (
