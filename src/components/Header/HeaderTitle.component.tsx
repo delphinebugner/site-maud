@@ -10,11 +10,15 @@ interface Props {
 export const HeaderTitle: FunctionComponent<Props> = ({ language }) => {
   return (
     <Link href={`${getUrlPrefix(language)}${HOME}`}>
-      <a
-        className="font-bold text-primary text-2xl hover:text-primary-dark transition-all duration-500
-       whitespace-nowrap font-serif mt-1 lg:text-4xl lg:mt-2"
-      >
-        MaudHaering
+      <a className="my-1 lg:my-2">
+        <div className="flex flex-col ">
+          <p className="text-xl lg:text-3xl text-primary hover:text-primary-dark transition-all duration-500 whitespace-nowrap font-serif">
+            Maud Haering
+          </p>
+          <p className="-mt-2 lg:-mt-1 text-sm lg:text-xl text-secondary">
+            Soprano
+          </p>
+        </div>
       </a>
     </Link>
   );

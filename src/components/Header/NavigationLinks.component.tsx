@@ -17,7 +17,6 @@ export const NavigationLinks: FunctionComponent<NavigationLinksProps> = ({
 }) => {
   return (
     <div className={`${className}`}>
-      {" "}
       <NavigationLink
         path={HOME}
         label={language === EN ? "Home" : "Accueil"}
@@ -28,7 +27,7 @@ export const NavigationLinks: FunctionComponent<NavigationLinksProps> = ({
         label={language === EN ? "Biography" : "Biographie"}
         language={language}
       />
-      <NavigationLink path={EVENTS} label={"Concerts"} language={language} />
+      <NavigationLink path={EVENTS} label={"Agenda"} language={language} />
       <NavigationLink
         path={ARTICLES}
         label={language === EN ? "Research" : "Recherche"}
