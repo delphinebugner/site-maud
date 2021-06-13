@@ -18,6 +18,7 @@ module.exports = {
         700: "700px",
         800: "800px",
         "25percent": "25%",
+        "50percent": "50%",
       },
       height: {
         homeCoverLg: "80vh",

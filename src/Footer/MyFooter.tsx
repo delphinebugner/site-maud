@@ -9,7 +9,7 @@ export const MyFooter: FunctionComponent<FooterProps> = ({ language }) => {
   return (
     <>
       <div className="flex flex-col items-center justify-center  myFooter">
-        <div className="mb-2 text-white">
+        <div className="myTextWhite">
           <span className="font-bold">{"Contact : "}</span>
           <span style={{ direction: "rtl", unicodeBidi: "bidi-override" }}>
             moc.liamg [ta] gnireah.duam
@@ -35,6 +35,10 @@ export const MyFooter: FunctionComponent<FooterProps> = ({ language }) => {
           padding: 40px 0;
           background-color: #818cf8;
         }
+        .myTextWhite {
+          color: white;
+          marginbottom: 16px;
+        }
       `}</style>
     </>
   );
@@ -51,7 +55,7 @@ const FooterCredit: FunctionComponent<CreditProps> = ({
   link,
   label,
 }) => (
-  <div className="text-xs mt-2 text-secondary">
+  <div className="text-sm mt-1 text-secondary">
     <span className="font-bold">{label}</span>
     <a className="underline" href={link}>
       {text}
