@@ -18,7 +18,7 @@ export const HomeCover: FunctionComponent<HomeCoverProps> = ({
       className={`${className ?? ""}relative h-homeCoverSm lg:h-homeCoverLg`}
     >
       <div
-        style={{ backgroundImage: `url(${image})` }}
+        style={{ backgroundImage: `url(images/024c.jpg)` }}
         className="absolute top-0 h-full w-full bg-cover bg-center z-0 bg-fixed"
       />
       <div className="flex flex-col items-center justify-center z-10 h-full relative">

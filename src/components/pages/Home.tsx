@@ -43,14 +43,14 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
             />
           </div>
           <RoundImage
-            src="/images/044.jpg"
+            src="/images/044c.jpg"
             sizeDesktop={600}
             className="mt-4 lg:-mr-40 lg:mt-8"
           />
         </div>
         <div className="flex overflow-x-hidden overflow-y-visible p-4 lg:p-0">
           <RoundImage
-            src="/images/133.jpg"
+            src="/images/133c.jpg"
             sizeDesktop={500}
             className="relative -left-24 hidden lg:block"
           />
