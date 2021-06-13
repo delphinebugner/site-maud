@@ -21,7 +21,7 @@ export const EventCardYearList: FunctionComponent<EventCardListProps> = ({
     <div
       className={`${
         className ?? ""
-      } flex w-full px-4 lg:pl-40 lg:pr-64 flex-col lg:flex-row`}
+      } flex w-full px-4 lg:pl-48 lg:pr-72 flex-col lg:flex-row`}
     >
       <span
         className="text-3xl font-bold text-secondary 

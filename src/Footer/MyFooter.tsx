@@ -5,13 +5,9 @@ interface FooterProps {
   language: Language;
 }
 
-export const Footer: FunctionComponent<FooterProps> = ({ language }) => {
+export const MyFooter: FunctionComponent<FooterProps> = ({ language }) => {
   return (
-    <div
-      className={
-        "py-10 bg-primary flex flex-col items-center justify-center text-white"
-      }
-    >
+    <div className="py-10 bg-primary flex flex-col items-center justify-center text-white">
       <div className="mb-2">
         <span className="font-bold">{"Contact : "}</span>
         <span style={{ direction: "rtl", unicodeBidi: "bidi-override" }}>
