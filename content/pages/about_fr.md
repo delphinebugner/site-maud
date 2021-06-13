@@ -1,5 +1,5 @@
 ---
-cv: cv_en.pdf
+cv: cv_fr.pdf
 ---
 
 # Un titre
