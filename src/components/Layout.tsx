@@ -28,7 +28,7 @@ export const Layout: React.FC<Props> = ({
         isTranslationAvailable={isTranslationAvailable}
       />
       <div>{children}</div>
-      <Footer />
+      <Footer language={language} />
     </div>
   );
 };
