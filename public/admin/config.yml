@@ -105,8 +105,11 @@ collections:
         label: "Recherche"
         file: "content/pages/research.md"
         fields:
-          - label: "Texte principal"
-            name: "body"
+          - label: "Texte en français"
+            name: "body_fr"
+            widget: "markdown"
+          - label: "Texte en anglais"
+            name: "body_en"
             widget: "markdown"
   - name: "events"
     label: "Evenements"
