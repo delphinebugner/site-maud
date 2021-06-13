@@ -19,7 +19,7 @@ export const EventCard: FunctionComponent<EventCardProps> = ({
   return (
     <Link href={`${getUrlPrefix(language)}${EVENTS}/${id}`}>
       <a
-        className="rounded-full bg-white
+        className="rounded-full bg-white w-full
         border-primary border-solid border
         p-4 lg:p-6 mb-4 lg:mb-8
         cursor-pointer hover:shadow-md transition-all
@@ -27,7 +27,7 @@ export const EventCard: FunctionComponent<EventCardProps> = ({
       >
         <div
           className="flex flex-col justify-center items-center
-          font-serif text-4xl text-primary mr-4"
+          font-serif text-2xl lg:text-3xl text-primary mr-4"
         >
           <p>{formatDate(date, language, "d")}</p>
           <p className="-mt-2 lg:hidden">{`${formatDate(
@@ -41,9 +41,14 @@ export const EventCard: FunctionComponent<EventCardProps> = ({
         </div>
         <div className="flex flex-col justify-center flex-1">
           <p className="text-secondary lg:text-xl font-medium">{name}</p>
-          <div className="flex items-baseline">
+          <div className="flex items-center">
             <p className="font-light">{place}</p>
-            {hour && <p className="font-light text-sand">{` - ${hour}`}</p>}
+            {hour && (
+              <>
+                <p className="mx-1 text-primary">-</p>
+                <p className="font-light text-sand mr-2">{hour}</p>
+              </>
+            )}
           </div>
         </div>
       </a>

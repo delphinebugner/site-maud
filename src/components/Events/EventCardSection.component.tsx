@@ -19,7 +19,7 @@ export const EventCardSection: FunctionComponent<EventCardListProps> = ({
   const allYears = Object.keys(eventsByYear).sort();
   return (
     <div className="flex flex-col mb-4">
-      <p className="font-serif text-5xl lg:text-6xl text-primary my-4 lg:my-8 self-center">
+      <p className="font-serif text-4xl lg:text-6xl text-primary my-4 lg:my-8 self-center">
         {title}
       </p>
       {allYears.map((year, i) => (
