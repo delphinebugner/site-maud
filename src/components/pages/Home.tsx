@@ -33,7 +33,7 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
           p-4 lg:p-10 overflow-x-hidden"
         >
           <div className="flex flex-col justify-center items-center flex-1">
-            <p className="font-serif text-6xl">{attributes.subtitle}</p>
+            <p className="font-serif text-4xl">{attributes.subtitle}</p>
             <p className="m-4 lg:mx-24 lg:my-12">{attributes.description}</p>
             <HomeButton
               text={language === EN ? "Read more" : "En savoir plus..."}
