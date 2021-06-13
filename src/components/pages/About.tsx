@@ -4,6 +4,8 @@ import { Layout } from "../Layout";
 import { EN, Language } from "../../lib/language";
 import { Content } from "../../lib/types";
 import { RoundImage } from "../RoundImage";
+import { useRouter } from "next/router";
+import { userInfo } from "node:os";
 
 export interface Props {
   content: Content<AboutAttributes>;
@@ -15,6 +17,7 @@ interface AboutAttributes {
 
 export const About: NextPage<Props> = ({ content, language }) => {
   const { attributes, html } = content;
+  const { basePath } = useRouter();
   return (
     <Layout language={language}>
       <div className="flex flex-col">
@@ -29,7 +32,7 @@ export const About: NextPage<Props> = ({ content, language }) => {
           <div className="flex-1 flex flex-col items-center">
             <div className="prose">{parse(html)}</div>
             <a
-              href={`images/${attributes.cv}`}
+              href={`${basePath}/images/${attributes.cv}`}
               target="_blank"
               className="text-primary hover:text-primary-dark mt-8"
             >
