@@ -17,9 +17,9 @@ export const EventPage: NextPage<Props> = ({ event, language }) => {
     <Layout language={language}>
       <div className="flex flex-col">
         <span
-          className="text-4xl lg:text-6xl 
+          className="text-3xl lg:text-5xl 
           text-primary text-center font-serif 
-          mt-4 lg:mt-8 px-4 lg:px-100 lg:py-12"
+          mt-8 px-4 lg:px-25percent lg:py-12"
         >
           {name}
         </span>
@@ -35,7 +35,7 @@ export const EventPage: NextPage<Props> = ({ event, language }) => {
           <RoundImage
             src="/images/055c.jpg"
             sizeDesktop={500}
-            sizeMobile={72}
+            sizeMobile={300}
             className="-mr-36 -mb-12 lg:-mr-20 lg:-mb-16"
             position="top"
           />
