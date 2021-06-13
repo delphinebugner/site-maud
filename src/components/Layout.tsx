@@ -2,7 +2,7 @@ import Head from "next/head";
 import React from "react";
 import { Header } from "./Header/Header.component";
 import { Language } from "../lib/language";
-import { Footer } from "../Footer/Footer";
+import { MyFooter } from "../Footer/MyFooter";
 
 type Props = {
   children: React.ReactNode;
@@ -28,7 +28,7 @@ export const Layout: React.FC<Props> = ({
         isTranslationAvailable={isTranslationAvailable}
       />
       <div>{children}</div>
-      <Footer language={language} />
+      <MyFooter language={language} />
     </div>
   );
 };

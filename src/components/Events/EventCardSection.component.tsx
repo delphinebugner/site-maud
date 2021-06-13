@@ -5,14 +5,12 @@ import { Language } from "../../lib/language";
 import { EventCardYearList } from "./EventCardYearList.component";
 
 interface EventCardListProps {
-  className?: string;
   events: MyEvent[];
   language: Language;
   title: string;
 }
 
 export const EventCardSection: FunctionComponent<EventCardListProps> = ({
-  className,
   events,
   language,
   title,
@@ -20,7 +18,7 @@ export const EventCardSection: FunctionComponent<EventCardListProps> = ({
   const eventsByYear = getEventsByYear(events);
   const allYears = Object.keys(eventsByYear).sort();
   return (
-    <div className={`${className ?? ""} flex flex-col mb-4`}>
+    <div className="flex flex-col mb-4">
       <p className="font-serif text-5xl lg:text-6xl text-primary my-4 lg:my-8 self-center">
         {title}
       </p>
