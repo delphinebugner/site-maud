@@ -33,7 +33,7 @@ export const EventPage: NextPage<Props> = ({ event, language }) => {
             <ReactMarkdown className="prose my-6">{body}</ReactMarkdown>
           </div>
           <RoundImage
-            src="/images/055.jpg"
+            src="/images/055c.jpg"
             sizeDesktop={500}
             sizeMobile={72}
             className="-mr-36 -mb-12 lg:-mr-20 lg:-mb-16"
