@@ -4,7 +4,7 @@ import { EN, Language } from "../../lib/language";
 import { HomeCover } from "../Home/HomeCover.component";
 import { HomeSectionTitle } from "../Home/HomeSectionTitle.component";
 import { HomeButton } from "../Home/HomeButton.component";
-import { ABOUT, ARTICLES, EVENTS } from "../../lib/routes";
+import { ABOUT, RESEARCH, EVENTS } from "../../lib/routes";
 import { EventHomeCard } from "../Home/EventHomeCard.component";
 import { MyEvent } from "../../lib/Event/interface";
 import { RoundImage } from "../RoundImage";
@@ -87,7 +87,7 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
             <HomeButton
               text={language === EN ? "Read" : "Lire"}
               language={language}
-              path={ARTICLES}
+              path={RESEARCH}
               color="primary"
             />
           </div>

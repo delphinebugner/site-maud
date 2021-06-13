@@ -1,4 +1,4 @@
-export const ARTICLES = "/articles";
+export const RESEARCH = "/research";
 export const ABOUT = "/about";
 export const HOME = "/";
 export const EVENTS = "/events";

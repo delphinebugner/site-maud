@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import { EN, Language } from "../../lib/language";
-import { ABOUT, ARTICLES, EVENTS, HOME } from "../../lib/routes";
+import { ABOUT, RESEARCH, EVENTS, HOME } from "../../lib/routes";
 import { NavigationLink } from "./NavigationLink.component";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
@@ -29,7 +29,7 @@ export const NavigationLinks: FunctionComponent<NavigationLinksProps> = ({
       />
       <NavigationLink path={EVENTS} label={"Agenda"} language={language} />
       <NavigationLink
-        path={ARTICLES}
+        path={RESEARCH}
         label={language === EN ? "Research" : "Recherche"}
         language={language}
       />

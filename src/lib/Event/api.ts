@@ -6,6 +6,7 @@ import { MyEvent, RawEvent } from "./interface";
 import { adaptRawEvent } from "./adapter";
 import { getUrlPrefix, Language } from "../language";
 import { EVENTS } from "../routes";
+import { fetchMdx } from "../fetchUtils";
 
 const contentRoot = path.join(process.cwd(), "content/events");
 
@@ -21,14 +22,7 @@ export const fetchEvents = (language: Language): MyEvent[] => {
     .filter((fileName) => fileName.endsWith(".md"))
     .map((fileName) => {
       const fullPath = path.join(contentRoot, fileName);
-      const fileContent = fs.readFileSync(fullPath, "utf8");
-      // Use gray-matter to parse the post metadata section
-      const matterResult = matter(fileContent, {
-        engines: {
-          yaml: (s) => yaml.load(s, { schema: yaml.JSON_SCHEMA }) as object,
-        },
-      });
-      const rawEvent = matterResult.data as RawEvent; // markdown is stored in matterResult.content ; data contains only attributes
+      const rawEvent = fetchMdx(fullPath) as RawEvent;
       // Validate id string
       const id = fileName.replace(/\.md$/, "");
       if (rawEvent.id !== id) {
