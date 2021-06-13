@@ -17,6 +17,7 @@ module.exports = {
         600: "600px",
         700: "700px",
         800: "800px",
+        "25percent": "25%",
       },
       height: {
         homeCoverLg: "80vh",
@@ -25,6 +26,7 @@ module.exports = {
         homeSectionSm: "400px",
       },
       colors: {
+        black: "#222",
         primary: {
           superlight: "#C7D2FE",
           light: "#a5a6ff",
@@ -36,11 +38,11 @@ module.exports = {
           900: "#312E81",
         },
         secondary: "#312E81",
-        sand: "#9b9b9b",
+        sand: "#7b756d",
         gray: { DEFAULT: "#4B5563", dark: "#374151" },
       },
       fontFamily: {
-        serif: ["Alex Brush", "ui-serif", "Georgia"],
+        serif: ["Petit Formal Script", "ui-serif", "Georgia"],
       },
     },
   },
