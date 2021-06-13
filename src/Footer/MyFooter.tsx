@@ -7,28 +7,36 @@ interface FooterProps {
 
 export const MyFooter: FunctionComponent<FooterProps> = ({ language }) => {
   return (
-    <div className="py-10 bg-primary flex flex-col items-center justify-center text-white">
-      <div className="mb-2">
-        <span className="font-bold">{"Contact : "}</span>
-        <span style={{ direction: "rtl", unicodeBidi: "bidi-override" }}>
-          moc.liamg [ta] gnireah.duam
-        </span>
+    <>
+      <div className="flex flex-col items-center justify-center  myFooter">
+        <div className="mb-2 text-white">
+          <span className="font-bold">{"Contact : "}</span>
+          <span style={{ direction: "rtl", unicodeBidi: "bidi-override" }}>
+            moc.liamg [ta] gnireah.duam
+          </span>
+        </div>
+        <FooterCredit
+          text="Béatrice Cruveiller"
+          link="https://beatricecruveiller.com/"
+          label={language === EN ? "Photo credit: " : "Crédits photos : "}
+        />
+        <FooterCredit
+          text="Delphine Bugner"
+          link="https://github.com/phindell"
+          label={
+            language === EN
+              ? "Website Design & Realisation: "
+              : "Design et réalisation du site : "
+          }
+        />
       </div>
-      <FooterCredit
-        text="Béatrice Cruveiller"
-        link="https://beatricecruveiller.com/"
-        label={language === EN ? "Photo credit: " : "Crédits photos : "}
-      />
-      <FooterCredit
-        text="Delphine Bugner"
-        link="https://github.com/phindell"
-        label={
-          language === EN
-            ? "Website Design & Realisation: "
-            : "Design et réalisation du site : "
+      <style jsx>{`
+        .myFooter {
+          padding: 40px 0;
+          background-color: #818cf8;
         }
-      />
-    </div>
+      `}</style>
+    </>
   );
 };
 
