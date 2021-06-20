@@ -16,7 +16,7 @@ export const NavigationLinks: FunctionComponent<NavigationLinksProps> = ({
   isTranslationAvailable,
 }) => {
   return (
-    <div className={`${className}`}>
+    <div className={`${className} text-2xl font-serif`}>
       <NavigationLink
         path={HOME}
         label={language === EN ? "Home" : "Accueil"}
