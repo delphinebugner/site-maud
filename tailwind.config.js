@@ -43,7 +43,7 @@ module.exports = {
         gray: { DEFAULT: "#4B5563", dark: "#374151" },
       },
       fontFamily: {
-        serif: ["Petit Formal Script", "ui-serif", "Georgia"],
+        serif: ["Bellefair", "ui-serif", "Georgia"],
       },
     },
   },

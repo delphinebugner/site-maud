@@ -19,7 +19,7 @@ export const HomeCover: FunctionComponent<HomeCoverProps> = ({
         style={{ backgroundImage: `url(images/024c.jpg)` }}
         className="absolute top-0 h-full w-full bg-cover bg-center z-0 bg-fixed"
       />
-      <div className="flex flex-col items-center justify-center z-10 h-full relative pl-50percent pr-20 lg:pr-100">
+      <div className="flex flex-col items-center justify-center z-10 h-full relative pl-50percent pr-20 lg:pr-200">
         <span className="text-5xl lg:text-8xl text-primary font-serif text-center">
           {title}
         </span>

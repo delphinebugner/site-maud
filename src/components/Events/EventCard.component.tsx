@@ -35,7 +35,7 @@ export const EventCard: FunctionComponent<EventCardProps> = ({
             language,
             "MMM"
           )}.`}</p>
-          <p className="hidden lg:block -mt-3">
+          <p className="hidden lg:block -mt-2">
             {formatDate(date, language, "MMMM")}
           </p>
         </div>

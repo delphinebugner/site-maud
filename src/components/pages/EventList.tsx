@@ -22,9 +22,10 @@ export const EventListPage: NextPage<Props> = ({ events, language }) => {
           className="hidden lg:block absolute top-10 -right-20"
         />
         <RoundImage
-          src="/images/214.jpg"
-          sizeDesktop={400}
-          className="hidden lg:block absolute bottom-10 -left-36"
+          src="/images/231c.jpg"
+          sizeDesktop={230}
+          position="top"
+          className="hidden lg:block absolute bottom-10 -left-12"
         />
         {!!futureEvents.length && (
           <EventCardSection
