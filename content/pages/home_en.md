@@ -1,6 +1,14 @@
 ---
 title: Maud Haering
 subtitle: Soprano
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+description: Applauded in March and August 2019 for her interpretation of the
+  role of Iole in the French premiere of Nicola Porpora's serenade "Deianira,
+  Iole ed Ercole", the French soprano Maud Haering already has a large number of
+  concerts to her credit in France and throughout Europe. With the Parnasso in
+  Festa ensemble, of which she is a founding member, she has brought this
+  forgotten serenade to audiences in Normandy and Gironde during the Flam' and
+  Musicales du Bocage festivals. The young soprano then performed the cantata
+  BWV 51 'Jauchzet Gott in allen Landen' in The Hague in February 2020 as part
+  of the Early Music Open Stage of the Koninklijk Conservatorium.
 image: /images/024.jpg
 ---
