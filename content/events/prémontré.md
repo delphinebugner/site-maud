@@ -1,5 +1,5 @@
 ---
-id: Prémontré
+id: prémontré
 name_fr: Saint Norbert et l'Ecole de Notre-Dame
 name_en: Saint Norbert and the Notre-Dame School
 place: Prémontré (Laon)
