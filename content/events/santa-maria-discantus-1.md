@@ -2,9 +2,9 @@
 id: santa-maria-discantus
 name_fr: Alfonso X, troubadour de la Vierge, sur les traces de Gautier de Coincy
 name_en: Alfonso X, troubadour of the Virgin, in the path of Gautier de Coincy
-place: Vic-sur-Aisne
-date: 2021-10-22
-hour: 20:00
+place: Eglise Saint-Pierre, Blagnac
+date: 2021-10-20
+hour: 21:00
 body_fr: >-
   Ce concert met en perspective les cantigas de Santa Maria, chansons
   galaïco-portugaises relatant légendes et miracles de la Vierge, collectées par
@@ -23,7 +23,7 @@ body_fr: >-
 
   Avec l'ensemble Discantus, dirigé par Brigitte Lesne, dans le cadre des 900 ans de l'Abbaye Prémontré, à côté de Laon (02).  \
 
-  Plus d'informations [ici](https://cmm-paris.fr/fr/calendrier/alla-francesca-discantus-alta/af-passes/486-concert?date=2021-09-03-00-00) et [là](https://www.aisne.com/actualites/premontre-900-ans-dhistoire).
+  Plus d'informations [ici](https://cmm-paris.fr/fr/calendrier/alla-francesca-discantus-alta/af-passes/486-concert?date=2021-09-03-00-00).
 body_en: >-
   This concert puts into perspective the cantigas de Santa Maria,
   Galician-Portuguese songs relating legends and miracles of the Virgin,
@@ -46,5 +46,5 @@ body_en: >-
 
   With the Discantus ensemble, directed by Brigitte Lesne.
 
-  More information [here](https://cmm-paris.fr/fr/calendrier/alla-francesca-discantus-alta/af-passes/486-concert?date=2021-09-03-00-00) and [here](https://www.aisne.com/actualites/premontre-900-ans-dhistoire).
+  More information [here](https://cmm-paris.fr/fr/calendrier/alla-francesca-discantus-alta/af-passes/486-concert?date=2021-09-03-00-00).
 ---
