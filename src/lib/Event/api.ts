@@ -26,9 +26,10 @@ export const fetchEvents = (language: Language): MyEvent[] => {
       // Validate id string
       const id = fileName.replace(/\.md$/, "");
       if (rawEvent.id !== id) {
-        throw new Error(
-          "id field not match with the path of its content source"
+        console.warn(
+          `${fileName}: id field not match with the path of its content source`
         );
+        return adaptRawEvent({ ...rawEvent, id }, language);
       }
       return adaptRawEvent(rawEvent, language);
     });

@@ -1,5 +1,5 @@
 ---
-id: Prémontré
+id: prémontré-1
 name_fr: A l'aube du Gothique
 name_en: At the dawn of Gothic
 place: Fère-en-Tardenois, église Sainte-Macre (Aisne)
