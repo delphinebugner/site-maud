@@ -1,8 +1,8 @@
 ---
-id: micrologus-royaumont-1
+id: micrologus-royaumont-Spello
 name_fr: Chiama il bel Pappagallo - Sfumature di Ars Nova Italiana
 name_en: Chiama il bel Pappagallo - Sfumature di Ars Nova Italiana
-place: Assise (Italie)
+place: Spello (Italie)
 date: 2021-08-29
 hour: 19:00
 body_fr: >-
