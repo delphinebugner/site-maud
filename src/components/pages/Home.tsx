@@ -8,6 +8,7 @@ import { ABOUT, RESEARCH, EVENTS } from "../../lib/routes";
 import { EventHomeCard } from "../Home/EventHomeCard.component";
 import { MyEvent } from "../../lib/Event/interface";
 import { RoundImage } from "../RoundImage";
+import { isEventPast } from "../../lib/dateUtils";
 
 const NUMBER_OF_CONCERTS_DISPLAYED = 3;
 
@@ -64,6 +65,7 @@ export const Home: NextPage<Props> = ({ content, language, events }) => {
               flex-wrap "
             >
               {events
+                .filter((event) => !isEventPast(event))
                 .slice(0, NUMBER_OF_CONCERTS_DISPLAYED)
                 .map((concert, i) => (
                   <EventHomeCard {...concert} key={i} language={language} />
