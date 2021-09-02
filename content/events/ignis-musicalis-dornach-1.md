@@ -1,8 +1,8 @@
 ---
-id: ignis-musicalis-dornach
+id: ignis-musicalis-Kleebach
 name_fr: La françoise - Musiciennes et compositrices à la cour de Louis XIV
 name_en: La Françoise - Female musicians and composers at Louis XIV court
-place: Dornach (Suisse)
+place: Maion du Kleebach, Munster
 date: 2021-09-18
 hour: 20:30
 body_fr: >-
