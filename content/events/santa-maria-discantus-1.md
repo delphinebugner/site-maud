@@ -1,5 +1,5 @@
 ---
-id: santa-maria-discantus
+id: santa-maria-discantus-1
 name_fr: Alfonso X, troubadour de la Vierge, sur les traces de Gautier de Coincy
 name_en: Alfonso X, troubadour of the Virgin, in the path of Gautier de Coincy
 place: Eglise Saint-Pierre, Blagnac
