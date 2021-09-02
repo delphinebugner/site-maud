@@ -21,7 +21,7 @@ body_fr: >-
   Vierge au 13e siècle.
 
 
-  Avec l'ensemble Discantus, dirigé par Brigitte Lesne, dans le cadre des 900 ans de l'Abbaye Prémontré, à côté de Laon (02).  \
+  Avec l'ensemble Discantus, dirigé par Brigitte Lesne. \
 
   Plus d'informations [ici](https://cmm-paris.fr/fr/calendrier/alla-francesca-discantus-alta/af-passes/486-concert?date=2021-09-03-00-00).
 body_en: >-
@@ -39,9 +39,6 @@ body_en: >-
   Cistercian nuns of the monastery of Las Huelgas. The concert thus offers an
   approach to the musical universe around the miracles of the Virgin in the 13th
   century.
-
-
-  With the Discantus ensemble, directed by Brigitte Lesne, as part of the 900th birthday of the Abbaye Prémontré, next to Laon (02).
 
 
   With the Discantus ensemble, directed by Brigitte Lesne.
