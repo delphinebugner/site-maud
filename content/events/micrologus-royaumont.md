@@ -1,5 +1,5 @@
 ---
-id: micrologus-royaumont
+id: micrologus-royaumont Assise
 name_fr: Chiama il bel Pappagallo - Sfumature di Ars Nova Italiana
 name_en: Chiama il bel Pappagallo - Sfumature di Ars Nova Italiana
 place: Assise (Italie)
