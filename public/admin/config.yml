@@ -119,7 +119,7 @@ collections:
     create: true
     id: "{{id}}"
     identifier_field: id
-    summary: "{{name_fr}}"
+    summary: "id:{{id}} - {{name_fr}}"
     fields:
       - label: "Id"
         name: "id"

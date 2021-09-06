@@ -11,7 +11,7 @@ export interface Props {
   language: Language;
 }
 export const EventListPage: NextPage<Props> = ({ events, language }) => {
-  const pastEvents = events.filter(isEventPast);
+  const pastEvents = events.filter(isEventPast).reverse();
   const futureEvents = events.filter((event) => !isEventPast(event));
   return (
     <Layout language={language}>
