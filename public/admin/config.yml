@@ -108,10 +108,10 @@ collections:
             widget: "markdown"
       - name: "media"
         label: "Media"
+        file: "content/pages/media.md"
         fields:
           - label: "Gallery"
             name: "galleryImages"
-            file: "content/pages/media.md"
             widget: "list"
             summary: "{{fields.image}}"
             field: { label: Image, name: image, widget: image }
