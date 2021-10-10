@@ -5,6 +5,11 @@ media_folder: public/images
 public_folder: /images
 # publish_mode: editorial_workflow
 
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "_"
+
 collections:
   - name: "config"
     label: "Config"
@@ -101,6 +106,15 @@ collections:
           - label: "Body"
             name: "body"
             widget: "markdown"
+      - name: "media"
+        label: "Media"
+        fields:
+          - label: "Gallery"
+            name: "galleryImages"
+            file: "content/pages/media.md"
+            widget: "list"
+            summary: "{{fields.image}}"
+            field: { label: Image, name: image, widget: image }
       - name: "research"
         label: "Recherche"
         file: "content/pages/research.md"
@@ -119,7 +133,7 @@ collections:
     create: true
     id: "{{id}}"
     identifier_field: id
-    summary: "id:{{id}} - {{name_fr}}"
+    summary: "[{{id}}] {{name_fr}}"
     fields:
       - label: "Id"
         name: "id"
