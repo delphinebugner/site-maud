@@ -38,4 +38,7 @@ body_en: >-
 
 
   Finally, some stages of the tour will show the other face of Italian Ars Nova, the instrumental repertoire, transmitted almost exclusively in the Faenza 11th and London add. 29987 codices.
+
+
+  Sara Maria Fantini
 ---
