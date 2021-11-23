@@ -7,16 +7,16 @@ date: 2021-12-04
 hour: 20:00
 body_fr: >-
   Contrairement à l'Ars Nova français, qui trouve son centre en Machaut (et ses
-  epigones), l'Ars Nova italien est semblable à un fleuve qui se ramifie en
-  dizaine de ruisseaux, chacun correspondant à l'activité d'un certain
-  compositeur, ou à un ensemble de compositions anonymes faisant référence
-  faisant rférence à un contexte socio-culturel très circonscrit. 
+  épigones), l'Ars Nova italien est semblable à un fleuve qui se ramifie en
+  dizaines de ruisseaux, chacun correspondant à l'activité d'un certain
+  compositeur, ou à un ensemble de compositions anonymes faisant référence à un
+  contexte socio-culturel très circonscrit. 
 
 
-  Les sources manuscrites qui nous sont parvenues - presque toutes compilées à une date utérieure, dans certin cas jusqu'à 70 ans après la composition des pièces qu'elles contiennent - nous donnent l'image d'un kaléidoscope d'expériences artistiques regroupées dans deux grandes zones géographiques, chacun idéalement liée à un fleuve : l'Arno, en Toscane (avec Florence comme centre principal), et le Pô, qui longeait les cours septentrionales des Scaligeri, Carraresi et Visconti. 
+  Les sources manuscrites qui nous sont parvenues - presque toutes compilées à une date utérieure, dans certain cas jusqu'à 70 ans après la composition des pièces qu'elles contiennent - nous donnent l'image d'un kaléidoscope d'expériences artistiques regroupées dans deux grandes zones géographiques, chacun idéalement liée à un fleuve : l'Arno, en Toscane (avec Florence comme centre principal), et le Pô, qui longeait les cours septentrionales des Scaligeri, Carraresi et Visconti. 
 
 
-  Notre itinéraire offre quelques aperçus de cette saison musicale très riche, des madrigaux et *ballate* monodiques du Codex Rossi, copié en Vénétie, aux *ballate* polyphoniques du plus célèbre compositeur italien du XVIe siècle, le florentin Francesco Landini, en passant par les *cacce* (madrigaux en canon) de Vincenzo da Rimini et Lorenzo da Firenze. 
+  Notre itinéraire offre quelques aperçus de cette saison musicale très riche, des madrigaux et *ballate* monodiques du Codex Rossi, copiés en Vénétie, aux *ballate* polyphoniques du plus célèbre compositeur italien du XVIe siècle, le florentin Francesco Landini, en passant par les *cacce* (madrigaux en canon) de Vincenzo da Rimini et Lorenzo da Firenze. 
 
 
   Enfin, certaines étapes du parcours montreront l'autre visage de l'Ars Nova italien, le répertoire instrumental, transmis presque exclusivement dans les codex Faenza 11è et London add. 29987. 
