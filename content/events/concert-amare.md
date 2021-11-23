@@ -1,7 +1,7 @@
 ---
 id: concert-Amare
-name_fr: Concert des lauréats du Koninklijk Conservatorium
-name_en: Concert of the laureates of the Koninklijk Conservatorium
+name_fr: Concert des lauréats du Koninklijk Conservatorium - ANNULE
+name_en: Concert of the laureates of the Koninklijk Conservatorium - CANCELLED
 place: Conservatoire Royal de La Haye (Pays-Bas)
 date: 2021-11-27
 hour: 20:00
@@ -22,6 +22,9 @@ body_fr: >-
   Méline Aléonard et Alexandre Turmel : violon baroque \
 
   Mimoe Todo : continuo
+
+
+  **CONCERT REPORTE AU PRINTEMPS 2022**
 body_en: >-
   Winner of the prize for the best master's thesis presentation, Maud Haering
   will receive her prize at the end of a concert organised during the Next
@@ -39,4 +42,7 @@ body_en: >-
   Méline Aléonard and Alexandre Turmel : baroque violin
 
   Mimoe Todo : continuo
+
+
+  **POSTPONED UNTIL NEXT SPRING**
 ---
