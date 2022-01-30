@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 import { formatDate } from "../../lib/dateUtils";
 import { MyEvent } from "../../lib/Event/interface";
 import { getUrlPrefix, Language } from "../../lib/LanguageContext";

@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 import { MyEvent } from "../../lib/Event/interface";
 import { EventCard } from "./EventCard.component";
 import { Language } from "../../lib/LanguageContext";

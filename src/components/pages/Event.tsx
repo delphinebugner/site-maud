@@ -1,3 +1,4 @@
+import React from "react";
 import { NextPage } from "next";
 import ReactMarkdown from "react-markdown";
 import { Layout } from "../Layout";
@@ -14,7 +15,7 @@ export interface Props {
 export const EventPage: NextPage<Props> = ({ event, language }) => {
   const { name, place, date, hour, body } = event;
   return (
-    <Layout language={language}>
+    <Layout>
       <div className="flex flex-col">
         <span
           className="text-3xl lg:text-5xl 

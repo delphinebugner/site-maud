@@ -1,3 +1,4 @@
+import React from "react";
 import parse from "html-react-parser";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
@@ -34,6 +35,7 @@ export const About: NextPage<Props> = ({ content, language }) => {
               href={`${basePath}/images/${attributes.cv}`}
               target="_blank"
               className="text-primary hover:text-primary-dark mt-8"
+              rel="noreferrer"
             >
               {language === EN ? "Complete CV (pdf)" : "CV complet (pdf)"}
             </a>

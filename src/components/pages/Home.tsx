@@ -1,3 +1,4 @@
+import React from "react";
 import { NextPage } from "next";
 import { useContext } from "react";
 import { isEventPast } from "../../lib/dateUtils";
@@ -28,7 +29,7 @@ export const Home: NextPage<Props> = ({ content, events }) => {
   const { language } = useContext(LanguageContext);
 
   return (
-    <Layout language={language}>
+    <Layout>
       <div className="flex flex-col h-full w-full overflow-x-hidden">
         <HomeCover {...attributes} />
         <div

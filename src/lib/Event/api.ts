@@ -1,12 +1,10 @@
 import fs from "fs";
 import path from "path";
-import matter from "gray-matter";
-import yaml from "js-yaml";
-import { MyEvent, RawEvent } from "./interface";
-import { adaptRawEvent } from "./adapter";
+import { fetchMdx } from "../fetchUtils";
 import { getUrlPrefix, Language } from "../LanguageContext";
 import { EVENTS } from "../routes";
-import { fetchMdx } from "../fetchUtils";
+import { adaptRawEvent } from "./adapter";
+import { MyEvent, RawEvent } from "./interface";
 
 const contentRoot = path.join(process.cwd(), "content/events");
 

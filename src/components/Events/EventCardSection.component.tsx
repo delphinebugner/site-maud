@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 import { getEventsByYear } from "../../lib/dateUtils";
 import { MyEvent } from "../../lib/Event/interface";
 import { Language } from "../../lib/LanguageContext";

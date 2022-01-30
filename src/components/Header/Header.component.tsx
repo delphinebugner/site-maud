@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { Language, LanguageContext } from "../../lib/LanguageContext";
+import { LanguageContext } from "../../lib/LanguageContext";
 import Burger from "./Burger.component";
 import { HeaderTitle } from "./HeaderTitle.component";
 import { NavigationLinks } from "./NavigationLinks.component";

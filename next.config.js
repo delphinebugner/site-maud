@@ -1,6 +1,7 @@
+/* eslint-disable no-undef */
 module.exports = {
   pageExtensions: ["tsx"],
-  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+  webpack: (config) => {
     config.module.rules.push(
       ...[
         {

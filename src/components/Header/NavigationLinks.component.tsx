@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 import { EN, Language } from "../../lib/LanguageContext";
 import { ABOUT, RESEARCH, EVENTS, HOME, MEDIA } from "../../lib/routes";
 import { NavigationLink } from "./NavigationLink.component";

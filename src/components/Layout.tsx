@@ -1,8 +1,7 @@
 import Head from "next/head";
 import React from "react";
-import { Header } from "./Header/Header.component";
-import { Language } from "../lib/LanguageContext";
 import { MyFooter } from "../Footer/MyFooter";
+import { Header } from "./Header/Header.component";
 
 type Props = {
   children: React.ReactNode;

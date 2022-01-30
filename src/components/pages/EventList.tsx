@@ -1,3 +1,4 @@
+import React from "react";
 import { NextPage } from "next";
 import { isEventPast } from "../../lib/dateUtils";
 import { MyEvent } from "../../lib/Event/interface";
@@ -15,7 +16,7 @@ export const EventListPage: NextPage<Props> = ({ events, language }) => {
   const futureEvents = events.filter((event) => !isEventPast(event));
 
   return (
-    <Layout language={language}>
+    <Layout>
       <div className="relative">
         <RoundImage
           src="/images/182.jpg"

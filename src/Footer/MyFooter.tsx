@@ -1,4 +1,4 @@
-import { FunctionComponent, useContext } from "react";
+import React, { FunctionComponent, useContext } from "react";
 import { EN, LanguageContext } from "../lib/LanguageContext";
 
 export const MyFooter: FunctionComponent = () => {
