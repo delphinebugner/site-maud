@@ -110,11 +110,10 @@ collections:
         label: "Media"
         file: "content/pages/media.md"
         fields:
-          - label: "Gallery"
-            name: "galleryImages"
+          - label: "Videos YouTube ; la description est optionnelle ; le lien doit être en absolu, ex: https://www.youtube.com/watch?v=QaiP5TMsczw&ab_channel=EnsembleParnassoinFesta"
+            name: "videosYoutube"
             widget: "list"
-            summary: "{{fields.image}}"
-            field: { label: Image, name: image, widget: image }
+            field: { source: string, description: string }
       - name: "research"
         label: "Recherche"
         file: "content/pages/research.md"
