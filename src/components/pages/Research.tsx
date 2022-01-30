@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 import parse from "html-react-parser";
 import { Layout } from "../Layout";
-import { EN, Language } from "../../lib/language";
+import { EN, Language } from "../../lib/LanguageContext";
 import { RoundImage } from "../RoundImage";
 import React from "react";
 import ReactMarkdown from "react-markdown";

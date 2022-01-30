@@ -1,5 +1,5 @@
 import { format } from "date-fns";
-import { EN, Language } from "../lib/language";
+import { EN, Language } from "./LanguageContext";
 import { enGB, fr } from "date-fns/locale";
 import { MyEvent } from "./Event/interface";
 

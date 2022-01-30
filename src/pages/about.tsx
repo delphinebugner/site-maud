@@ -1,6 +1,6 @@
 import { GetStaticProps } from "next";
 import { About, Props as AboutProps } from "../components/pages/About";
-import { EN } from "../lib/language";
+import { EN } from "../lib/LanguageContext";
 
 export const getStaticProps: GetStaticProps<AboutProps> = async () => {
   const content = await import(`../../content/pages/about_${EN}.md`);

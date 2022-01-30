@@ -2,7 +2,7 @@ import { GetStaticProps } from "next";
 import path from "path";
 import { Research, ResearchProps } from "../components/pages/Research";
 import { fetchMdx } from "../lib/fetchUtils";
-import { EN } from "../lib/language";
+import { EN } from "../lib/LanguageContext";
 
 const language = EN;
 

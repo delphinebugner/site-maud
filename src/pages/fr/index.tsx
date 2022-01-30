@@ -1,7 +1,7 @@
 import { GetStaticProps } from "next";
 import { Home, Props as HomeProps } from "../../components/pages/Home";
 import { fetchEvents } from "../../lib/Event/api";
-import { FR } from "../../lib/language";
+import { FR } from "../../lib/LanguageContext";
 
 const language = FR;
 

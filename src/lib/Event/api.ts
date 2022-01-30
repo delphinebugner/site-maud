@@ -4,7 +4,7 @@ import matter from "gray-matter";
 import yaml from "js-yaml";
 import { MyEvent, RawEvent } from "./interface";
 import { adaptRawEvent } from "./adapter";
-import { getUrlPrefix, Language } from "../language";
+import { getUrlPrefix, Language } from "../LanguageContext";
 import { EVENTS } from "../routes";
 import { fetchMdx } from "../fetchUtils";
 
@@ -26,9 +26,6 @@ export const fetchEvents = (language: Language): MyEvent[] => {
       // Validate id string
       const id = fileName.replace(/\.md$/, "");
       if (rawEvent.id !== id) {
-        console.warn(
-          `${fileName}: id field not match with the path of its content source`
-        );
         return adaptRawEvent({ ...rawEvent, id }, language);
       }
       return adaptRawEvent(rawEvent, language);

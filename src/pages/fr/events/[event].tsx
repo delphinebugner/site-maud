@@ -1,5 +1,5 @@
 import { GetStaticPaths, GetStaticProps } from "next";
-import { FR } from "../../../lib/language";
+import { FR } from "../../../lib/LanguageContext";
 import {
   EventPage,
   Props as EventPageProps,

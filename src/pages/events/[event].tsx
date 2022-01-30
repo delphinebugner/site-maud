@@ -4,7 +4,7 @@ import {
   Props as EventPageProps,
 } from "../../components/pages/Event";
 import { fetchEvent, fetchEventsPaths } from "../../lib/Event/api";
-import { EN } from "../../lib/language";
+import { EN } from "../../lib/LanguageContext";
 
 const language = EN;
 

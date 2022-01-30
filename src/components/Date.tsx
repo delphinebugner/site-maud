@@ -1,6 +1,6 @@
 import { format, formatISO } from "date-fns";
 import React from "react";
-import { EN, Language } from "../lib/language";
+import { EN, Language } from "../lib/LanguageContext";
 import { enGB, fr } from "date-fns/locale";
 
 type Props = {

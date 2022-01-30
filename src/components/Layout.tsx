@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import { Header } from "./Header/Header.component";
-import { Language } from "../lib/language";
+import { Language } from "../lib/LanguageContext";
 import { MyFooter } from "../Footer/MyFooter";
 
 type Props = {

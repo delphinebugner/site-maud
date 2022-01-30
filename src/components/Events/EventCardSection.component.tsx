@@ -1,7 +1,7 @@
 import { FunctionComponent } from "react";
 import { getEventsByYear } from "../../lib/dateUtils";
 import { MyEvent } from "../../lib/Event/interface";
-import { Language } from "../../lib/language";
+import { Language } from "../../lib/LanguageContext";
 import { EventCardYearList } from "./EventCardYearList.component";
 
 interface EventCardListProps {

@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 import { isEventPast } from "../../lib/dateUtils";
 import { MyEvent } from "../../lib/Event/interface";
-import { EN, Language } from "../../lib/language";
+import { EN, Language } from "../../lib/LanguageContext";
 import { EventCardSection } from "../Events/EventCardSection.component";
 import { Layout } from "../Layout";
 import { RoundImage } from "../RoundImage";

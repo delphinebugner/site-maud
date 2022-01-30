@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { EN, Language } from "../lib/language";
+import { EN, Language } from "../lib/LanguageContext";
 
 interface FooterProps {
   language: Language;

@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 import Link from "next/link";
-import { getUrlPrefix, Language } from "../../lib/language";
+import { getUrlPrefix, Language } from "../../lib/LanguageContext";
 
 interface HomeButtonProps {
   className?: string;
