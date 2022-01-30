@@ -22,8 +22,8 @@ export const HomeButton: FunctionComponent<HomeButtonProps> = ({
       <a
         className={`${
           className ?? ""
-        } border-${color} text-${color} border-solid border pt-2 pb-1 px-8 rounded-full
-        cursor-pointer hover:shadow hover:opacity-80 transition-all
+        } border-${color} text-${color} border border-solid pt-2 pb-1 px-8 rounded-full bg-white
+        cursor-pointer hover:shadow transition-all duration-700
        text-2xl font-serif`}
       >
         {text}

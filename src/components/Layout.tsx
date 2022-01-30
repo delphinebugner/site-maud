@@ -12,7 +12,7 @@ export const Layout: React.FC<Props> = ({
   isTranslationAvailable = true,
 }) => {
   return (
-    <div className="relative w-full">
+    <div className="relative w-full bg-cream">
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
