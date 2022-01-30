@@ -4,7 +4,7 @@ import {
   Props as EventListProps,
 } from "../../../components/pages/EventList";
 import { fetchEvents } from "../../../lib/Event/api";
-import { FR } from "../../../lib/language";
+import { FR } from "../../../lib/LanguageContext";
 
 const language = FR;
 

@@ -1,21 +1,22 @@
+import React from "react";
 import { NextPage } from "next";
-import { Layout } from "../Layout";
-import { EN, Language } from "../../lib/language";
+import { useContext } from "react";
+import { isEventPast } from "../../lib/dateUtils";
+import { MyEvent } from "../../lib/Event/interface";
+import { EN, LanguageContext } from "../../lib/LanguageContext";
+import { ABOUT, EVENTS, RESEARCH } from "../../lib/routes";
+import { EventHomeCard } from "../Home/EventHomeCard.component";
+import { HomeButton } from "../Home/HomeButton.component";
 import { HomeCover } from "../Home/HomeCover.component";
 import { HomeSectionTitle } from "../Home/HomeSectionTitle.component";
-import { HomeButton } from "../Home/HomeButton.component";
-import { ABOUT, RESEARCH, EVENTS } from "../../lib/routes";
-import { EventHomeCard } from "../Home/EventHomeCard.component";
-import { MyEvent } from "../../lib/Event/interface";
+import { Layout } from "../Layout";
 import { RoundImage } from "../RoundImage";
-import { isEventPast } from "../../lib/dateUtils";
 
 const NUMBER_OF_CONCERTS_DISPLAYED = 3;
 
 export interface Props {
   content: { attributes: HomeAttributes };
   events: MyEvent[];
-  language: Language;
 }
 interface HomeAttributes {
   title: string;
@@ -23,10 +24,12 @@ interface HomeAttributes {
   description: string;
   image: string;
 }
-export const Home: NextPage<Props> = ({ content, language, events }) => {
+export const Home: NextPage<Props> = ({ content, events }) => {
   const { attributes } = content;
+  const { language } = useContext(LanguageContext);
+
   return (
-    <Layout language={language}>
+    <Layout>
       <div className="flex flex-col h-full w-full overflow-x-hidden">
         <HomeCover {...attributes} />
         <div

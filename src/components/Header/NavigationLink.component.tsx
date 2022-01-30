@@ -1,19 +1,14 @@
 import Link from "next/link";
-import { useRouter } from "next/router";
-import React, { FunctionComponent } from "react";
-import { getUrlPrefix, Language } from "../../lib/language";
+import React, { FunctionComponent, useContext } from "react";
+import { getUrlPrefix, LanguageContext } from "../../lib/LanguageContext";
 
 interface Props {
   label: string;
   path: string;
-  language: Language;
 }
 
-export const NavigationLink: FunctionComponent<Props> = ({
-  label,
-  path,
-  language,
-}) => {
+export const NavigationLink: FunctionComponent<Props> = ({ label, path }) => {
+  const { language } = useContext(LanguageContext);
   return (
     <Link href={`${getUrlPrefix(language)}${path}`}>
       <a

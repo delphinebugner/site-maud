@@ -1,4 +1,4 @@
-import { EN, Language } from "../language";
+import { EN, Language } from "../LanguageContext";
 import { RawEvent, MyEvent } from "./interface";
 
 export const adaptRawEvent = (

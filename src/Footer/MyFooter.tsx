@@ -1,11 +1,8 @@
-import { FunctionComponent } from "react";
-import { EN, Language } from "../lib/language";
+import React, { FunctionComponent, useContext } from "react";
+import { EN, LanguageContext } from "../lib/LanguageContext";
 
-interface FooterProps {
-  language: Language;
-}
-
-export const MyFooter: FunctionComponent<FooterProps> = ({ language }) => {
+export const MyFooter: FunctionComponent = () => {
+  const { language } = useContext(LanguageContext);
   return (
     <>
       <div className="flex flex-col items-center justify-center  myFooter">

@@ -1,11 +1,11 @@
-import { NextPage } from "next";
+import React from "react";
 import parse from "html-react-parser";
-import { Layout } from "../Layout";
-import { EN, Language } from "../../lib/language";
-import { Content } from "../../lib/types";
-import { RoundImage } from "../RoundImage";
+import { NextPage } from "next";
 import { useRouter } from "next/router";
-import { userInfo } from "node:os";
+import { EN, Language } from "../../lib/LanguageContext";
+import { Content } from "../../lib/types";
+import { Layout } from "../Layout";
+import { RoundImage } from "../RoundImage";
 
 export interface Props {
   content: Content<AboutAttributes>;
@@ -19,7 +19,7 @@ export const About: NextPage<Props> = ({ content, language }) => {
   const { attributes, html } = content;
   const { basePath } = useRouter();
   return (
-    <Layout language={language}>
+    <Layout>
       <div className="flex flex-col">
         <span
           className="text-4xl lg:text-7xl 
@@ -35,6 +35,7 @@ export const About: NextPage<Props> = ({ content, language }) => {
               href={`${basePath}/images/${attributes.cv}`}
               target="_blank"
               className="text-primary hover:text-primary-dark mt-8"
+              rel="noreferrer"
             >
               {language === EN ? "Complete CV (pdf)" : "CV complet (pdf)"}
             </a>

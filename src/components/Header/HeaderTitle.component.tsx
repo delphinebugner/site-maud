@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { FunctionComponent } from "react";
-import { getUrlPrefix, Language } from "../../lib/language";
+import { getUrlPrefix, Language } from "../../lib/LanguageContext";
 import { HOME } from "../../lib/routes";
 
 interface Props {

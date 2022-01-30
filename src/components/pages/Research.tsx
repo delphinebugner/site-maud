@@ -1,10 +1,9 @@
 import { NextPage } from "next";
-import parse from "html-react-parser";
-import { Layout } from "../Layout";
-import { EN, Language } from "../../lib/language";
-import { RoundImage } from "../RoundImage";
 import React from "react";
 import ReactMarkdown from "react-markdown";
+import { EN, Language } from "../../lib/LanguageContext";
+import { Layout } from "../Layout";
+import { RoundImage } from "../RoundImage";
 
 export interface ResearchProps {
   body: string;
@@ -13,7 +12,7 @@ export interface ResearchProps {
 
 export const Research: NextPage<ResearchProps> = ({ body, language }) => {
   return (
-    <Layout language={language}>
+    <Layout>
       <div className="flex flex-col">
         <span
           className="text-4xl lg:text-7xl 

@@ -1,3 +1,4 @@
+import React from "react";
 import config from "../../lib/config";
 import Head from "next/head";
 
