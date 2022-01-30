@@ -5,7 +5,7 @@ import { Layout } from "../Layout";
 import { Language } from "../../lib/LanguageContext";
 import { MyEvent } from "../../lib/Event/interface";
 import { formatDate } from "../../lib/dateUtils";
-import { RoundImage } from "../RoundImage";
+import { RoundImage } from "../atoms/RoundImage";
 
 export interface Props {
   event: MyEvent;

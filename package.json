@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export -o ./dist",
-    "test:lint": "eslint . --ext .js,.ts,.tsx --cache",
-    "test": "jest"
+    "lint": "eslint . --ext .js,.ts,.tsx --cache",
+    "ok": "gp -u origin HEAD && yarn tsc && yarn lint"
   },
   "dependencies": {
     "@mapbox/rehype-prism": "^0.6.0",

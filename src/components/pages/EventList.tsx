@@ -5,7 +5,7 @@ import { MyEvent } from "../../lib/Event/interface";
 import { EN, Language } from "../../lib/LanguageContext";
 import { EventCardSection } from "../Events/EventCardSection.component";
 import { Layout } from "../Layout";
-import { RoundImage } from "../RoundImage";
+import { RoundImage } from "../atoms/RoundImage";
 
 export interface Props {
   events: MyEvent[];

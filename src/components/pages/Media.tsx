@@ -1,11 +1,16 @@
 import React, { FunctionComponent } from "react";
-import ReactPlayer from "react-player/youtube";
-import { EN, Language } from "../../lib/LanguageContext";
+import { Language } from "../../lib/LanguageContext";
+import { Video } from "../atoms/Video";
 import { Layout } from "../Layout";
 
 export interface MediaContent {
-  body_fr: string;
-  body_en: string;
+  videosYoutube: Video[];
+}
+
+export interface Video {
+  src: string;
+  textEn: string;
+  textFr: string;
 }
 
 export interface Props {
@@ -13,14 +18,29 @@ export interface Props {
   language: Language;
 }
 
-export const Media: FunctionComponent<Props> = ({ content, language }) => {
+export interface Props {
+  content: MediaContent;
+  language: Language;
+}
+
+export const Media: FunctionComponent<Props> = ({ content }) => {
   return (
     <Layout>
-      <div className="p-20">
-        <span className="text-xl">
-          {language === EN ? content.body_en : content.body_fr}
-        </span>
-        <ReactPlayer url="https://www.youtube.com/watch?v=QaiP5TMsczw&ab_channel=EnsembleParnassoinFesta" />
+      <div className="p-5">
+        <p
+          className="text-4xl lg:text-7xl 
+            text-primary text-center font-serif 
+            mt-4 lg:mt-12"
+        >
+          {"Media"}
+        </p>
+        <div className="flex flex-col lg:flex-row lg:flex-wrap justify-center items-center lg:items-stretch">
+          {[...content.videosYoutube, ...content.videosYoutube].map(
+            (video, index) => (
+              <Video video={video} key={index} />
+            )
+          )}
+        </div>
       </div>
     </Layout>
   );

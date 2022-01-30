@@ -2,8 +2,8 @@ import { NextPage } from "next";
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import { EN, Language } from "../../lib/LanguageContext";
+import { RoundImage } from "../atoms/RoundImage";
 import { Layout } from "../Layout";
-import { RoundImage } from "../RoundImage";
 
 export interface ResearchProps {
   body: string;
