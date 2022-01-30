@@ -113,7 +113,19 @@ collections:
           - label: "Videos YouTube ; la description est optionnelle ; le lien doit être en absolu, ex: https://www.youtube.com/watch?v=QaiP5TMsczw&ab_channel=EnsembleParnassoinFesta"
             name: "videosYoutube"
             widget: "list"
-            field: { source: string, description: string }
+            field: { source: string, name: string }
+            fields:
+              - { label: "Source", name: "src", widget: "string" }
+              - {
+                  label: "Description en français (optionnelle)",
+                  name: "textFr",
+                  widget: "string",
+                }
+              - {
+                  label: "Description en anglais (optionnelle)",
+                  name: "textEn",
+                  widget: "string",
+                }
       - name: "research"
         label: "Recherche"
         file: "content/pages/research.md"
