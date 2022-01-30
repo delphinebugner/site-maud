@@ -6,12 +6,10 @@ import { MyFooter } from "../Footer/MyFooter";
 
 type Props = {
   children: React.ReactNode;
-  language: Language;
   isTranslationAvailable?: boolean;
 };
 export const Layout: React.FC<Props> = ({
   children,
-  language,
   isTranslationAvailable = true,
 }) => {
   return (
@@ -24,12 +22,9 @@ export const Layout: React.FC<Props> = ({
         <link rel="shortcut icon" href="/icon20.png" />
         <meta name="theme-color" content="#fff" />
       </Head>
-      <Header
-        language={language}
-        isTranslationAvailable={isTranslationAvailable}
-      />
+      <Header isTranslationAvailable={isTranslationAvailable} />
       <div>{children}</div>
-      <MyFooter language={language} />
+      <MyFooter />
     </div>
   );
 };

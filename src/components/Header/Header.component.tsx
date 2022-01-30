@@ -1,18 +1,15 @@
-import React, { useState } from "react";
-import { Language } from "../../lib/LanguageContext";
+import React, { useContext, useState } from "react";
+import { Language, LanguageContext } from "../../lib/LanguageContext";
 import Burger from "./Burger.component";
 import { HeaderTitle } from "./HeaderTitle.component";
 import { NavigationLinks } from "./NavigationLinks.component";
 
 interface Props {
-  language: Language;
   isTranslationAvailable: boolean;
 }
 
-export const Header: React.FC<Props> = ({
-  language,
-  isTranslationAvailable,
-}) => {
+export const Header: React.FC<Props> = ({ isTranslationAvailable }) => {
+  const { language } = useContext(LanguageContext);
   const [isBurgerActive, setBurgerActive] = useState(false);
   return (
     <>

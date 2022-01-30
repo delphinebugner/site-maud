@@ -1,11 +1,10 @@
-import { NextPage } from "next";
 import parse from "html-react-parser";
-import { Layout } from "../Layout";
+import { NextPage } from "next";
+import { useRouter } from "next/router";
 import { EN, Language } from "../../lib/LanguageContext";
 import { Content } from "../../lib/types";
+import { Layout } from "../Layout";
 import { RoundImage } from "../RoundImage";
-import { useRouter } from "next/router";
-import { userInfo } from "node:os";
 
 export interface Props {
   content: Content<AboutAttributes>;
@@ -19,7 +18,7 @@ export const About: NextPage<Props> = ({ content, language }) => {
   const { attributes, html } = content;
   const { basePath } = useRouter();
   return (
-    <Layout language={language}>
+    <Layout>
       <div className="flex flex-col">
         <span
           className="text-4xl lg:text-7xl 
