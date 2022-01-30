@@ -10,7 +10,7 @@ import { HomeButton } from "../Home/HomeButton.component";
 import { HomeCover } from "../Home/HomeCover.component";
 import { HomeSectionTitle } from "../Home/HomeSectionTitle.component";
 import { Layout } from "../Layout";
-import { RoundImage } from "../RoundImage";
+import { RoundImage } from "../atoms/RoundImage";
 
 const NUMBER_OF_CONCERTS_DISPLAYED = 3;
 

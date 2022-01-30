@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import { EN, Language } from "../../lib/LanguageContext";
 import { Content } from "../../lib/types";
 import { Layout } from "../Layout";
-import { RoundImage } from "../RoundImage";
+import { RoundImage } from "../atoms/RoundImage";
 
 export interface Props {
   content: Content<AboutAttributes>;
