@@ -22,7 +22,7 @@ export const EventCard: FunctionComponent<EventCardProps> = ({
         className="rounded-full bg-white w-full
         border-primary border-solid border
         p-4 lg:p-6 mb-4 lg:mb-8
-        cursor-pointer hover:shadow-md transition-all
+        cursor-pointer hover:shadow-md transition-all duration-700
         flex items-center"
       >
         <div

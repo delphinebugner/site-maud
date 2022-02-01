@@ -35,11 +35,9 @@ export const Media: FunctionComponent<Props> = ({ content }) => {
           {"Media"}
         </p>
         <div className="flex flex-col lg:flex-row lg:flex-wrap justify-center items-center lg:items-stretch">
-          {[...content.videosYoutube, ...content.videosYoutube].map(
-            (video, index) => (
-              <Video video={video} key={index} />
-            )
-          )}
+          {content.videosYoutube.map((video, index) => (
+            <Video video={video} key={index} />
+          ))}
         </div>
       </div>
     </Layout>

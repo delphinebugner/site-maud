@@ -41,6 +41,7 @@ module.exports = {
         secondary: "#312E81",
         sand: "#7b756d",
         gray: { DEFAULT: "#4B5563", dark: "#374151" },
+        cream: "#fffcf8",
       },
       fontFamily: {
         serif: ["Bellefair", "ui-serif", "Georgia"],

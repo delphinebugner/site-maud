@@ -30,20 +30,22 @@ export const Home: NextPage<Props> = ({ content, events }) => {
 
   return (
     <Layout>
-      <div className="flex flex-col h-full w-full overflow-x-hidden">
+      <div className="flex flex-col h-full w-full overflow-x-hidden text-gray">
         <HomeCover {...attributes} />
         <div
           className="flex lg:flex-row flex-col items-center
           p-4 lg:p-10 overflow-x-hidden"
         >
           <div className="flex flex-col justify-center items-center flex-1">
-            <p className="font-serif text-4xl">{attributes.subtitle}</p>
+            <p className="font-serif text-4xl text-gray-dark">
+              {attributes.subtitle}
+            </p>
             <p className="m-4 lg:mx-24 lg:my-12">{attributes.description}</p>
             <HomeButton
               text={language === EN ? "Read more" : "En savoir plus..."}
               language={language}
               path={ABOUT}
-              color="black"
+              color="gray"
             />
           </div>
           <RoundImage

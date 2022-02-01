@@ -12,7 +12,7 @@ export const NavigationLink: FunctionComponent<Props> = ({ label, path }) => {
   return (
     <Link href={`${getUrlPrefix(language)}${path}`}>
       <a
-        className={`ml-7 text-sand hover:text-primary transition-color duration-300`}
+        className={`ml-7 text-secondary hover:text-primary transition-color duration-300`}
       >
         {label}
       </a>
