@@ -2,7 +2,7 @@
 id: Concert Royal Correspondances 19/06
 name_fr: Concert Royal de la Nuit - Ensemble Correspondances
 name_en: Concert Royal de la Nuit - Ensemble Correspondances
-place: Bozar, Palais des Beaux-Arts (Brussel, Belgium)
+place: Teatro Real (Madrid, Spain)
 date: 2022-06-19
 hour: 18:00
 body_fr: >-
