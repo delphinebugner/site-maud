@@ -9,7 +9,7 @@ import { LanguageProvider } from "../lib/LanguageContext";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <LanguageProvider>
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </LanguageProvider>
   );
 }
