@@ -7,17 +7,25 @@ videosYoutube:
       di Gericho (1719)"
   - src: https://youtu.be/5gfb0NVtrL4
     textFr: Purcell - The plaint (Oh let me weep), from The Fairy Queen
+    textEn: Purcell - The plaint (Oh let me weep), from The Fairy Queen
   - src: https://youtu.be/bCmp1FqU4IA
     textFr: "Haendel - Lusinghe più care (from the opera : Alessandro)"
+    textEn: "Haendel - Lusinghe più care (from the opera : Alessandro)"
   - src: https://youtu.be/ikCV08rD738
     textFr: Die Seele ruht in Jesu Händen From the cantata "Herr Jesu Christ, wahr'
+      Mensch und Gott" (BWV 127)
+    textEn: Die Seele ruht in Jesu Händen From the cantata "Herr Jesu Christ, wahr'
       Mensch und Gott" (BWV 127)
   - src: https://youtu.be/bEKmE43B8f0
     textFr: |-
       Li douz pensers et li douz souvenir\
       Chanson de croisade de Thibaut de Champagne (XIIIe siècle)
+    textEn: |-
+      Li douz pensers et li douz souvenir\
+      Chanson de croisade de Thibaut de Champagne (XIIIe siècle)
   - src: https://www.youtube.com/watch?v=QaiP5TMsczw&ab_channel=EnsembleParnassoinFesta
-    textFr: ""
+    textFr: Nicola Porpora  Recitativo and aria Usa tu l'armi d'amore from Porporas
+      Serenata "Deianira, Iole ed Ercole" (Naples, 1711).
     textEn: "Nicola Porpora  Recitativo and aria Usa tu l'armi d'amore from Porporas
       Serenata \"Deianira, Iole ed Ercole\" (Naples, 1711). "
 ---
