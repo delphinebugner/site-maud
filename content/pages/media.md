@@ -16,4 +16,6 @@ videosYoutube:
   - src: https://youtu.be/ikCV08rD738
     textFr: Die Seele ruht in Jesu Händen From the cantata "Herr Jesu Christ, wahr'
       Mensch und Gott" (BWV 127)
+  - src: https://youtu.be/bCmp1FqU4IA
+    textFr: "Haendel - Lusinghe più care (from the opera : Alessandro)"
 ---
