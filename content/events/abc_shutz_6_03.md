@@ -4,7 +4,7 @@ name_fr: Heinrich Schütz - Amsterdam Baroque Choir
 name_en: Heinrich Schütz - Amsterdam Baroque Choir
 place: Musiekgebouw Amsterdam (Netherlands)
 date: 2022-03-06
-hour: 18:00
+hour: 20:00
 body_fr: |-
   Programme : 
 
