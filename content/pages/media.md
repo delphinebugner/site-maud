@@ -13,4 +13,7 @@ videosYoutube:
     textFr: |-
       Li douz pensers et li douz souvenir\
       Chanson de croisade de Thibaut de Champagne (XIIIe siècle)
+  - src: https://youtu.be/ikCV08rD738
+    textFr: Die Seele ruht in Jesu Händen From the cantata "Herr Jesu Christ, wahr'
+      Mensch und Gott" (BWV 127)
 ---
