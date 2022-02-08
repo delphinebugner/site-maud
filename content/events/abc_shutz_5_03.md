@@ -1,7 +1,7 @@
 ---
 id: ABC Shütz 5/03
-name_fr: Heinrich Schütz - Amsterdam Baroque Choir
-name_en: Heinrich Schütz - Amsterdam Baroque Choir
+name_fr: ANNULE Heinrich Schütz - Amsterdam Baroque Choir
+name_en: CANCELLED Heinrich Schütz - Amsterdam Baroque Choir
 place: Grote Kerk Zwolle (Netherlands)
 date: 2022-03-05
 hour: 18:00
