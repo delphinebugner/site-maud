@@ -18,4 +18,6 @@ videosYoutube:
       Mensch und Gott" (BWV 127)
   - src: https://youtu.be/bCmp1FqU4IA
     textFr: "Haendel - Lusinghe più care (from the opera : Alessandro)"
+  - src: https://youtu.be/5gfb0NVtrL4
+    textFr: Purcell - The plaint (Oh let me weep), from The Fairy Queen
 ---
