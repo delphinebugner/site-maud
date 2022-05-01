@@ -28,4 +28,30 @@ videosYoutube:
       Serenata "Deianira, Iole ed Ercole" (Naples, 1711).
     textEn: "Nicola Porpora  Recitativo and aria Usa tu l'armi d'amore from Porporas
       Serenata \"Deianira, Iole ed Ercole\" (Naples, 1711). "
+  - src: https://youtube.com/watch?v=zByjUrDbocY&feature=youtu:be
+    textFr: >-
+      Teaser du spectacle : **Trois Anneaux, et autres nouvelles
+      Décaméronesques** dont la première sera donnée à l'Abbaye de Royaumont le
+      1 octobre 2022. 
+
+
+      Sylvie Mombo : Conteuse\
+
+      Sara Maria Fantini : Luthiste\
+
+      Valentine Lorentz : Vièle à archet et flûte à bec \
+
+      Maud Haering : Chant
+    textEn: >-
+      Teaser of the show : **Three Rings, and other Decameronian stories** which
+      will premiere at the Abbaye de Royaumont on 1 October 2022. 
+
+
+      Sylvie Mombo : Conteuse
+
+      Sara Maria Fantini : Lutenist
+
+      Valentine Lorentz : Fiddle and recorder
+
+      Maud Haering : Voice
 ---
