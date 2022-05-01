@@ -1,5 +1,5 @@
 ---
-id: Decameron scolaire 03/10
+id: Decameron scolaire 03/10 (1)
 name_fr: Trois Anneaux et autres nouvelles décaméronesques
 name_en: "Three Rings, and other Decameronian stories "
 place: Abbaye de Royaumont (Asnières-sur-Oise, France)
