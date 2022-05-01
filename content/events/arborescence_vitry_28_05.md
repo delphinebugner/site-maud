@@ -36,9 +36,9 @@ body_fr: >-
 
   [Marthe Davost](https://marthedavost.fr)\
 
-  Hélène Richaud\
-
   Maud Haering\
+
+  Eugénie de Mey\
 
   Lionel Desmeules\
 
@@ -83,13 +83,13 @@ body_en: >-
 
   [Marthe Davost](https://marthedavost.fr)\
 
-  Hélène Richaud
+  Maud Haering\
 
-  Maud Haering
+  Eugénie de Mey\
 
-  Lionel Desmeules
+  Lionel Desmeules\
 
-  Benjamin Ingrao
+  Benjamin Ingrao\
 
   Mauricio Montufar
 
