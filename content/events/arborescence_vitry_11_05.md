@@ -3,8 +3,8 @@ id: Arborescence Vitry 11/05
 name_fr: Douce Playsence - Ensemble Arborescence
 name_en: Douce Playsence - Ensemble Arborescence
 place: Abbaye de Fondfroide (Narbonne, France)
-date: 2022-05-11
-hour: 16:00
+date: 2022-05-10
+hour: 18:30
 body_fr: >-
   *Lugentium siccentur oculi,\
 
