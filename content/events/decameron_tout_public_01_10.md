@@ -1,7 +1,7 @@
 ---
 id: Decameron tout public 01/10
 name_fr: Trois Anneaux et autres nouvelles décaméronesques
-name_en: "Three Rings, and other Decameronian stories "
+name_en: Trois Anneaux et autres nouvelles décaméronesques
 place: Abbaye de Royaumont (Asnières-sur-Oise, France)
 date: 2022-10-01
 hour: 15:00
