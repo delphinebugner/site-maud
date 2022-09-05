@@ -1,7 +1,7 @@
 ---
-id: Tournée Vélo Correspondances 6
-name_fr: La voix des Anges
-name_en: Angels' voices
+id: Correspondances Tournée Vélo 6
+name_fr: La voix des Anges - Ensemble Correspondances (Tournée à vélo)
+name_en: Angels' voices - Ensemble Correspondances (bike tour)
 place: Eglise de la Madeleine, Verneuil-Sur-Avre
 date: 2022-07-27
 hour: 20:30
