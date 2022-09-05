@@ -1,5 +1,5 @@
 ---
-id: Tournée Vélo Correspondances 2
+id: Correspondances Tournée Vélo 2
 name_fr: La voix des Anges - Ensemble Correspondances (Tournée à vélo)
 name_en: Angels' voices - Ensemble Correspondances (bike tour)
 place: Prieuré de Noron l'Abbaye
