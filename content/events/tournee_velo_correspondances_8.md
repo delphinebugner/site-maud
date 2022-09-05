@@ -1,7 +1,7 @@
 ---
-id: Tournée Vélo Correspondances 8
-name_fr: La voix des Anges
-name_en: Angels' voices
+id: Correspondances Tournée Vélo 8
+name_fr: La voix des Anges - Ensemble Correspondances (Tournée à vélo)
+name_en: Angels' voices - Ensemble Correspondances (bike tour)
 place: Eglise Saint-Sauveur, Les Andelys
 date: 2022-07-30
 hour: 20:30
