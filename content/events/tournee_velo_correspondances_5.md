@@ -1,7 +1,7 @@
 ---
-id: Tournée Vélo Correspondances 5
-name_fr: La voix des Anges
-name_en: Angels' voices
+id: Correspondances Tournée Vélo 5
+name_fr: La voix des Anges - Ensemble Correspondances (Tournée à vélo)
+name_en: Angels' voices - Ensemble Correspondances (bike tour)
 place: Eglise Saint-Sulpice, La Goulafrière
 date: 2022-07-26
 hour: 19:30
