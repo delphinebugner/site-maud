@@ -1,7 +1,7 @@
 ---
 id: Tournée Vélo Correspondances 1
-name_fr: La voix des Anges
-name_en: Angels' voices
+name_fr: La voix des Anges - Ensemble Correspondances (Tournée à vélo)
+name_en: Angels' voices - Ensemble Correspondances (bike tour)
 place: Médiathèque de Falaise
 date: 2022-07-23
 hour: 14:30
