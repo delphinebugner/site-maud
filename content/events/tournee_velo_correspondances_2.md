@@ -1,7 +1,7 @@
 ---
 id: Tournée Vélo Correspondances 2
-name_fr: La voix des Anges
-name_en: Angels' voices
+name_fr: La voix des Anges - Ensemble Correspondances (Tournée à vélo)
+name_en: Angels' voices - Ensemble Correspondances (bike tour)
 place: Prieuré de Noron l'Abbaye
 date: 2022-07-23
 hour: 20:30
