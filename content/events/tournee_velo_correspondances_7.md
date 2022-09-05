@@ -1,7 +1,7 @@
 ---
-id: Tournée Vélo Correspondances 7
-name_fr: La voix des Anges
-name_en: Angels' voices
+id: Correspondances Tournée Vélo 7
+name_fr: La voix des Anges - Ensemble Correspondances (Tournée à vélo)
+name_en: Angels' voices - Ensemble Correspondances (bike tour)
 place: Collégiale Notre-Dame, Vernon
 date: 2022-07-29
 hour: 20:30
