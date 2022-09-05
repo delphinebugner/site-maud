@@ -2,7 +2,7 @@
 id: Tournée Vélo Correspondances 3
 name_fr: La voix des Anges
 name_en: Angels' voices
-place: Eglise de Saint Geroges en Auge
+place: Eglise de Saint Georges en Auge
 date: 2022-07-24
 hour: 15:30
 body_fr: >-
