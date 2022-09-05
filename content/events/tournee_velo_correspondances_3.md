@@ -1,7 +1,7 @@
 ---
-id: Tournée Vélo Correspondances 3
-name_fr: La voix des Anges
-name_en: Angels' voices
+id: Correspondances Tournée Vélo 3
+name_fr: La voix des Anges - Ensemble Correspondances (Tournée à vélo)
+name_en: Angels' voices - Ensemble Correspondances (bike tour)
 place: Eglise de Saint Georges en Auge
 date: 2022-07-24
 hour: 15:30
