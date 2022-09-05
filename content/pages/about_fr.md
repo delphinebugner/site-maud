@@ -1,5 +1,5 @@
 ---
-cv: public/images/maud_haering_-_cv.pdf
+cv: maud_haering_-_cv.pdf
 ---
 Applaudie pour son interprétation du rôle d'Iole lors de la première française de la sérénade « Deianira, Iole ed Ercole » de Nicola Porpora, la soprano française Maud Haering compte déjà à son actif un grand nombre de concerts en France et à travers l’Europe. Avec l’ensemble *Parnasso in Festa*, dont elle est membre fondateur, elle fait découvrir aux public normand et girondin cette sérénade oubliée lors des festivals *Flam’* et des *Musicales du Bocage*. La jeune soprano interprète ensuite à La Haye (Pays-Bas) en février 2020 la cantate BWV 51 « Jauchzet Gott in allen Landen » dans le cadre des *Early Music Open Stage* du Koninklijk Conservatorium. On a pu également l’entendre à Salzbourg (Autriche) en juillet 2019 dans la Bösendorfersaal du Mozarteum où elle chante Handel. Elle a également interprété des cantates de Ariosti et Bononcini à Bâle, Berne (Suisse) et Mulhouse avec l’ensemble baroque *Ignis Musicalis* en juin et septembre 2018, et s’est aussi produite en juin 2018 à Lille avec l’ensemble *Parnasso in Festa* dans le motet « In Furore » de A. Vivaldi.
 
