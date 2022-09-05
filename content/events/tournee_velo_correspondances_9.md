@@ -1,7 +1,7 @@
 ---
-id: Tournée Vélo Correspondances 9
-name_fr: La voix des Anges
-name_en: Angels' voices
+id: Correspondances Tournée Vélo 9
+name_fr: La voix des Anges - Ensemble Correspondances (Tournée à vélo)
+name_en: Angels' voices - Ensemble Correspondances (bike tour)
 place: Collégiale Saint-Hildevert, Gournay-en-Bray
 date: 2022-07-31
 hour: 16:00
