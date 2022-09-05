@@ -1,5 +1,5 @@
 ---
-id: Tournée Vélo Correspondances 1
+id: Correspondances Tournée Vélo 1
 name_fr: La voix des Anges - Ensemble Correspondances (Tournée à vélo)
 name_en: Angels' voices - Ensemble Correspondances (bike tour)
 place: Médiathèque de Falaise
