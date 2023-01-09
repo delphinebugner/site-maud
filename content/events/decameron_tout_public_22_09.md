@@ -1,9 +1,9 @@
 ---
-id: Decameron tout public 22/09
+id: Decameron tout public 15/03
 name_fr: Trois Anneaux et autres nouvelles décaméronesques
 name_en: Trois Anneaux et autres nouvelles décaméronesques
-place: " Cinéma REX (La Réole, France)"
-date: 2023-09-22
+place: Auditorium du conservatoire (Portovecchio, France)
+date: 2023-03-15
 hour: 15:00
 body_fr: >-
   Un spectacle qui emporte loin et il y a longtemps
