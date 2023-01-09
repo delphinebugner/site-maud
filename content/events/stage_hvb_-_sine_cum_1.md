@@ -19,7 +19,7 @@ body_fr: >-
 
   4-5 février \
 
-  12-13 mai\
+  13-14 mai\
 
   16-17 septembre 
 
@@ -41,7 +41,7 @@ body_en: >-
 
   4-5 February
 
-  12-13 May
+  13-14 May
 
   16-17 September
 
