@@ -2,7 +2,7 @@
 id: Palin(e) Vipère en Cuer Vallée de Joux 26/02
 name_fr: Une Vipère en Cuer - Ensemble Palin(e)
 name_en: Une Vipère en Cuer - Ensemble Palin(e)
-place: Chapelle du centre diocésain (Besançon, France)
+place: Vallée de Joux, Suisse
 date: 2023-02-26
 hour: 17:30
 body_fr: >-
