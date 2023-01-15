@@ -10,7 +10,7 @@ interface HomeButtonProps {
   color: string;
 }
 
-export const HomeButton: FunctionComponent<HomeButtonProps> = ({
+export const Button: FunctionComponent<HomeButtonProps> = ({
   className,
   language,
   text,
