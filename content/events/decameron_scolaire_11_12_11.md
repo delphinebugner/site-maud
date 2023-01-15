@@ -3,7 +3,7 @@ id: Decameron scolaire 11/12 (11)
 name_fr: Trois Anneaux et autres nouvelles décaméronesques
 name_en: Trois Anneaux et autres nouvelles décaméronesques
 place: Gonesse, France
-date: 2023-12-11
+date: 2023-11-20
 hour: 10:30
 body_fr: >-
   Un spectacle qui emporte loin et il y a longtemps
