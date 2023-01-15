@@ -1,13 +1,11 @@
-import React, { FunctionComponent, useMemo, useState } from "react";
-import { getEventsByYear } from "../../lib/dateUtils";
+import React, { FunctionComponent } from "react";
 import { MyEvent } from "../../lib/Event/interface";
 import { Language } from "../../lib/LanguageContext";
 import { useTranslation } from "../../translations/useTranslations";
 import { Button } from "../atoms/Button";
 import { Spacer } from "../atoms/Spacer";
 import { EventCardYearList } from "./EventCardYearList.component";
-
-const EVENTS_PER_PAGE = 10;
+import { useEventCardPaginated } from "./hooks/useEventCardPaginated";
 
 interface EventCardListProps {
   events: MyEvent[];
@@ -23,23 +21,9 @@ export const EventCardSection: FunctionComponent<EventCardListProps> = ({
   isInThePast = false,
 }) => {
   const { t } = useTranslation();
-  const [currentPage, setCurrentPage] = useState(0);
 
-  const displayedEvents = useMemo(() => {
-    if (isInThePast) {
-      events.reverse();
-    }
-    return events.slice(
-      currentPage * EVENTS_PER_PAGE,
-      (currentPage + 1) * EVENTS_PER_PAGE
-    );
-  }, [events, currentPage]);
-
-  const eventsByYear = getEventsByYear(displayedEvents);
-  const allYears = Object.keys(eventsByYear).sort();
-  if (isInThePast) {
-    allYears.reverse();
-  }
+  const { allYears, eventsByYear, displayNextBatch, displayPreviousBatch } =
+    useEventCardPaginated(events, isInThePast);
 
   return (
     <div className="flex flex-col mb-4">
@@ -65,15 +49,17 @@ export const EventCardSection: FunctionComponent<EventCardListProps> = ({
         <Button
           text={t.displayPreviousPage}
           color="secondary"
-          onPress={() => setCurrentPage((preivousPage) => preivousPage - 1)}
+          onPress={displayPreviousBatch}
           className="w-60"
+          disabled={!displayPreviousBatch}
         />
         <Spacer w={4} />
         <Button
           text={t.displayNextPage}
           color="secondary"
-          onPress={() => setCurrentPage((preivousPage) => preivousPage + 1)}
+          onPress={displayNextBatch}
           className="w-60"
+          disabled={!displayNextBatch}
         />
       </div>
     </div>

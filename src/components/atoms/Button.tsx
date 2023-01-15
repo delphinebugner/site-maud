@@ -1,7 +1,6 @@
 import React, { FunctionComponent, useContext } from "react";
 import Link from "next/link";
 import { getUrlPrefix, LanguageContext } from "../../lib/LanguageContext";
-import { cpuUsage } from "process";
 
 interface HomeButtonProps {
   className?: string;
@@ -9,6 +8,7 @@ interface HomeButtonProps {
   path?: string;
   color: string;
   onPress?: () => void;
+  disabled?: boolean;
 }
 
 export const Button: FunctionComponent<HomeButtonProps> = ({
@@ -17,15 +17,24 @@ export const Button: FunctionComponent<HomeButtonProps> = ({
   path,
   color,
   onPress,
+  disabled = false,
 }) => {
   const { language } = useContext(LanguageContext);
   const isLink = path !== undefined;
 
+  const buttonColor = disabled ? "sand" : color;
+  const cursor = disabled ? "cursor-default" : "cursor-pointer";
+  const hover = disabled ? "" : "hover:shadow transition-all duration-500";
+
   const style = `${
     className ?? ""
-  } border-${color} text-${color} border border-solid pt-2 pb-1 px-8 rounded-full bg-white text-center
-  cursor-pointer hover:shadow transition-all duration-700
+  } border-${buttonColor} text-${buttonColor} border border-solid pt-2 pb-1 px-8 rounded-full bg-white text-center
+  ${cursor} ${hover}
  text-2xl font-serif`;
+
+  if (disabled) {
+    return <div className={style}>{text}</div>;
+  }
 
   if (isLink) {
     return (
