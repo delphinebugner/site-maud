@@ -3,7 +3,7 @@ id: Stage HvB - Sine cum (1)
 name_fr: "Stage découverte de la musique de Hildegard von Bingen "
 name_en: "Stage découverte de la musique de Hildegard von Bingen "
 place: Corbeil-Essonnes, France
-date: 2023-03-04
+date: 2023-02-04
 hour: 10:00
 body_fr: >-
   Ces trois sessions de deux jours de chant autour de 7 pièces de
