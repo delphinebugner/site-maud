@@ -6,6 +6,9 @@ import { EN, Language } from "../../lib/LanguageContext";
 import { EventCardSection } from "../Events/EventCardSection.component";
 import { Layout } from "../Layout";
 import { RoundImage } from "../atoms/RoundImage";
+import { Button } from "../atoms/Button";
+import { EVENTS, PAST_EVENTS } from "../../lib/routes";
+import { useTranslation } from "../../translations/useTranslations";
 
 export interface Props {
   events: MyEvent[];
@@ -19,6 +22,8 @@ export const EventListPage: NextPage<Props> = ({
 }) => {
   const pastEvents = events.filter(isEventPast);
   const futureEvents = events.filter((event) => !isEventPast(event));
+
+  const { t } = useTranslation();
 
   return (
     <Layout>
@@ -49,6 +54,13 @@ export const EventListPage: NextPage<Props> = ({
             isInThePast
           />
         )}
+      </div>
+      <div className="flex justify-center py-4">
+        <Button
+          text={isInThePast ? t.goToNextConcert : t.goToPastConcert}
+          path={isInThePast ? EVENTS : PAST_EVENTS}
+          color="primary"
+        />
       </div>
     </Layout>
   );
