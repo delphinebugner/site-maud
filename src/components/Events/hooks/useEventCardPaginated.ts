@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { getEventsByYear } from "../../../lib/dateUtils";
 import { MyEvent } from "../../../lib/Event/interface";
+import { scrollToTop } from "../../../lib/windowUtils";
 
 const EVENTS_PER_PAGE = 10;
 
@@ -31,11 +32,19 @@ export const useEventCardPaginated = (
 
   const displayNextBatch =
     currentBatch < nbOfBatch - 1
-      ? () => setCurrentBatch(currentBatch + 1)
+      ? () => {
+          scrollToTop();
+          setCurrentBatch(currentBatch + 1);
+        }
       : undefined;
 
   const displayPreviousBatch =
-    currentBatch > 0 ? () => setCurrentBatch(currentBatch - 1) : undefined;
+    currentBatch > 0
+      ? () => {
+          scrollToTop();
+          setCurrentBatch(currentBatch - 1);
+        }
+      : undefined;
 
   const paginationLabel = `Page ${currentBatch + 1} / ${nbOfBatch}`;
 
