@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import React, { FunctionComponent, memo } from "react";
 import { formatDate } from "../../lib/dateUtils";
 import { MyEvent } from "../../lib/Event/interface";
 import { getUrlPrefix, Language } from "../../lib/LanguageContext";
@@ -8,7 +8,7 @@ import { EVENTS } from "../../lib/routes";
 interface EventCardProps extends MyEvent {
   language: Language;
 }
-export const EventCard: FunctionComponent<EventCardProps> = ({
+const EventCardUnmemoized: FunctionComponent<EventCardProps> = ({
   language,
   name,
   place,
@@ -55,3 +55,5 @@ export const EventCard: FunctionComponent<EventCardProps> = ({
     </Link>
   );
 };
+
+export const EventCard = memo(EventCardUnmemoized);

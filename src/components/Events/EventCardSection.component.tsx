@@ -1,8 +1,13 @@
-import React, { FunctionComponent } from "react";
+import React, { FunctionComponent, useMemo, useState } from "react";
 import { getEventsByYear } from "../../lib/dateUtils";
 import { MyEvent } from "../../lib/Event/interface";
 import { Language } from "../../lib/LanguageContext";
+import { useTranslation } from "../../translations/useTranslations";
+import { Button } from "../atoms/Button";
+import { Spacer } from "../atoms/Spacer";
 import { EventCardYearList } from "./EventCardYearList.component";
+
+const EVENTS_PER_PAGE = 10;
 
 interface EventCardListProps {
   events: MyEvent[];
@@ -17,11 +22,20 @@ export const EventCardSection: FunctionComponent<EventCardListProps> = ({
   title,
   isInThePast = false,
 }) => {
-  if (isInThePast) {
-    events.reverse();
-  }
-  const eventsByYear = getEventsByYear(events);
+  const { t } = useTranslation();
+  const [currentPage, setCurrentPage] = useState(0);
 
+  const displayedEvents = useMemo(() => {
+    if (isInThePast) {
+      events.reverse();
+    }
+    return events.slice(
+      currentPage * EVENTS_PER_PAGE,
+      (currentPage + 1) * EVENTS_PER_PAGE
+    );
+  }, [events, currentPage]);
+
+  const eventsByYear = getEventsByYear(displayedEvents);
   const allYears = Object.keys(eventsByYear).sort();
   if (isInThePast) {
     allYears.reverse();
@@ -47,6 +61,21 @@ export const EventCardSection: FunctionComponent<EventCardListProps> = ({
           language={language}
         />
       ))}
+      <div className="flex justify-center py-8">
+        <Button
+          text={t.displayPreviousPage}
+          color="secondary"
+          onPress={() => setCurrentPage((preivousPage) => preivousPage - 1)}
+          className="w-60"
+        />
+        <Spacer w={4} />
+        <Button
+          text={t.displayNextPage}
+          color="secondary"
+          onPress={() => setCurrentPage((preivousPage) => preivousPage + 1)}
+          className="w-60"
+        />
+      </div>
     </div>
   );
 };

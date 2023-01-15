@@ -55,7 +55,7 @@ export const EventListPage: NextPage<Props> = ({
           />
         )}
       </div>
-      <div className="flex justify-center py-4">
+      <div className="flex justify-center py-8">
         <Button
           text={isInThePast ? t.goToNextConcert : t.goToPastConcert}
           path={isInThePast ? EVENTS : PAST_EVENTS}

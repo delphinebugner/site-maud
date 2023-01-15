@@ -1,16 +1,24 @@
 import { useContext } from "react";
 import { LanguageContext } from "../lib/LanguageContext";
 
-type keys = "goToNextConcert" | "goToPastConcert";
+type keys =
+  | "goToNextConcert"
+  | "goToPastConcert"
+  | "displayPreviousPage"
+  | "displayNextPage";
 
 const translationsEn: Record<keys, string> = {
   goToPastConcert: "Display Past Concerts",
-  goToNextConcert: "Display Future Concerts",
+  goToNextConcert: "Display Incoming Concerts",
+  displayNextPage: "Next >",
+  displayPreviousPage: "< Previous",
 };
 
 const translationsFr: Record<keys, string> = {
   goToNextConcert: "Voir les prochains concerts",
   goToPastConcert: "Voir les concerts passés",
+  displayNextPage: "Suivant >",
+  displayPreviousPage: "< Précédent",
 };
 
 export const useTranslation = () => {
