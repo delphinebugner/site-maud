@@ -2,7 +2,7 @@
 id: Decameron scolaire 16/03 (9)
 name_fr: Trois Anneaux et autres nouvelles décaméronesques
 name_en: Trois Anneaux et autres nouvelles décaméronesques
-place: Conservatoire (Portovecchio, Corse, France)
+place: Auditorium du conservatoire (Portovecchio, Corse, France)
 date: 2023-03-16
 hour: 14:30
 body_fr: >-
