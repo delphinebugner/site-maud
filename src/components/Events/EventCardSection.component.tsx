@@ -26,11 +26,19 @@ export const EventCardSection: FunctionComponent<EventCardListProps> = ({
   if (isInThePast) {
     allYears.reverse();
   }
+
   return (
     <div className="flex flex-col mb-4">
       <p className="font-serif text-4xl lg:text-6xl text-primary my-4 lg:my-8 self-center">
         {title}
       </p>
+      {!isInThePast && events.length === 0 && (
+        <p className="text-secondary lg:text-xl font-medium text-center py-40">
+          {language === "en"
+            ? "Agenda in progress!"
+            : "Agenda en construction !"}
+        </p>
+      )}
       {allYears.map((year, i) => (
         <EventCardYearList
           year={year}
