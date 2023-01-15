@@ -22,8 +22,13 @@ export const EventCardSection: FunctionComponent<EventCardListProps> = ({
 }) => {
   const { t } = useTranslation();
 
-  const { allYears, eventsByYear, displayNextBatch, displayPreviousBatch } =
-    useEventCardPaginated(events, isInThePast);
+  const {
+    allYears,
+    eventsByYear,
+    displayNextBatch,
+    displayPreviousBatch,
+    paginationLabel,
+  } = useEventCardPaginated(events, isInThePast);
 
   return (
     <div className="flex flex-col mb-4">
@@ -62,6 +67,7 @@ export const EventCardSection: FunctionComponent<EventCardListProps> = ({
           disabled={!displayNextBatch}
         />
       </div>
+      <p className="text-center text-secondary">{paginationLabel}</p>
     </div>
   );
 };

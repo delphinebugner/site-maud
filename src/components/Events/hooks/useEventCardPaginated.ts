@@ -37,5 +37,13 @@ export const useEventCardPaginated = (
   const displayPreviousBatch =
     currentBatch > 0 ? () => setCurrentBatch(currentBatch - 1) : undefined;
 
-  return { eventsByYear, allYears, displayNextBatch, displayPreviousBatch };
+  const paginationLabel = `Page ${currentBatch + 1} / ${nbOfBatch}`;
+
+  return {
+    eventsByYear,
+    allYears,
+    displayNextBatch,
+    displayPreviousBatch,
+    paginationLabel,
+  };
 };
