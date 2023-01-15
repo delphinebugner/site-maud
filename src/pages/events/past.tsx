@@ -10,6 +10,6 @@ const language = EN;
 
 export const getStaticProps: GetStaticProps<EventListProps> = async () => {
   const events = fetchEvents(language);
-  return { props: { language, events, isInThePast: false } };
+  return { props: { language, events, isInThePast: true } };
 };
 export default EventListPage;

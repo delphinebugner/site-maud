@@ -25,7 +25,7 @@ export const NavigationLinks: FunctionComponent<NavigationLinksProps> = ({
         path={ABOUT}
         label={language === EN ? "Biography" : "Biographie"}
       />
-      <NavigationLink path={EVENTS} label={"Agenda"} />
+      <NavigationLink path={EVENTS} label={"Concerts"} />
       <NavigationLink path={MEDIA} label={"Media"} />
       <NavigationLink
         path={RESEARCH}

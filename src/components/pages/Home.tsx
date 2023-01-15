@@ -6,7 +6,7 @@ import { MyEvent } from "../../lib/Event/interface";
 import { EN, LanguageContext } from "../../lib/LanguageContext";
 import { ABOUT, EVENTS, RESEARCH } from "../../lib/routes";
 import { EventHomeCard } from "../Home/EventHomeCard.component";
-import { HomeButton } from "../Home/HomeButton.component";
+import { Button } from "../atoms/Button";
 import { HomeCover } from "../Home/HomeCover.component";
 import { HomeSectionTitle } from "../Home/HomeSectionTitle.component";
 import { Layout } from "../Layout";
@@ -41,9 +41,8 @@ export const Home: NextPage<Props> = ({ content, events }) => {
               {attributes.subtitle}
             </p>
             <p className="m-4 lg:mx-24 lg:my-12">{attributes.description}</p>
-            <HomeButton
+            <Button
               text={language === EN ? "Read more" : "En savoir plus..."}
-              language={language}
               path={ABOUT}
               color="gray"
             />
@@ -76,9 +75,8 @@ export const Home: NextPage<Props> = ({ content, events }) => {
                   <EventHomeCard {...concert} key={i} language={language} />
                 ))}
             </div>
-            <HomeButton
+            <Button
               text={language === EN ? "See all" : "Tout voir"}
-              language={language}
               path={EVENTS}
               color="primary"
               className="mt-4"
@@ -91,9 +89,8 @@ export const Home: NextPage<Props> = ({ content, events }) => {
               text={language === EN ? "Research work" : "Travaux de recherche"}
               className="text-primary mb-4"
             />
-            <HomeButton
+            <Button
               text={language === EN ? "Read" : "Lire"}
-              language={language}
               path={RESEARCH}
               color="primary"
             />
