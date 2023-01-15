@@ -6,7 +6,7 @@ import { EventCardYearList } from "./EventCardYearList.component";
 
 interface EventCardListProps {
   events: MyEvent[];
-  inThePast?: boolean;
+  isInThePast?: boolean;
   language: Language;
   title: string;
 }
@@ -15,15 +15,15 @@ export const EventCardSection: FunctionComponent<EventCardListProps> = ({
   events,
   language,
   title,
-  inThePast = false,
+  isInThePast = false,
 }) => {
-  if (inThePast) {
+  if (isInThePast) {
     events.reverse();
   }
   const eventsByYear = getEventsByYear(events);
 
   const allYears = Object.keys(eventsByYear).sort();
-  if (inThePast) {
+  if (isInThePast) {
     allYears.reverse();
   }
   return (
