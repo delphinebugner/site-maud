@@ -1,9 +1,9 @@
 ---
 id: Sine Cum Manuscrit de Provins
-name_fr: "À la découverte  des manuscrits liturgiques de Provins: Chants à
-  l’honneur de Saint Quiriace et Saint  Thibaut"
-name_en: "À la découverte  des manuscrits liturgiques de Provins: Chants à
-  l’honneur de Saint Quiriace et Saint  Thibaut"
+name_fr: "À la découverte  des manuscrits liturgiques de Provins : Chants à
+  l’honneur de Saint Quiriace et Saint Thibaut - Ensemble Sine-Cum"
+name_en: "À la découverte  des manuscrits liturgiques de Provins : Chants à
+  l’honneur de Saint - Ensemble Sine-Cum Quiriace et Saint  Thibaut"
 place: Provins, France
 date: 2023-03-18
 hour: 17:00
