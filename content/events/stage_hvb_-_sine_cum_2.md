@@ -1,7 +1,7 @@
 ---
 id: Stage HvB - Sine cum (2)
-name_fr: "Stage découverte de la musique de Hildegard von Bingen "
-name_en: "Stage découverte de la musique de Hildegard von Bingen "
+name_fr: Stage découverte de la musique de Hildegard von Bingen 2/3
+name_en: Stage découverte de la musique de Hildegard von Bingen 2/3
 place: Corbeil-Essonnes, France
 date: 2023-05-13
 hour: 10:00
