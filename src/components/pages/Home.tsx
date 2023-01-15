@@ -43,7 +43,6 @@ export const Home: NextPage<Props> = ({ content, events }) => {
             <p className="m-4 lg:mx-24 lg:my-12">{attributes.description}</p>
             <Button
               text={language === EN ? "Read more" : "En savoir plus..."}
-              language={language}
               path={ABOUT}
               color="gray"
             />
@@ -78,7 +77,6 @@ export const Home: NextPage<Props> = ({ content, events }) => {
             </div>
             <Button
               text={language === EN ? "See all" : "Tout voir"}
-              language={language}
               path={EVENTS}
               color="primary"
               className="mt-4"
@@ -93,7 +91,6 @@ export const Home: NextPage<Props> = ({ content, events }) => {
             />
             <Button
               text={language === EN ? "Read" : "Lire"}
-              language={language}
               path={RESEARCH}
               color="primary"
             />

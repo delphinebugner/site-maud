@@ -1,22 +1,21 @@
-import React, { FunctionComponent } from "react";
+import React, { FunctionComponent, useContext } from "react";
 import Link from "next/link";
-import { getUrlPrefix, Language } from "../../lib/LanguageContext";
+import { getUrlPrefix, LanguageContext } from "../../lib/LanguageContext";
 
 interface HomeButtonProps {
   className?: string;
   text: string;
-  language: Language;
   path: string;
   color: string;
 }
 
 export const Button: FunctionComponent<HomeButtonProps> = ({
   className,
-  language,
   text,
   path,
   color,
 }) => {
+  const { language } = useContext(LanguageContext);
   return (
     <Link href={`${getUrlPrefix(language)}${path}`}>
       <a
