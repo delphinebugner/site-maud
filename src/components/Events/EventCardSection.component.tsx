@@ -3,7 +3,6 @@ import { MyEvent } from "../../lib/Event/interface";
 import { Language } from "../../lib/LanguageContext";
 import { useTranslation } from "../../translations/useTranslations";
 import { Button } from "../atoms/Button";
-import { Spacer } from "../atoms/Spacer";
 import { EventCardYearList } from "./EventCardYearList.component";
 import { useEventCardPaginated } from "./hooks/useEventCardPaginated";
 
@@ -37,9 +36,7 @@ export const EventCardSection: FunctionComponent<EventCardListProps> = ({
       </p>
       {!isInThePast && events.length === 0 && (
         <p className="text-secondary lg:text-xl font-medium text-center py-40">
-          {language === "en"
-            ? "Agenda in progress!"
-            : "Agenda en construction !"}
+          {t.emptyAgenda}
         </p>
       )}
       {allYears.map((year, i) => (

@@ -5,9 +5,11 @@ type keys =
   | "goToNextConcert"
   | "goToPastConcert"
   | "displayPreviousPage"
+  | "emptyAgenda"
   | "displayNextPage";
 
 const translationsEn: Record<keys, string> = {
+  emptyAgenda: "Agenda in progress!",
   goToPastConcert: "Display Past Concerts",
   goToNextConcert: "Display Incoming Concerts",
   displayNextPage: "Next >",
@@ -15,6 +17,7 @@ const translationsEn: Record<keys, string> = {
 };
 
 const translationsFr: Record<keys, string> = {
+  emptyAgenda: "Agenda en construction !",
   goToNextConcert: "Voir les prochains concerts",
   goToPastConcert: "Voir les concerts passés",
   displayNextPage: "Suivant >",
