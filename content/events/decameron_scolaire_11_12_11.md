@@ -1,5 +1,5 @@
 ---
-id: Decameron scolaire 11/12 (11)
+id: Decameron scolaire 20/11 (11)
 name_fr: Trois Anneaux et autres nouvelles décaméronesques
 name_en: Trois Anneaux et autres nouvelles décaméronesques
 place: Gonesse, France
