@@ -1,7 +1,7 @@
 ---
 id: chemin-d-etoiles-discantus 30/06
-name_fr: Chemin d'étoiles, chants de la ferveur populaire
-name_en: "Chemin d'étoiles, songs of popular fervour "
+name_fr: Chemin d'étoiles, chants de la ferveur populaire - Ensemble Discantus
+name_en: Chemin d'étoiles, songs of popular fervour - Ensemble Discantus
 place: Roissy en Brie (Festival OuVERTures)
 date: 2023-06-30
 hour: 19:00
