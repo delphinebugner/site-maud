@@ -2,7 +2,7 @@
 id: Palin(e) Vipère en Cuer Dijon 15/10
 name_fr: Une Vipère en Cuer - Ensemble Palin(e)
 name_en: Une Vipère en Cuer - Ensemble Palin(e)
-place: "Versailles "
+place: Dijon
 date: 2023-10-15
 hour: 19:00
 body_fr: >-
