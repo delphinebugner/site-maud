@@ -1,5 +1,5 @@
 ---
-id: chemin-d-etoiles-discantus
+id: chemin-d-etoiles-discantus 11/07
 name_fr: Chemin d'étoiles, chants de la ferveur populaire
 name_en: "Chemin d'étoiles, songs of popular fervour "
 place: Bois-Richeux
