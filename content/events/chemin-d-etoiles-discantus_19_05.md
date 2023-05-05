@@ -1,7 +1,7 @@
 ---
 id: chemin-d-etoiles-discantus 19/05
-name_fr: Chemin d'étoiles, chants de la ferveur populaire
-name_en: "Chemin d'étoiles, songs of popular fervour "
+name_fr: Chemin d'étoiles, chants de la ferveur populaire - Ensemble Discantus
+name_en: Chemin d'étoiles, songs of popular fervour - Ensemble Discantus
 place: Plock (Pologne)
 date: 2023-05-19
 hour: 19:00
