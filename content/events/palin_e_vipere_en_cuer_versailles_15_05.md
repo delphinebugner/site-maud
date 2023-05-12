@@ -17,7 +17,7 @@ body_fr: >-
   Nulle surprise donc, si par analogie, l’homme a recourt à ces images animalières pour enseigner à ses congénères la morale, le dogme chrétien et la politique, et par la suite pour dresser des portraits satiriques parfois virulents de la société contemporaine. Devenant ainsi un miroir de l’homme, les bêtes se mettent à parler et à agir comme les humains, et délivrent des messages symboliques que chacun comprenait.
 
 
-  Depuis les Métamorphoses d’Ovide, en passant la Bible, le Roman de Renart ou encore Fauvel, jusqu’à plus récemment aux Fables de La Fontaine, les caractères humains stéréotypés sont attachés à certains animaux : la puissance et la prestance du lion régnant sur le genre animal, la ruse et la fourberie du renard échafaudant de mauvais tours, ou encore l’insidiosité et la fausseté du serpent empoisonnant le cœur et rendant sourd et aveugle, etc. 
+  Depuis les Métamorphoses d’Ovide, en passant par la Bible, le Roman de Renart ou encore Fauvel, jusqu’à plus récemment aux Fables de La Fontaine, les caractères humains stéréotypés sont attachés à certains animaux : la puissance et la prestance du lion régnant sur le genre animal, la ruse et la fourberie du renard échafaudant de mauvais tours, ou encore l’insidiosité et la fausseté du serpent empoisonnant le cœur et rendant sourd et aveugle, etc. 
 
 
   Maud Haering - soprano\
