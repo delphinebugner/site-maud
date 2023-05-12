@@ -2,9 +2,9 @@
 id: Palin(e) Vipère en Cuer Versailles 15/05
 name_fr: Une Vipère en Cuer - Ensemble Palin(e)
 name_en: Une Vipère en Cuer - Ensemble Palin(e)
-place: "Versailles "
+place: "Temple protestant de l'Eglise Unie (Versailles) "
 date: 2023-05-15
-hour: 20:00
+hour: 19:30
 body_fr: >-
   Au Moyen-Âge, l’homme et l’animal entretiennent des rapports différents de
   ceux d'aujourd'hui, tous deux partageant un quotidien et un même
@@ -25,6 +25,15 @@ body_fr: >-
   Luc Gaugler - vièle à archet\
 
   Olivier Camelin - organetto
+
+
+  Temple protestant de l'Eglise Unie\
+
+  3 rue Hoche, Versailles \
+
+  19h30\
+
+  Libre participation
 body_en: >-
   In the Middle Ages, the relationship between man and animal was different from
   that of today, as both shared a daily life and the same environment. It is not
@@ -44,4 +53,13 @@ body_en: >-
   Luc Gaugler - vièle à archet\
 
   Olivier Camelin - organetto
+
+
+  Temple protestant de l'Eglise Unie\
+
+  3 rue Hoche, Versailles \
+
+  19h30\
+
+  Free participation
 ---
