@@ -1,7 +1,7 @@
 ---
 id: Arborescence Concert Saint Guilhem Le Désert
-name_fr: Au temps de Christine de Pisan
-name_en: Au temps de Christine de Pisan
+name_fr: Au temps de Christine de Pisan - Ensemble Arborescence
+name_en: Au temps de Christine de Pisan - Ensemble Arborescence
 place: Festival Les marteaux de Gellone, Saint Guilhem le Désert
 date: 2024-05-19
 hour: 17:00
