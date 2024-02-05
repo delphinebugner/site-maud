@@ -1,7 +1,7 @@
 ---
 id: Arborescence Concert Chillon
-name_fr: Au temps de Christine de Pisan
-name_en: Au temps de Christine de Pisan
+name_fr: Au temps de Christine de Pisan - Ensemble Arborescence
+name_en: Au temps de Christine de Pisan - Ensemble Arborescence
 place: Chillon
 date: 2024-06-20
 hour: 19:00
