@@ -1,7 +1,7 @@
 ---
 id: Decameron scolaire 18/12 (2)
-name_fr: Trois Anneaux et autres nouvelles décaméronesques
-name_en: Trois Anneaux et autres nouvelles décaméronesques
+name_fr: Trois Anneaux et autres nouvelles décaméronesques - Ensemble Oneïroi
+name_en: Trois Anneaux et autres nouvelles décaméronesques - Ensemble Oneïroi
 place: Salle Jacques Tati, Orsay, France
 date: 2023-12-18
 hour: 14:00
