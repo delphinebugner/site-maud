@@ -1,7 +1,7 @@
 ---
 id: Decameron scolaire 18/12 (1)
-name_fr: Trois Anneaux et autres nouvelles décaméronesques
-name_en: Trois Anneaux et autres nouvelles décaméronesques
+name_fr: Trois Anneaux et autres nouvelles décaméronesques - Ensemble Oneïroi
+name_en: Trois Anneaux et autres nouvelles décaméronesques - Ensemble Oneïroi
 place: Centre culturel Marcel Pagnol, Bures sur Yvette, France
 date: 2023-12-18
 hour: 10:00
