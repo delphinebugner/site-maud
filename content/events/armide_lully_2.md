@@ -6,29 +6,32 @@ place: Opéra Comique, Paris
 date: 2024-06-19
 hour: 20:00
 body_fr: >-
-  Inspiré du Tasse, Armide de Lully était depuis 1686 considéré comme le sommet
-  de l’opéra français. Écrire une nouvelle partition sur le livret de Quinault,
-  91 ans plus tard, relevait du défi. Mais depuis son installation à Paris,
-  Gluck imposait avec force sa conception de la vérité scénique, de l’expression
-  musicale et de l’efficacité dramatique. Avec le soutien de la reine
-  Marie-Antoinette, qui assista au triomphe de son protégé.
+  Quand la Syrie était une terre de croisades et de légendes, sa reine Armide
+  captivait plus qu’elle ne capturait les chevaliers chrétiens : ses charmes
+  étaient souverains. Cependant, lorsque le vaillant Renaud entreprend de
+  libérer ses compagnons, l’invincible magicienne s’éprend de lui, et son amour
+  contre-nature s’avère destructeur…
 
 
-  Lilo Baur à la mise en scène et Christophe Rousset à la direction musicale vont animer les combats, les enchantements et les vertiges passionnels auxquels succombe l’une des plus grandes héroïnes du répertoire, incarnée par Véronique Gens dont c’est le premier grand rôle à l’Opéra Comique.
+  Écrit sur un sujet choisi par Louis XIV, le livret de Quinault inspira à Lully le plus bel opus de leur collaboration, mais aussi le dernier, car tous deux moururent peu après. Popularisé sous le nom d’« opéra des dames », Armide fut le tout premier opéra français donné en Italie, avant de devenir pour les Européens du siècle des Lumières un modèle du genre.
 
 
-  Drame héroïque en cinq actes. Livret de Philippe Quinault. Créé à l’Académie royale de musique (Opéra) en 1777.
+  Après avoir présenté en 2022, sur le même livret, l’Armide préclassique de Gluck, l’Opéra‑Comique invite ses interprètes Christophe Rousset et Lilo Baur à remonter aux sources, dans le même décor signé Bruno de Lavenère.
+
+
+  Tragédie en Musique en cinq actes et un prologue. Livret de Philippe Quinault d’après La Jérusalem délivrée du Tasse. Créée À L’académie Royale De Musique le 15 Février 1686.
 body_en: >-
-  Inspired by the Tasso, Lully's Armide had been considered the pinnacle of
-  French opera since 1686. Writing a new score to Quinault's libretto 91 years
-  later was quite a challenge. But since moving to Paris, Gluck had been
-  forcefully imposing his conception of scenic truth, musical expression and
-  dramatic effectiveness. With the support of Queen Marie-Antoinette, who
-  witnessed the triumph of her protégé.
+  When Syria was a land of crusades and legends, its queen Armide captivated
+  more than she captured Christian knights: her charms were sovereign. However,
+  when the valiant Renaud set out to free his companions, the invincible
+  sorceress fell in love with him, and her unnatural love proved destructive...
 
 
-  Lilo Baur as stage director and Christophe Rousset as musical director will bring to life the battles, enchantments and vertigo of passion to which one of the greatest heroines of the repertoire succumbs, played by Véronique Gens in her first major role at the Opéra Comique.
+  Written on a subject chosen by Louis XIV, Quinault's libretto inspired Lully to write the most beautiful opus of their collaboration, but also the last, as both died shortly afterwards. Popularised as the 'opera for the ladies', Armide was the very first French opera to be performed in Italy, before becoming a model of the genre for the Europeans of the Age of Enlightenment.
 
 
-  Heroic drama in five acts. Libretto by Philippe Quinault. First performed at the Académie royale de musique (Opéra) in 1777.
+  After presenting Gluck's pre-classical Armide, based on the same libretto, in 2022, the Opéra-Comique invites its performers Christophe Rousset and Lilo Baur to go back to the origins, on the same set designed by Bruno de Lavenère.
+
+
+  Musical tragedy in five acts and a prologue. Libretto by Philippe Quinault based on La Jérusalem délivrée by Tasso. First performed at the Royal Academy of Music on 15 February 1686.
 ---
