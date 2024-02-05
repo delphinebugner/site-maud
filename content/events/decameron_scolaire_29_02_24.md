@@ -1,7 +1,7 @@
 ---
 id: Decameron scolaire 29/02/24
-name_fr: Trois Anneaux et autres nouvelles décaméronesques
-name_en: Trois Anneaux et autres nouvelles décaméronesques
+name_fr: Trois Anneaux et autres nouvelles décaméronesques - Ensemble Oneïroi
+name_en: Trois Anneaux et autres nouvelles décaméronesques - Ensemble Oneïroi
 place: Beaumont sur Oise, France
 date: 2024-02-29
 hour: 11:00
