@@ -1,7 +1,7 @@
 ---
 id: Arborescence Résidence Saint Guilhem Le Désert
-name_fr: Résidence création à Saint Guilhem le Désert
-name_en: Résidence création à Saint Guilhem le Désert
+name_fr: Résidence création à Saint Guilhem le Désert - Ensemble Arborescence
+name_en: Résidence création à Saint Guilhem le Désert - Ensemble Arborescence
 place: Festival Les marteaux de Gellone, Saint Guilhem le Désert
 date: 2024-05-13
 hour: 10:00
