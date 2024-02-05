@@ -1,7 +1,7 @@
 ---
-id: Correspondances - Concert secret des Dames
-name_fr: Concert secret des Dames - Ensemble Correspondances
-name_en: Concert secret des Dames - Ensemble Correspondances
+id: Correspondances - Concert secret des Dames 1
+name_fr: Le concert secret des Dames - Ensemble Correspondances
+name_en: Le concert secret des Dames - Ensemble Correspondances
 place: Domfront en Poiraie
 date: 2024-05-05
 hour: 19:00
