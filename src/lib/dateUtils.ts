@@ -24,6 +24,15 @@ export const isEventPast = (event: MyEvent): boolean => {
 
 const getYear = (event: MyEvent): string => event.date.split("-")[0];
 
+export const orderEventsByYearInThePast = (events: MyEvent[]): MyEvent[] => {
+  return events.sort((eventA, eventB) => {
+    const yearA = getYear(eventA);
+    const yearB = getYear(eventB);
+
+    return parseInt(yearB) - parseInt(yearA);
+  });
+};
+
 export const getEventsByYear = (
   events: MyEvent[]
 ): Record<string, MyEvent[]> => {

@@ -39,6 +39,7 @@
     "autoprefixer": "^10.2.5",
     "eslint": "^8.8.0",
     "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "frontmatter-markdown-loader": "^3.6.2",
     "postcss": "^8.2.10",
     "tailwindcss": "^2.1.1",
