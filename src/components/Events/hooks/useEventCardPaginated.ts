@@ -1,5 +1,8 @@
 import { useMemo, useState } from "react";
-import { getEventsByYear } from "../../../lib/dateUtils";
+import {
+  getEventsByYear,
+  orderEventsByYearInThePast,
+} from "../../../lib/dateUtils";
 import { MyEvent } from "../../../lib/Event/interface";
 import { scrollToTop } from "../../../lib/windowUtils";
 
@@ -10,12 +13,12 @@ export const useEventCardPaginated = (
   isInThePast: boolean
 ) => {
   const [currentBatch, setCurrentBatch] = useState(0);
-
   const { eventsByYear, allYears } = useMemo(() => {
-    if (isInThePast) {
-      events.reverse();
-    }
-    const displayedEvents = events.slice(
+    const orderedEvents = isInThePast
+      ? orderEventsByYearInThePast(events)
+      : events;
+
+    const displayedEvents = orderedEvents.slice(
       currentBatch * EVENTS_PER_PAGE,
       (currentBatch + 1) * EVENTS_PER_PAGE
     );
@@ -26,7 +29,7 @@ export const useEventCardPaginated = (
       allYears.reverse();
     }
     return { eventsByYear, allYears };
-  }, [events, currentBatch]);
+  }, [events, currentBatch, isInThePast]);
 
   const nbOfBatch = Math.ceil(events.length / EVENTS_PER_PAGE);
 

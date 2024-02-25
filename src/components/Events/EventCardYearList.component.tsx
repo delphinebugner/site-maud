@@ -24,7 +24,7 @@ export const EventCardYearList: FunctionComponent<EventCardListProps> = ({
       } flex w-full px-4 lg:pl-48 lg:pr-72 flex-col lg:flex-row`}
     >
       <span
-        className="text-3xl font-bold text-secondary 
+        className="text-4xl font-bold text-secondary 
         border-r border-white lg:border-secondary border-solid
         pb-4 lg:mt-4 lg:-mr-16 lg:pr-24 lg:py-4"
       >

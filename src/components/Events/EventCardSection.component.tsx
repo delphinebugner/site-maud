@@ -49,14 +49,14 @@ export const EventCardSection: FunctionComponent<EventCardListProps> = ({
       ))}
       <div className="flex flex-col lg:flex-row items-center justify-center py-8">
         <Button
-          text={t.displayPreviousPage}
+          text={`< ${t.displayPreviousPage}`}
           color="secondary"
           onPress={displayPreviousBatch}
           className="w-60 lg:mx-4 mb-4 lg:mb-0"
           disabled={!displayPreviousBatch}
         />
         <Button
-          text={t.displayNextPage}
+          text={`${t.displayNextPage} >`}
           color="secondary"
           onPress={displayNextBatch}
           className="w-60"
