@@ -30,14 +30,7 @@ const EventCardUnmemoized: FunctionComponent<EventCardProps> = ({
           font-serif text-2xl lg:text-3xl text-primary mr-4 pt-1"
         >
           <p>{formatDate(date, language, "d MMMM")}</p>
-          <p className="-mt-2 lg:hidden">{`${formatDate(
-            date,
-            language,
-            "MMM"
-          )}.`}</p>
-          <p className="hidden lg:block -mt-1">
-            {formatDate(date, language, "yyyy")}
-          </p>
+          <p className="-mt-1">{formatDate(date, language, "yyyy")}</p>
         </div>
         <div className="flex flex-col justify-center flex-1">
           <p className="text-secondary lg:text-xl font-medium">{name}</p>
