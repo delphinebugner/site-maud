@@ -16,7 +16,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint"],
+  "plugins": ["react", "@typescript-eslint", "react-hooks"],
   "rules": {
     "@typescript-eslint/no-unused-vars": "warn",
     "@typescript-eslint/no-explicit-any": "error",
@@ -24,6 +24,8 @@
     "@typescript-eslint/indent": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "react/prop-types": "off",
-    "no-console": ["error", { "allow": ["warn", "error"] }]
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "react-hooks/rules-of-hooks": "error", // Ensures the rules of Hooks are followed
+    "react-hooks/exhaustive-deps": "warn" // Checks effect dependencies
   }
 }
