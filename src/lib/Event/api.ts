@@ -29,7 +29,10 @@ export const fetchEvents = (language: Language): MyEvent[] => {
       return adaptRawEvent(rawEvent, language);
     });
   const sortedEvents = events.sort((eventA, eventB) => {
-    if (eventA.date >= eventB.date && eventA.hour > eventB.hour) {
+    if (
+      eventA.date > eventB.date ||
+      (eventA.date == eventB.date && eventA.hour > eventB.hour)
+    ) {
       return 1;
     } else {
       return -1;
