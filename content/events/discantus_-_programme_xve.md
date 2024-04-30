@@ -1,7 +1,9 @@
 ---
 id: Discantus - programme XVè
-name_fr: Programme XVè - Ensemble Discantus
-name_en: Programme XVè - Ensemble Discantus
+name_fr: Vray dieu d’amours qui vrais amans resjoye - La chanson au siècle de
+  Charles VII - Alla Francesca
+name_en: Vray dieu d’amours qui vrais amans resjoye - La chanson au siècle de
+  Charles VII - Alla Francesca
 place: Musée de Cluny, Paris
 date: 2024-05-02
 hour: 19:00
