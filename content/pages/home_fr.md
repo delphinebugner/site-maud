@@ -1,15 +1,20 @@
 ---
 title: Maud Haering
 subtitle: Soprano
-description: "Applaudie en mars et août 2019 pour son interprétation du rôle
-  d'Iole lors de la première française de la sérénade « Deianira, Iole ed
-  Ercole » de Nicola Porpora, la soprano française Maud Haering compte déjà à
-  son actif un grand nombre de concerts en France et à travers l’Europe. Avec
-  l’ensemble Parnasso in Festa, dont elle est membre fondateur, elle fait
-  découvrir aux public normand et girondin cette sérénade oubliée lors des
-  festivals Flam’ et des Musicales du Bocage. La jeune soprano interprète
-  ensuite à La Haye en février 2020 la cantate BWV 51 « Jauchzet Gott in allen
-  Landen » dans le cadre des Early Music Open Stage du Koninklijk
-  Conservatorium. "
+description: La soprano française Maud Haering est passionnée par les
+  répertoires de musiques anciennes depuis de très nombreuses années. A la fois
+  membre d'ensemble de musique médiévale et de musique baroque, elle travaille
+  régulièrement à l'étranger avec le *Amsterdam Baroque Choir* (dir. Ton
+  Koopman) ainsi qu'avec le *Collegium Vocale* de Gand (dir. Philippe
+  Herreweghe). Elle chante également depuis janvier 2022 sous la direction de
+  Sébastien Daucé lors de nombreux concerts de l'ensemble *Correspondances
+  (David et Jonathas* de Charpentier, Le Sacre de Louis XIV, Le concert secret
+  des Dames, Vox Angelorum, Septem membra Jesu nostri) et va prochainement
+  commencer à travailler avec le chœur de chambre *Les Éléments* (*Armide* de
+  Lully à l'opéra comique) et l'ensemble Jacques Moderne tous deux dirigés par
+  Joël Suhubiette. La jeune soprano se produit aussi régulièrement avec les
+  ensembles de musique médiévale *Discantus* et *Alla Francesca* (dir. Brigitte
+  Lesnes), *Arborescence* (dir. David Chappuis), *Sine Cum* et *Palin(e)* dans
+  du répertoire polyphonique et monodique des XIIè, XIIIè et XIVè siècles.
 image: /images/024c.jpg
 ---
