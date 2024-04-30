@@ -3,7 +3,7 @@ title: Maud Haering
 subtitle: Soprano
 description: La soprano française Maud Haering est passionnée par les
   répertoires de musiques anciennes depuis de très nombreuses années. A la fois
-  membre d'ensemble de musique médiévale et de musique baroque, elle travaille
+  membre d'ensembles de musique médiévale et de musique baroque, elle travaille
   régulièrement à l'étranger avec le *Amsterdam Baroque Choir* (dir. Ton
   Koopman) ainsi qu'avec le *Collegium Vocale* de Gand (dir. Philippe
   Herreweghe). Elle chante également depuis janvier 2022 sous la direction de
