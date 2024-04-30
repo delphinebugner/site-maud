@@ -4,7 +4,7 @@ name_fr: Le concert secret des Dames - Ensemble Correspondances
 name_en: Le concert secret des Dames - Ensemble Correspondances
 place: Domfront en Poiraie
 date: 2024-05-05
-hour: 19:00
+hour: 15:30
 body_fr: "À la fin du 16e siècle, la vie musicale à la cour du Duc Alfonso II
   Ferrare est l’une des plus riches d’Europe. Trois femmes, Laura Peperara, Anna
   Guarini et Livia d’Arco, y interprètent des musiques inédites et composées
