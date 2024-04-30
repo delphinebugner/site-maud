@@ -1,10 +1,10 @@
 ---
-id: Correspondances - Concert secret des Dames 3
+id: Correspondances - Concert secret des Dames 4, 5 et 6
 name_fr: Le concert secret des Dames (scolaires) - Ensemble Correspondances
 name_en: Le concert secret des Dames (scolaires) - Ensemble Correspondances
 place: Théâtre de Caen, Caen
 date: 2024-05-07
-hour: 14:30
+hour: 10:30
 body_fr: "À la fin du 16e siècle, la vie musicale à la cour du Duc Alfonso II
   Ferrare est l’une des plus riches d’Europe. Trois femmes, Laura Peperara, Anna
   Guarini et Livia d’Arco, y interprètent des musiques inédites et composées
