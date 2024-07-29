@@ -1,10 +1,10 @@
 ---
-id: Correspondances - Messe de Minuit 5
+id: Correspondances - Messe de Minuit 6
 name_fr: Messe de Minuit - Ensemble Correspondances
 name_en: Messe de Minuit - Ensemble Correspondances
-place: Lyon
-date: 2023-12-21
-hour: 19:00
+place: Philharmonie, Cologne (Allemagne)
+date: 2024-12-16
+hour: 20:00
 body_fr: >-
   Si Charpentier a retrouvé le chemin de la postérité avec les premières notes
   de son Te Deum H.146, choisi pour illustrer le générique des programmes de
