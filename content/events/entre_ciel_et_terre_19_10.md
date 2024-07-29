@@ -3,7 +3,7 @@ id: Entre Ciel et Terre 19/10
 name_fr: Spectacle Entre Ciel et Terre - Ensemble Oneïroi
 name_en: Spectacle Entre Ciel et Terre - Ensemble Oneïroi
 place: Gonesse
-date: 2024-07-29
+date: 2024-10-19
 hour: 17:30
 body_fr: >-
   Le 10 décembre 1997, Julia « Butterfly » Hill, jeune militante écologiste
