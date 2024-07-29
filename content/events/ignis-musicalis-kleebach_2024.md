@@ -2,7 +2,7 @@
 id: ignis-musicalis-Kleebach 2024
 name_fr: Telemann et Haendel
 name_en: Telemann and Haendel
-place: Maion du Kleebach, Munster
+place: Maison du Kleebach, Munster
 date: 2024-08-10
 hour: 19:00
 body_fr: |-
