@@ -3,7 +3,7 @@ id: chemin-d-etoiles-discantus 29/08/24
 name_fr: Chemin d'étoiles, chants de la ferveur populaire - Ensemble Discantus
 name_en: Chemin d'étoiles, songs of popular fervour - Ensemble Discantus
 place: Eglise St Etienne, Auneau (28), Festival OuVERTures
-date: 2023-08-29
+date: 2024-08-29
 hour: 19:00
 body_fr: >-
   Programme de musiques médiévales issues du Livret Vermeil de Montserrat, du
