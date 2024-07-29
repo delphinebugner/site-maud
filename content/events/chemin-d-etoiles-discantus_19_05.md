@@ -1,9 +1,9 @@
 ---
-id: chemin-d-etoiles-discantus 19/05
+id: chemin-d-etoiles-discantus 29/08/24
 name_fr: Chemin d'étoiles, chants de la ferveur populaire - Ensemble Discantus
 name_en: Chemin d'étoiles, songs of popular fervour - Ensemble Discantus
-place: Plock (Pologne)
-date: 2023-05-19
+place: Eglise St Etienne, Auneau (28), Festival OuVERTures
+date: 2023-08-29
 hour: 19:00
 body_fr: >-
   Programme de musiques médiévales issues du Livret Vermeil de Montserrat, du
@@ -11,15 +11,20 @@ body_fr: >-
   sur le chemin de Saint Jacques de Compostelle.
 
 
-  Avec l'ensemble Discantus, dirigé par Brigitte Lesne. 
+  **Discantus**Cécile Banquey, Christel Boiron, Maud Haering, Catherine Sergent (chant et cloches à main)\
 
-  Plus d'informations [ici](https://cmm-paris.fr/fr/calendrier/576-concert-discantus-un-chemin-d-etoiles/2023-05-19-19-00).
+  Nolwenn Le Guern (vièles à archet)\
+
+  **Brigitte Lesne** (direction, harpe-psaltérion, percussions, chant)
 body_en: >-
   A programme of medieval music from the Livret Vermeil de Montserrat, the Codex
-  Calixtinus, the Cantigas of Alfonso X The Wise and the songs of pilgrims on
-  their way to Santiago de Compostela.
+  Calixtinus, the Cantigas of Alfonso X The Wise and pilgrims' songs from the
+  route to Santiago de Compostela.
 
-  With the Discantus ensemble, directed by Brigitte Lesne. 
 
-  More information [here](https://cmm-paris.fr/fr/calendrier/576-concert-discantus-un-chemin-d-etoiles/2023-05-19-19-00).
+  **Discantus**Cécile Banquey, Christel Boiron, Maud Haering, Catherine Sergent (voice and handbells)\
+
+  Nolwenn Le Guern (bowed fiddle)**Brigitte Lesne** (handbells)
+
+  **Brigitte Lesne** (direction, harp-psaltery, percussion, voice)
 ---
