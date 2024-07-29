@@ -1,10 +1,10 @@
 ---
-id: Arborescence Vitry 11/05
+id: Arborescence Vitry 05/10/24
 name_fr: Douce Playsence - Ensemble Arborescence
 name_en: Douce Playsence - Ensemble Arborescence
-place: Abbaye de Fondfroide (Narbonne, France)
-date: 2022-05-10
-hour: 18:30
+place: Abbaye de Royaumont, Asnières-sur-Oise, France
+date: 2024-10-05
+hour: 20:00
 body_fr: >-
   *Lugentium siccentur oculi,\
 
