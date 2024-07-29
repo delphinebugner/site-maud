@@ -1,10 +1,12 @@
 ---
-id: Decameron scolaire 18/12 (1)
-name_fr: Trois Anneaux et autres nouvelles décaméronesques - Ensemble Oneïroi
-name_en: Trois Anneaux et autres nouvelles décaméronesques - Ensemble Oneïroi
-place: Centre culturel Marcel Pagnol, Bures sur Yvette, France
-date: 2023-12-18
-hour: 10:00
+id: Decameron JMF 11/10
+name_fr: Trois Anneaux et autres nouvelles décaméronesques - Ensemble Oneïroi,
+  Présentation de saison 25-26 aux JMF
+name_en: Trois Anneaux et autres nouvelles décaméronesques - Ensemble Oneïroi,
+  Présentation de saison 25-26 aux JMF
+place: Chaville
+date: 2024-10-11
+hour: 15:00
 body_fr: >-
   Un spectacle qui emporte loin et il y a longtemps
 
