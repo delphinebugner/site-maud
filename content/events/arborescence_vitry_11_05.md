@@ -6,33 +6,71 @@ place: Abbaye de Royaumont, Asnières-sur-Oise, France
 date: 2024-10-05
 hour: 20:00
 body_fr: >-
-  *Lugentium siccentur oculi,\
+  Le « concert », au sens qu’a pris le mot aujourd’hui, ne correspond à rien de
+  connu au Moyen Âge. À l’époque, il ne serait venu à l’idée de personne
+  d’enchaîner une série de motets pour un public qui aurait payé sa place. Même
+  chantée de la manière la plus respectueuse qui soit, cette musique vieille de
+  six siècles donne toujours lieu, aujourd’hui, à une création contemporaine.
+  Celle que présente Arborescence est le fruit de plusieurs années de travail
+  sur les motets de Philippe de Vitry. De cet évêque de Meaux (1291-1361), il ne
+  reste plus aujourd’hui qu’un grand nom et un ensemble, plutôt restreint, de
+  compositions musicales et poétiques (d’attribution d’ailleurs contestée).
+  L’homme a pourtant joui en son temps d’une renommée de premier plan :
+  universitaire, proche de la cour de France, Philippe de Vitry a incarné toutes
+  les figures médiévales du lettré. Celui auquel Pétrarque s’adressait comme à
+  un « poète sans égal en France » demeure associé au courant musical dit de «
+  l’Ars nova », dont il est un théoricien, poète et compositeur majeur. Sous
+  l’égide de la Haute école de musique de Genève, David Chappuis travaille
+  depuis plus de six ans sur ces motets. Il en a préparé une nouvelle édition et
+  a formé à Royaumont de jeunes chanteuses et chanteurs à leur interprétation.
+  Leur chant a capella fait entendre de la manière la plus pleine possible le
+  jeu des consonances et des dissonances qui sont la chair de la polyphonie. De
+  multiples facettes de l’ensemble sont tour à tour mises en valeur, du solo au
+  tutti, en passant par diverses combinaisons de voix, des plus suaves aux plus
+  grinçantes. Les huit motets sont reliés par des intermèdes musicaux composés
+  par David Chappuis sur des vers du maître de Meaux. La dernière pièce du
+  concert, *Lugentium siccentur oculi*, dédiée au pape Clément VI, grandiose par
+  son ampleur exceptionnelle et la complexité de son architecture, en constitue
+  l’apothéose. Une formidable célébration de l’aboutissement d’une grande
+  aventure musicologique, qui coïncide avec la parution du premier disque
+  d’Arborescence sur le label suisse Claves Records, enregistré au réfectoire
+  des moines de Royaumont ! 
 
-  plaudant senes, exultent parvuli,\
 
-  umbre mortis quoniam regio\
+  **PROGRAMME**\
 
-  quos tenuit, splendoris visio*\
+  Oeuvres de **Philippe de Vitry** (1291-1361) et interludes de **David Chappuis** :*\
 
-  (Philippe de Vitry)
+  Prelude : Adesto sancta Trinitas – Decens carmen edere\
+
+  Adesto sancta Trinitas (motet à trois voix)\
+
+  Quoniam secta latronum (motet à trois voix)\
+
+  Interlude : Orbis orbatus oculis\
+
+  Vos pastores adulteri (motet à trois voix)\
+
+  Providence la senee (virelai, anonyme)\
+
+  Rex quem metrorum (motet à quatre voix)\
+
+  Interlude : Mon chant en plaint\
+
+  In arboris empiro prospere (motet à trois voix)\
+
+  Bona condit cetera (motet à trois voix)\
+
+  Interlude : Douce playsence\
+
+  Garison selon nature (motet à trois voix)\
+
+  Ecce sacerdos (répons, plain-chant)\
+
+  Lugentium siccentur oculi (motet à quatre voix)*
 
 
-  « Que sèchent les yeux des affligés,\
-
-  qu’applaudissent les vieillards, qu’exultent les enfants,\
-
-  puisque, sur ceux que retenait la contrée de l’ombre de la mort,\
-
-  s’est levée une splendide vision »
-
-
-  Apogée du projet de recherche « Chanter les Motets de Philippe de Vitry » (CMPV), la création de l’ensemble *Arborescence* constitue le point de convergence des chemins parcourus : [interprétation de la musique polyphonique entre *Ars antiqua* et *Ars Nova*](https://www.hesge.ch/hem/recherche-developpement/liste/termine/projet?page=17), encodages et éditions diplomatiques et critiques des manuscrits du *Corpus Motetorum Philippo de Vitry*, mises en pratique de la science du chant (notation, solmisation, contrepoint, ornementation, improvisation, composition), rencontres entre poèmes et musiques, expérimentations sur la prononciation des textes, espace de réflexion sur les concerts entre musiques du passé et du présent.
-
-
-  L’ensemble *Arborescence* est constitué de chanteurs rencontrés au fil des ans dans des centres de formation tels que les départements de musique ancienne de la [HEM](https://www.hesge.ch/hem/) de Genève et du [CNSMD](http://www.cnsmd-lyon.fr/) de Lyon, ainsi que lors des formations professionnelles de la [Fondation Royaumont](https://www.royaumont.com/).
-
-
-  hant :\
+  Chant :\
 
   [Marthe Davost](https://marthedavost.fr)\
 
@@ -53,48 +91,84 @@ body_fr: >-
 
   [Olivier Bettens](https://virga.org)
 body_en: >-
-  *Lugentium siccentur oculi,\
+  The term "concert", in the sense in which the word has come to be used today,
+  did not correspond to anything known in the Middle Ages. At the time, it would
+  never have occurred to anyone to perform a series of motets for a paying
+  audience. Even when sung in the most respectful way, this six-century-old
+  music still gives rise to a contemporary creation today. The one presented by
+  Arborescence is the fruit of several years' work on the motets of Philippe de
+  Vitry. All that remains of this bishop of Meaux (1291-1361) today is a great
+  name and a rather limited collection of musical and poetic compositions (of
+  disputed attribution). Philippe de Vitry was an academic and a close associate
+  of the French court, and epitomised all the medieval figures of the scholar.
+  The man to whom Petrarch addressed himself as "a poet without equal in France"
+  remains associated with the musical movement known as "Ars nova", of which he
+  is a major theorist, poet and composer. David Chappuis has been working on
+  these motets for over six years under the aegis of the Haute école de musique
+  de Genève. He has prepared a new edition and trained young singers at
+  Royaumont in their interpretation. Their a capella singing brings out as fully
+  as possible the interplay of consonances and dissonances that are the
+  lifeblood of polyphony. The multiple facets of the ensemble are highlighted in
+  turn, from solo to tutti, through various combinations of voices, from the
+  most suave to the most grating. The eight motets are linked by musical
+  interludes composed by David Chappuis to verses by the Master of Meaux. The
+  final piece of the concert, Lugentium siccentur oculi, dedicated to Pope
+  Clement VI, is grandiose in its exceptional scope and the complexity of its
+  architecture. A wonderful celebration of the culmination of a great
+  musicological adventure, coinciding with the release of Arborescence's first
+  CD on the Swiss label Claves Records, recorded in the refectory of the monks
+  of Royaumont! 
 
-  plaudant senes, exultent parvuli,\
 
-  umbre mortis quoniam regio\
+  **PROGRAMME**\
 
-  quos tenuit, splendoris visio*\
+  Oeuvres de **Philippe de Vitry** (1291-1361) et interludes de **David Chappuis** :*\
 
-  (Philippe de Vitry)
+  Prelude : Adesto sancta Trinitas – Decens carmen edere\
+
+  Adesto sancta Trinitas (motet à trois voix)\
+
+  Quoniam secta latronum (motet à trois voix)\
+
+  Interlude : Orbis orbatus oculis\
+
+  Vos pastores adulteri (motet à trois voix)\
+
+  Providence la senee (virelai, anonyme)\
+
+  Rex quem metrorum (motet à quatre voix)\
+
+  Interlude : Mon chant en plaint\
+
+  In arboris empiro prospere (motet à trois voix)\
+
+  Bona condit cetera (motet à trois voix)\
+
+  Interlude : Douce playsence\
+
+  Garison selon nature (motet à trois voix)\
+
+  Ecce sacerdos (répons, plain-chant)\
+
+  Lugentium siccentur oculi (motet à quatre voix)*
 
 
-  "Let the eyes of the afflicted dry
+  Chant :\
 
-  let the old men applaud, let the children exult
-
-  since, on those who were held back by the shadow of death
-
-  a splendid vision has arisen."
-
-
-  The culmination of the research project "Chanter les Motets de Philippe de Vitry" (CMPV), the creation of the ensemble *Arborescence* constitutes the point of convergence of the paths travelled: [interpretation of polyphonic music between *Ars antiqua* and *Ars Nova*](https://www.hesge.ch/hem/recherche-developpement/liste/termine/projet? page=17), encoding and diplomatic and critical editions of the manuscripts of the *Corpus Motetorum Philippo de Vitry*, practical application of the science of singing (notation, solmisation, counterpoint, ornamentation, improvisation, composition), encounters between poems and music, experiments on the pronunciation of texts, and a space for reflection on concerts between past and present music.
-
-
-  The ensemble *Arborescence* is made up of singers met over the years in training centres such as the early music departments of the [HEM](https://www.hesge.ch/hem/) in Geneva and the [CNSMD](http://www.cnsmd-lyon.fr/) in Lyon, as well as during professional training courses at the [Fondation Royaumont](https://www.royaumont.com/).
-
-
-  singing:
-
-  [Marthe Davost](https://marthedavost.fr)
+  [Marthe Davost](https://marthedavost.fr)\
 
   Maud Haering\
 
-  Eugénie de Mey
+  Eugénie de Mey\
 
-  Lionel Desmeules
+  Lionel Desmeules\
 
-  Benjamin Ingrao
+  Benjamin Ingrao\
 
   Mauricio Montufar
 
 
-  Management:
+  Direction :\
 
   [David Chappuis](https://sites.google.com/site/davidchappuishomesite/)\
 
