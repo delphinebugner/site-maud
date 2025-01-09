@@ -1,9 +1,9 @@
 ---
-id: Entre Ciel et Terre - Classe en Résidence Gonesse 3
+id: Entre Ciel et Terre - Classe en Résidence Gonesse 4
 name_fr: Classe en résidence - Spectacle Entre Ciel et Terre - Ensemble Oneïroi
 name_en: Classe en résidence - Spectacle Entre Ciel et Terre - Ensemble Oneïroi
 place: Abbaye de Royaumont, Asnières-sur-Oise, France
-date: 2025-02-13
+date: 2025-02-14
 hour: 10:00
 body_fr: >-
   Avec ce spectacle musical et magique sur les arbres, nous nous penchons sur
