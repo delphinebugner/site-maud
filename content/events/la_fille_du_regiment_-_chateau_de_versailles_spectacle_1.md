@@ -4,7 +4,7 @@ name_fr: La Fille du Régiment - Château de Versailles Spectacle
 name_en: La Fille du Régiment - Château de Versailles Spectacle
 place: Opéra Royal, Versailles, France
 date: 2025-04-04
-hour: 20:00
+hour: 19:00
 body_fr: >-
   Auréolé d’un exceptionnel succès, Donizetti donne à Paris en 1840 son premier
   opéra créé en français : La Fille du régiment. Le roi Louis-Philippe vient de
