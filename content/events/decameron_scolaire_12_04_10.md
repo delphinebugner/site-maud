@@ -1,9 +1,9 @@
 ---
-id: Decameron scolaire 12/04 (10)
-name_fr: Trois Anneaux et autres nouvelles décaméronesques
-name_en: Trois Anneaux et autres nouvelles décaméronesques
-place: INNEC (Maizières-lès-Metz, France)
-date: 2023-04-12
+id: Decameron scolaire 13/03/2025 - Trois Anneaux
+name_fr: Trois Anneaux et autres nouvelles décaméronesques - Ensemble Oneiroï (scolaire)
+name_en: Trois Anneaux et autres nouvelles décaméronesques - Ensemble Oneiroï (scolaire)
+place: Beaumont-sur-Oise
+date: 2025-03-13
 hour: 10:30
 body_fr: >-
   Un spectacle qui emporte loin et il y a longtemps
