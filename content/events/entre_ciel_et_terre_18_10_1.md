@@ -1,10 +1,10 @@
 ---
-id: Entre Ciel et Terre 18/10 1
+id: Entre Ciel et Terre 03/02/2025
 name_fr: Spectacle Entre Ciel et Terre - Ensemble Oneïroi (scolaire)
 name_en: Spectacle Entre Ciel et Terre - Ensemble Oneïroi (scolaire)
-place: Abbaye de Royaumont, Asnières-sur-Oise
-date: 2024-10-18
-hour: 10:30
+place: Gonesse
+date: 2025-02-03
+hour: 14:30
 body_fr: >-
   Le 10 décembre 1997, Julia « Butterfly » Hill, jeune militante écologiste
   américaine, est montée dans un séquoia géant, vieux de mille ans, pour le
