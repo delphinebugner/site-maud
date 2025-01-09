@@ -1,10 +1,10 @@
 ---
-id: Correspondances - Concert secret des Dames 9
-name_fr: Le concert secret des Dames - Ensemble Correspondances
+id: Correspondances - Concert secret des Dames (Tournée Pays-Bas 1)
+name_fr: Le concert secret des Dames - Ensemble Correspondances - Générale publique
 name_en: Le concert secret des Dames - Ensemble Correspondances
-place: Festival Musicancy, Ancy le Franc
-date: 2024-07-07
-hour: 17:00
+place: Festival Bruits, Théâtre de l'Aquarium, Vincennes
+date: 2025-01-16
+hour: 19:00
 body_fr: "À la fin du 16e siècle, la vie musicale à la cour du Duc Alfonso II
   Ferrare est l’une des plus riches d’Europe. Trois femmes, Laura Peperara, Anna
   Guarini et Livia d’Arco, y interprètent des musiques inédites et composées
