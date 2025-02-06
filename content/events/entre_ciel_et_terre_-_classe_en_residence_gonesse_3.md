@@ -2,7 +2,7 @@
 id: Entre Ciel et Terre - Classe en Résidence Gonesse 4
 name_fr: Spectacle Entre Ciel et Terre - Ensemble Oneïroi
 name_en: Spectacle Entre Ciel et Terre - Ensemble Oneïroi
-place: Abbaye de Royaumont, Asnières-sur-Oise, France
+place: Auditorium de Coulanges, Gonesse, France
 date: 2025-02-14
 hour: 19:00
 body_fr: >-
