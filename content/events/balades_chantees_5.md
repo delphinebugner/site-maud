@@ -5,7 +5,7 @@ name_fr: Balades chantées à la découvertes des plantes sauvages comestibles e
 name_en: Singing walks to discover edible and medicinal wild plants
 place: "Abbaye de Bon-Repos, Saint-Gelven "
 date: 2025-10-21
-hour: 10:00
+hour: 10:30
 body_fr: >-
   Au son de mélodies de Hildegard von Bingen, une abbesse et visionnaire du XIIè
   siècle, cette balade chantée vous transportera au Moyen-Âge, au sein du Parc
