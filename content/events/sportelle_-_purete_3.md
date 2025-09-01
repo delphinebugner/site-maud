@@ -3,7 +3,7 @@ id: Sportelle - Pureté 3
 name_fr: Pureté, Ensemble, La Sportelle
 name_en: Pureté, Ensemble, La Sportelle
 place: Festival international de Musique de Besançon, Cathédrale Saint-Jean, Besançon
-date: 2025-09-01
+date: 2025-09-15
 hour: 20:00
 body_fr: >-
   L’influence du chant grégorien est prédominante et d’une simple mélodie vient
