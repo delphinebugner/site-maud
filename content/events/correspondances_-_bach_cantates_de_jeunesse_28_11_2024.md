@@ -4,7 +4,7 @@ name_fr: "Générale publique, Bach : Cantates de jeunesse - Ensemble Correspond
 name_en: "Public dress rehearsal, Bach : Cantates de jeunesse - Ensemble
   Correspondances"
 place: Festival d'Ambronay, France
-date: 2024-11-28
+date: 2025-09-18
 hour: 19:00
 body_fr: >-
   # Bach : Cantates de jeunesse
