@@ -3,7 +3,7 @@ id: Gala Rameau - Correspondances Caen 16/10/2025
 name_fr: Gala Rameau - Ensemble Correspondances
 name_en: Gala Rameau - Ensemble Correspondances
 place: "Théâtre de Caen, Caen "
-date: 2025-09-01
+date: 2025-10-16
 hour: 20:00
 body_fr: >-
   Après avoir sillonné le XVIIe siècle depuis de nombreuses années, s’être
