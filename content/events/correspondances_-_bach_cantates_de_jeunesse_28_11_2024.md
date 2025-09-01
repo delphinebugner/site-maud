@@ -1,10 +1,11 @@
 ---
-id: "Correspondances - Bach : Cantates de jeunesse 28/11/2024"
-name_fr: "Bach : Cantates de jeunesse - Ensemble Correspondances"
-name_en: "Bach : Cantates de jeunesse - Ensemble Correspondances"
-place: Eglise de la Gloriette, Caen, France
+id: "Correspondances - Bach : Cantates de jeunesse 18/09/2025"
+name_fr: "Générale publique, Bach : Cantates de jeunesse - Ensemble Correspondances"
+name_en: "Public dress rehearsal, Bach : Cantates de jeunesse - Ensemble
+  Correspondances"
+place: Festival d'Ambronay, France
 date: 2024-11-28
-hour: 20:00
+hour: 19:00
 body_fr: >-
   # Bach : Cantates de jeunesse
 
