@@ -4,7 +4,7 @@ name_fr: Messe en Ut, Le Concert de la Loge et Ensemble La Sportelle
 name_en: Messe en Ut, Le Concert de la Loge et Ensemble La Sportelle
 place: Théâtre des Champs-Elysées, Paris
 date: 2025-11-07
-hour: 20:30
+hour: 19:30
 body_fr: >-
   L’Ensemble la Sportelle s’associe avec Le Concert de la Loge, dirigé par
   Julien Chauvin, pour un programme Mozart : sa Messe en Ut et son ultime
