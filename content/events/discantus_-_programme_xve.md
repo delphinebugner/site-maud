@@ -1,12 +1,12 @@
 ---
-id: Discantus - programme XVè
+id: Discantus - programme XVè Chartres (1)
 name_fr: Vray dieu d’amours qui vrais amans resjoye - La chanson au siècle de
   Charles VII - Alla Francesca
 name_en: Vray dieu d’amours qui vrais amans resjoye - La chanson au siècle de
   Charles VII - Alla Francesca
-place: Musée de Cluny, Paris
-date: 2024-05-02
-hour: 19:00
+place: Musée des Beaux-Arts, Chartres
+date: 2026-03-21
+hour: 16:30
 body_fr: >-
   ***Vray dieu d’amours qui vrais amans resjoye***\
 
