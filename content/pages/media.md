@@ -1,13 +1,13 @@
 ---
 videosYoutube:
-  - src: https://www.youtube.com/watch?v=ExD3DmribwE&list=RDExD3DmribwE&start_radio=1
+  - src: https://www.youtube.com/watch?v=ExD3DmribwE
     textFr: |-
       Forêts solitaires et sombres, Joseph Chabanceau de la Barre \
       Thibaut Roussel : Archiluth
     textEn: |-
       Forêts solitaires et sombres, Joseph Chabanceau de la Barre \
       Thibaut Roussel : Archiluth
-  - src: https://www.youtube.com/watch?v=WVmag-w5ELw&list=RDExD3DmribwE&index=2
+  - src: https://www.youtube.com/watch?v=WVmag-w5ELw
     textFr: |-
       Le doux silence de nos bois, Honoré d'Ambruis\
       Thibaut Roussel : Archiluth
@@ -25,11 +25,10 @@ videosYoutube:
 
 
       Maud Haering : chant, Miguel Henry : théorbe, cistre Valentine Lorentz : viole de gambe et flûte à bec, Léna Rondé : jeu
-  - src: https://www.youtube.com/watch?v=Tfhcs8YofRg&list=RDTfhcs8YofRg&start_radio=1
+  - src: https://www.youtube.com/watch?v=Tfhcs8YofRg
     textFr: >-
-      Teaser du spectacle : **Trois Anneaux, et autres nouvelles
-      Décaméronesques** dont la première sera donnée à l'Abbaye de Royaumont le
-      1 octobre 2022. 
+      Teaser du spectacle : Trois Anneaux, et autres nouvelles Décaméronesques
+      dont la première sera donnée à l'Abbaye de Royaumont le 1 octobre 2022. 
 
 
       Sylvie Mombo : Conteuse\
