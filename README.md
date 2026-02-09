@@ -7,6 +7,9 @@
 
 Le plan de déploiement sur Netlify inclue 300 minutes de déploiement par mois. Cela correspond à 200 modifications par mois maximum.
 
+- Pour se connecter à Netlify, le site de déploiement, utiliser le provider GitHub.
+- Pour se connecter au CMS de Maud, aller sur https://www.maudhaering.com/admin/# (mot de passe sur Dashlane)
+
 ### Locale settings for Netlify CMS
 
 Modify [config.yml](/public/admin/config.yml) and
