@@ -19,11 +19,11 @@ body_fr: >-
   Œuvres de compositeurs Français actifs à Paris autour de 1500 : Antoine de Févin, Jean Mouton, Josquin des Prez, etc. ; chansons anonymes du manuscrit dit "de Copenhague" et des manuscrits monodiques dits “de Bayeux” ; danses anonymes françaises et italiennes du début de la Renaissance.
 
 
-  Adrien Reboisson (flûte, chalemie, dolzaina)\
+  **Adrien Reboisson** (flûte, chalemie, dolzaina)\
 
-  Maud Haering (chant)\
+  **Maud Haering** (chant)\
 
-  Miguel Henry (luth)
+  **Miguel Henry** (luth)
 body_en: >-
   Around 1500, the tapestries of The Lady and the Unicorn, an allegory of the
   senses, offer a symbolic journey ending with the enigmatic My Only Desire.
@@ -37,9 +37,9 @@ body_en: >-
   Works by French composers active in Paris around 1500: Antoine de Févin, Jean Mouton, Josquin des Prez, etc.; anonymous songs from the manuscript known as "de Copenhague" and the monodic manuscripts known as "de Bayeux"; anonymous French and Italian dances from the early Renaissance.
 
 
-  Adrien Reboisson (flûte, chalemie, dolzaina)\
+  **Adrien Reboisson** (flûte, chalemie, dolzaina)\
 
-  Maud Haering (chant)\
+  **Maud Haering** (chant)\
 
-  Miguel Henry (luth)
+  **Miguel Henry** (luth)
 ---
