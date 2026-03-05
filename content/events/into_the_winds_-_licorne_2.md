@@ -19,7 +19,7 @@ body_fr: >-
   Œuvres de compositeurs Français actifs à Paris autour de 1500 : Antoine de Févin, Jean Mouton, Josquin des Prez, etc. ; chansons anonymes du manuscrit dit "de Copenhague" et des manuscrits monodiques dits “de Bayeux” ; danses anonymes françaises et italiennes du début de la Renaissance.
 
 
-  #### Adrien Reboisson (flûte, hautbois, dolzaina)\
+  Adrien Reboisson (flûte, chalemie, dolzaina)\
 
   Maud Haering (chant)\
 
@@ -37,7 +37,7 @@ body_en: >-
   Works by French composers active in Paris around 1500: Antoine de Févin, Jean Mouton, Josquin des Prez, etc.; anonymous songs from the manuscript known as "de Copenhague" and the monodic manuscripts known as "de Bayeux"; anonymous French and Italian dances from the early Renaissance.
 
 
-  #### Adrien Reboisson (flûte, hautbois, dolzaina)\
+  Adrien Reboisson (flûte, chalemie, dolzaina)\
 
   Maud Haering (chant)\
 
