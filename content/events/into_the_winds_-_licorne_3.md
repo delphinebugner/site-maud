@@ -1,7 +1,7 @@
 ---
 id: Into the winds - Licorne 3
 name_fr: La Dame à la Licorne en son royaume - Into the Winds
-name_en: La Dame à la Licorne en son royaume (scolaire) - Into the Winds
+name_en: La Dame à la Licorne en son royaume - Into the Winds
 place: Musée de Cluny, Paris
 date: 2026-04-17
 hour: 12:30
