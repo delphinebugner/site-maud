@@ -23,6 +23,9 @@ body_fr: >-
   **Michaël Grébil :** luth médiéval, cistres\
 
   **Brigitte Lesne** : direction, harpe-licorne, percussions, conception du programme
+
+
+  info : https://www.musee-moyenage.fr/activites/programmation/ballade-dame-licorne-chevalier.html
 body_en: >-
   A quest for absolute love set against a backdrop of fabulous medieval beasts.
   This concert takes you on a journey from the North Sea to the Orient, full of
@@ -39,4 +42,7 @@ body_en: >-
   **Michaël Grébil :** luth médiéval, cistres\
 
   **Brigitte Lesne** : direction, harpe-licorne, percussions, conception du programme
+
+
+  info : https://www.musee-moyenage.fr/activites/programmation/ballade-dame-licorne-chevalier.html
 ---
