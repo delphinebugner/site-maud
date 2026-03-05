@@ -3,7 +3,7 @@ id: ignis-musicalis - Sturm und Drang - Mai 2026 6
 name_fr: Sturm und Drang, Ensemble Ignis Musicalis
 name_en: Sturm und Drang, Ensemble Ignis Musicalis
 place: Arlesheim, (Suisse)
-date: 2026-03-05
+date: 2026-05-10
 hour: 17:00
 body_fr: |-
   A venir
