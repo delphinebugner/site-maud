@@ -24,6 +24,9 @@ body_fr: >-
   **Maud Haering** (chant)\
 
   **Miguel Henry** (luth)
+
+
+  info : https://www.musee-moyenage.fr/activites/programmation/dame-a-la-licorne-son-royaume.html
 body_en: >-
   Around 1500, the tapestries of The Lady and the Unicorn, an allegory of the
   senses, offer a symbolic journey ending with the enigmatic My Only Desire.
@@ -42,4 +45,7 @@ body_en: >-
   **Maud Haering** (chant)\
 
   **Miguel Henry** (luth)
+
+
+  info : https://www.musee-moyenage.fr/activites/programmation/dame-a-la-licorne-son-royaume.html
 ---
