@@ -1,10 +1,10 @@
 ---
 id: Into the winds - Licorne 2
-name_fr: La Dame à la Licorne en son royaume - Into the Winds
+name_fr: La Dame à la Licorne en son royaume (scolaire) - Into the Winds
 name_en: La Dame à la Licorne en son royaume (scolaire) - Into the Winds
 place: Musée de Cluny, Paris
 date: 2026-04-17
-hour: 10:30
+hour: 10:00
 body_fr: >-
   Autour de 1500, les tapisseries de La Dame à la Licorne, allégorie des sens,
   proposent un cheminement symbolique s’achevant sur l’énigmatique Mon seul
