@@ -1,7 +1,7 @@
 ---
 id: Sportelle - Pureté 5
-name_fr: Pureté, Ensemble, La Sportelle
-name_en: Pureté, Ensemble, La Sportelle
+name_fr: Pureté - Ensemble La Sportelle
+name_en: Pureté - Ensemble La Sportelle
 place: Fribourg
 date: 2026-07-11
 hour: 20:00
