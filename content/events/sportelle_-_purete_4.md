@@ -1,7 +1,7 @@
 ---
 id: Sportelle - Pureté 4
-name_fr: Pureté, Ensemble, La Sportelle
-name_en: Pureté, Ensemble, La Sportelle
+name_fr: Pureté - Ensemble La Sportelle
+name_en: Pureté - Ensemble La Sportelle
 place: Festival de Froville
 date: 2026-06-13
 hour: 21:00
