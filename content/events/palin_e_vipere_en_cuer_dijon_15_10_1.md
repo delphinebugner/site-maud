@@ -1,5 +1,5 @@
 ---
-id: Palin(e) Vipère en Cuer Dijon 15/10
+id: Palin(e) Vipère en Cuer Jura 15/07/26
 name_fr: Une Vipère en Cuer - Ensemble Palin(e)
 name_en: Une Vipère en Cuer - Ensemble Palin(e)
 place: Eglise de Longchaumois, Jura
