@@ -1,7 +1,7 @@
 ---
-id: Arborescence Douce Playsence 28/11/2026
-name_fr: Douce Playsence - Ensemble Arborescence - Les Inouïes
-name_en: Douce Playsence - Ensemble Arborescence - Les Inouïes
+id: Arborescence Douce Playsence 27/11/2026
+name_fr: Douce Playsence - Ensemble Arborescence
+name_en: Douce Playsence - Ensemble Arborescence
 place: Musée de Cluny, Paris
 date: 2026-11-27
 hour: 20:00
