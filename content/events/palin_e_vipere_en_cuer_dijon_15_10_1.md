@@ -4,7 +4,7 @@ name_fr: Une Vipère en Cuer - Ensemble Palin(e)
 name_en: Une Vipère en Cuer - Ensemble Palin(e)
 place: Eglise de Longchaumois, Jura
 date: 2026-07-15
-hour: 20:00
+hour: 16:00
 body_fr: >-
   Au Moyen-Âge, l’homme et l’animal entretiennent des rapports différents de
   ceux d'aujourd'hui, tous deux partageant un quotidien et un même
