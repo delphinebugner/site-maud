@@ -2,7 +2,7 @@
 id: Correspondances - Lux Aeterna Utrecht
 name_fr: Lux aeterna - Ensemble Correspondances
 name_en: Lux aeterna - Ensemble Correspondances
-place: Utrecht, Pays-Bas
+place: Tivolivredenburg, Utrecht, Pays-Bas
 date: 2026-08-29
 hour: 20:00
 body_fr: >-
