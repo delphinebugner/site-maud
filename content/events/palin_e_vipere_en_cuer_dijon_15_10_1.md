@@ -1,7 +1,7 @@
 ---
 id: Palin(e) Vipère en Cuer Jura 15/07/26
-name_fr: Une Vipère en Cuer - Ensemble Palin(e)
-name_en: Une Vipère en Cuer - Ensemble Palin(e)
+name_fr: Une Vipère en Cuer - SORTIE DE DISQUE - Ensemble Palin(e)
+name_en: Une Vipère en Cuer - SORTIE DE DISQUE - Ensemble Palin(e)
 place: Eglise de Longchaumois, Jura
 date: 2026-07-15
 hour: 16:00
