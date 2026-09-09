@@ -2,7 +2,7 @@
 id: ignis-musicalis- Leid und Pein 2026 n°2
 name_fr: Leid und Pein -  Ensemble Ignis Musicalis
 name_en: Leid und Pein - Ensemble Ignis musicalis
-place: Mulhouse
+place: Eglise Ste-Marie, Mulhouse
 date: 2026-10-18
 hour: 17:00
 body_fr: |-
