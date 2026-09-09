@@ -1,8 +1,8 @@
 ---
 id: Sportelle Bach-Mendelssohn Montpellier 31/10/2026
-name_fr: Bach-Mendelssohn - Ensemble La Sportelle
-name_en: Bach-Mendelssohn - Ensemble La Sportelle
-place: Montpellier
+name_fr: Bach-Mendelssohn - Ensemble La Sportelle, Festival Anima
+name_en: Bach-Mendelssohn - Ensemble La Sportelle, Festival Anima
+place: Temple de Maguelone, Montpellier
 date: 2026-10-31
 hour: 20:00
 body_fr: >-
