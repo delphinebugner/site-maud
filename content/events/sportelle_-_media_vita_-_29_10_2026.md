@@ -2,7 +2,7 @@
 id: Sportelle - Media Vita - 29/10/2026
 name_fr: Media vita - Ensemble la Sportelle
 name_en: Media vita - Ensemble la Sportelle
-place: Dijon
+place: Cathédrale St-Bénigne, Dijon
 date: 2026-10-29
 hour: 20:00
 body_fr: >-
