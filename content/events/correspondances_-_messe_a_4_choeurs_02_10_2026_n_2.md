@@ -3,7 +3,7 @@ id: Correspondances - Messe à 4 choeurs 02/10/2026 n°2
 name_fr: Messe à quatre choeurs - Ensemble Correspondances
 name_en: Messe à quatre choeurs - Ensemble Correspondances
 place: Sainte Chapelle, Paris
-date: 2026-09-09
+date: 2026-10-02
 hour: 21:00
 body_fr: >-
   Les quelques années passées en Italie dans sa jeunesse ont durablement marqué
