@@ -2,9 +2,9 @@
 id: ignis-musicalis- Leid und Pein 2026 n°1
 name_fr: Leid und Pein -  Ensemble Ignis Musicalis
 name_en: Leid und Pein - Ensemble Ignis musicalis
-place: Bâle
+place: Salle QuBa, Bâle, Suisse
 date: 2026-10-16
-hour: 20:00
+hour: 19:00
 body_fr: |-
   A venir
 
