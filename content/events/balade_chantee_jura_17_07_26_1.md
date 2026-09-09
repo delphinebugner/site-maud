@@ -1,5 +1,5 @@
 ---
-id: Balade chantée Jura 17/07/26
+id: Balade chantée Fontainebleau 13 septembre n°1
 name_fr: Balade chantée des Simples
 name_en: Balade chantée des Simples
 place: Parc du château, Fontainebleau
