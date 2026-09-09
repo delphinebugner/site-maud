@@ -2,7 +2,7 @@
 id: Sportelle Bach-Mendelssohn Epinal 14/11/2026
 name_fr: Bach-Mendelssohn - Ensemble La Sportelle
 name_en: Bach-Mendelssohn - Ensemble La Sportelle
-place: Epinal
+place: Basilique St-Maurice, Epinal
 date: 2026-11-14
 hour: 20:00
 body_fr: >-
